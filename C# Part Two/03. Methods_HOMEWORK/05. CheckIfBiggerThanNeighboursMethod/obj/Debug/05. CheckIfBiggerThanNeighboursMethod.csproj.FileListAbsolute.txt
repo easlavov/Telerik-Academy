@@ -1,0 +1,12 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\05. CheckIfBiggerThanNeighboursMethod\bin\Debug\_05.CheckIfBiggerThanNeighboursMethod.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\05. CheckIfBiggerThanNeighboursMethod\bin\Debug\_05.CheckIfBiggerThanNeighboursMethod.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\05. CheckIfBiggerThanNeighboursMethod\bin\Debug\_05.CheckIfBiggerThanNeighboursMethod.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\05. CheckIfBiggerThanNeighboursMethod\obj\Debug\05. CheckIfBiggerThanNeighboursMethod.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\05. CheckIfBiggerThanNeighboursMethod\obj\Debug\_05.CheckIfBiggerThanNeighboursMethod.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\05. CheckIfBiggerThanNeighboursMethod\obj\Debug\_05.CheckIfBiggerThanNeighboursMethod.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\05. CheckIfBiggerThanNeighboursMethod\bin\Debug\_05.CheckIfBiggerThanNeighboursMethod.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\05. CheckIfBiggerThanNeighboursMethod\obj\Debug\_05.CheckIfBiggerThanNeighboursMethod.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\05. CheckIfBiggerThanNeighboursMethod\obj\Debug\_05.CheckIfBiggerThanNeighboursMethod.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\05. CheckIfBiggerThanNeighboursMethod\bin\Debug\_05.CheckIfBiggerThanNeighboursMethod.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\05. CheckIfBiggerThanNeighboursMethod\bin\Debug\_05.CheckIfBiggerThanNeighboursMethod.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\05. CheckIfBiggerThanNeighboursMethod\obj\Debug\05. CheckIfBiggerThanNeighboursMethod.csprojResolveAssemblyReference.cache

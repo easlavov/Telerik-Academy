@@ -1,0 +1,10 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\02. ConvertDecimalToHex\bin\Debug\_02.ConvertDecimalToHex.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\02. ConvertDecimalToHex\obj\Debug\_02.ConvertDecimalToHex.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\02. ConvertDecimalToHex\obj\Debug\_02.ConvertDecimalToHex.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\02. ConvertDecimalToHex\bin\Debug\_02.ConvertDecimalToHex.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\02. ConvertDecimalToHex\bin\Debug\_02.ConvertDecimalToHex.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\02. ConvertDecimalToHex\bin\Debug\_02.ConvertDecimalToHex.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\02. ConvertDecimalToHex\obj\Debug\_02.ConvertDecimalToHex.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\02. ConvertDecimalToHex\obj\Debug\_02.ConvertDecimalToHex.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\02. ConvertDecimalToHex\bin\Debug\_02.ConvertDecimalToHex.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\02. ConvertDecimalToHex\bin\Debug\_02.ConvertDecimalToHex.pdb

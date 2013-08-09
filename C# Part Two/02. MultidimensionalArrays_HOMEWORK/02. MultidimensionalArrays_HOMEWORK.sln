@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. PrintMatrices", "01. PrintMatrices\01. PrintMatrices.csproj", "{48C52D4B-12FA-430B-BF74-CE3317603EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. FindMaxSumOf3x3ElementsInAMAtrix", "02. FindMaxSumOf3x3ElementsInAMAtrix\02. FindMaxSumOf3x3ElementsInAMAtrix.csproj", "{61390862-1517-4A3B-8032-8985022832F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. FindLongestSequenceOfEqualStrings", "03. FindLongestSequenceOfEqualStrings\03. FindLongestSequenceOfEqualStrings.csproj", "{7A0327B3-1461-4730-AC6A-0269403DAD11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. FindLargestNumberSmallerOrEqualtoKUsingBinSearch", "04. FindLargestNumberSmallerOrEqualtoKUsingBinSearch\04. FindLargestNumberSmallerOrEqualtoKUsingBinSearch.csproj", "{D8E0480D-405F-4554-AA99-A1C0D1748476}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. MethodToSortAStringArrayByTheLengthOfItsElements", "05. MethodToSortAStringArrayByTheLengthOfItsElements\05. MethodToSortAStringArrayByTheLengthOfItsElements.csproj", "{E36CA001-0049-4584-8650-393BB9D84A30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. FindLargestAreaOfEqualNeighbourElementsInAMatrix", "07. FindLargestAreaOfEqualNeighbourElementsInAMatrix\07. FindLargestAreaOfEqualNeighbourElementsInAMatrix.csproj", "{9CA870D2-1170-4307-BAF1-249D4C62368B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48C52D4B-12FA-430B-BF74-CE3317603EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48C52D4B-12FA-430B-BF74-CE3317603EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48C52D4B-12FA-430B-BF74-CE3317603EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48C52D4B-12FA-430B-BF74-CE3317603EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61390862-1517-4A3B-8032-8985022832F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61390862-1517-4A3B-8032-8985022832F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61390862-1517-4A3B-8032-8985022832F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61390862-1517-4A3B-8032-8985022832F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A0327B3-1461-4730-AC6A-0269403DAD11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0327B3-1461-4730-AC6A-0269403DAD11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0327B3-1461-4730-AC6A-0269403DAD11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0327B3-1461-4730-AC6A-0269403DAD11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8E0480D-405F-4554-AA99-A1C0D1748476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8E0480D-405F-4554-AA99-A1C0D1748476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8E0480D-405F-4554-AA99-A1C0D1748476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8E0480D-405F-4554-AA99-A1C0D1748476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E36CA001-0049-4584-8650-393BB9D84A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36CA001-0049-4584-8650-393BB9D84A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36CA001-0049-4584-8650-393BB9D84A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36CA001-0049-4584-8650-393BB9D84A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CA870D2-1170-4307-BAF1-249D4C62368B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA870D2-1170-4307-BAF1-249D4C62368B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA870D2-1170-4307-BAF1-249D4C62368B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA870D2-1170-4307-BAF1-249D4C62368B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\10. FindASequenceOfSumS\bin\Debug\_10.FindASequenceOfSumS.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\10. FindASequenceOfSumS\bin\Debug\_10.FindASequenceOfSumS.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\10. FindASequenceOfSumS\bin\Debug\_10.FindASequenceOfSumS.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\10. FindASequenceOfSumS\obj\Debug\10. FindASequenceOfSumS.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\10. FindASequenceOfSumS\obj\Debug\_10.FindASequenceOfSumS.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\10. FindASequenceOfSumS\obj\Debug\_10.FindASequenceOfSumS.pdb

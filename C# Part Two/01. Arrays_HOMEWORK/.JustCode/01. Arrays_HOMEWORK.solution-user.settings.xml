@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="da668a9e-be25-41b0-9bd8-4cea7a6de7d5">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings Version="2">
+      <FilePath>
+        <FileRelativePath>21.%20GenerateAndPrintCombinationsOfKfrom1toN/GenerateAndPrintCombinationsOfKfrom1toN.cs</FileRelativePath>
+        <ProjectRelativePath>21.%20GenerateAndPrintCombinationsOfKfrom1toN/21.%20GenerateAndPrintCombinationsOfKfrom1toN.csproj</ProjectRelativePath>
+        <IgnoredElement>
+          <TextualIdentifier>13954114593158086797</TextualIdentifier>
+        </IgnoredElement>
+        <IgnoredElement>
+          <TextualIdentifier>8870484649356838776</TextualIdentifier>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

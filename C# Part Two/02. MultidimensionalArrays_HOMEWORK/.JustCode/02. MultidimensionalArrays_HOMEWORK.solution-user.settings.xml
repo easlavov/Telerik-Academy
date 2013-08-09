@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="d155e36b-7a42-4a4b-a03e-041d6e3e428f">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings Version="2">
+      <FilePath>
+        <FileRelativePath>01.%20PrintMatrices/PrintMatrices.cs</FileRelativePath>
+        <ProjectRelativePath>01.%20PrintMatrices/01.%20PrintMatrices.csproj</ProjectRelativePath>
+        <IgnoredElement>
+          <TextualIdentifier>10562471732607356434</TextualIdentifier>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <FileRelativePath>02.%20FindMaxSumOf3x3ElementsInAMAtrix/FindMaxSumOf3x3ElementsInAMAtrix.cs</FileRelativePath>
+        <ProjectRelativePath>02.%20FindMaxSumOf3x3ElementsInAMAtrix/02.%20FindMaxSumOf3x3ElementsInAMAtrix.csproj</ProjectRelativePath>
+        <IgnoredElement>
+          <TextualIdentifier>16298798476891231556</TextualIdentifier>
+        </IgnoredElement>
+        <IgnoredElement>
+          <TextualIdentifier>13149481909337257105</TextualIdentifier>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <FileRelativePath>03.%20FindLongestSequenceOfEqualStrings/FindLongestSequenceOfEqualStrings.cs</FileRelativePath>
+        <ProjectRelativePath>03.%20FindLongestSequenceOfEqualStrings/03.%20FindLongestSequenceOfEqualStrings.csproj</ProjectRelativePath>
+        <IgnoredElement>
+          <TextualIdentifier>162383007346512869</TextualIdentifier>
+        </IgnoredElement>
+        <IgnoredElement>
+          <TextualIdentifier>2499870300214010572</TextualIdentifier>
+        </IgnoredElement>
+        <IgnoredElement>
+          <TextualIdentifier>3278163711715848321</TextualIdentifier>
+        </IgnoredElement>
+        <IgnoredElement>
+          <TextualIdentifier>3794764991838997246</TextualIdentifier>
+        </IgnoredElement>
+        <IgnoredElement>
+          <TextualIdentifier>13554453640212391569</TextualIdentifier>
+        </IgnoredElement>
+      </FilePath>
+      <FilePath>
+        <FileRelativePath>04.%20FindLargestNumberSmallerOrEqualtoKUsingBinSearch/FindLargestNumberSmallerOrEqualtoKUsingBinSearch.cs</FileRelativePath>
+        <ProjectRelativePath>04.%20FindLargestNumberSmallerOrEqualtoKUsingBinSearch/04.%20FindLargestNumberSmallerOrEqualtoKUsingBinSearch.csproj</ProjectRelativePath>
+        <IgnoredElement>
+          <TextualIdentifier>546955463494729556</TextualIdentifier>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

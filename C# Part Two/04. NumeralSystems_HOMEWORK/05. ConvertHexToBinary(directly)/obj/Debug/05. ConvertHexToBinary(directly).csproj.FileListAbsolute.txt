@@ -1,0 +1,12 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\05. ConvertHexToBinary(directly)\bin\Debug\_05.ConvertHexToBinary_directly_.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\05. ConvertHexToBinary(directly)\bin\Debug\_05.ConvertHexToBinary_directly_.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\05. ConvertHexToBinary(directly)\bin\Debug\_05.ConvertHexToBinary_directly_.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\05. ConvertHexToBinary(directly)\obj\Debug\_05.ConvertHexToBinary_directly_.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\05. ConvertHexToBinary(directly)\obj\Debug\_05.ConvertHexToBinary_directly_.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\05. ConvertHexToBinary(directly)\obj\Debug\05. ConvertHexToBinary(directly).csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\05. ConvertHexToBinary(directly)\bin\Debug\_05.ConvertHexToBinary_directly_.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\05. ConvertHexToBinary(directly)\obj\Debug\_05.ConvertHexToBinary_directly_.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\05. ConvertHexToBinary(directly)\obj\Debug\_05.ConvertHexToBinary_directly_.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\05. ConvertHexToBinary(directly)\bin\Debug\_05.ConvertHexToBinary_directly_.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\05. ConvertHexToBinary(directly)\bin\Debug\_05.ConvertHexToBinary_directly_.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\05. ConvertHexToBinary(directly)\obj\Debug\05. ConvertHexToBinary(directly).csprojResolveAssemblyReference.cache

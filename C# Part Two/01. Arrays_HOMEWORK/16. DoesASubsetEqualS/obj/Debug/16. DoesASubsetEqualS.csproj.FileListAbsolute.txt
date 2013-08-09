@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\16. DoesASubsetEqualS\bin\Debug\_16.DoesASubsetEqualS.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\16. DoesASubsetEqualS\bin\Debug\_16.DoesASubsetEqualS.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\16. DoesASubsetEqualS\bin\Debug\_16.DoesASubsetEqualS.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\16. DoesASubsetEqualS\obj\Debug\16. DoesASubsetEqualS.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\16. DoesASubsetEqualS\obj\Debug\_16.DoesASubsetEqualS.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\16. DoesASubsetEqualS\obj\Debug\_16.DoesASubsetEqualS.pdb

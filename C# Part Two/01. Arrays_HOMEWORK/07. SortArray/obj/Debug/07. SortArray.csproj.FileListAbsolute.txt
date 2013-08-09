@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\07. SortArray\bin\Debug\_07.SortArray.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\07. SortArray\bin\Debug\_07.SortArray.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\07. SortArray\bin\Debug\_07.SortArray.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\07. SortArray\obj\Debug\07. SortArray.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\07. SortArray\obj\Debug\_07.SortArray.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\07. SortArray\obj\Debug\_07.SortArray.pdb

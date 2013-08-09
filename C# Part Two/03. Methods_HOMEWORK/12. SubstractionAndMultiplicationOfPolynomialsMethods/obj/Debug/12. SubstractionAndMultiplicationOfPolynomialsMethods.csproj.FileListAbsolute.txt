@@ -1,0 +1,12 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\12. SubstractionAndMultiplicationOfPolynomialsMethods\bin\Debug\_12.SubstractionAndMultiplicationOfPolynomialsMethods.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\12. SubstractionAndMultiplicationOfPolynomialsMethods\bin\Debug\_12.SubstractionAndMultiplicationOfPolynomialsMethods.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\12. SubstractionAndMultiplicationOfPolynomialsMethods\bin\Debug\_12.SubstractionAndMultiplicationOfPolynomialsMethods.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\12. SubstractionAndMultiplicationOfPolynomialsMethods\obj\Debug\12. SubstractionAndMultiplicationOfPolynomialsMethods.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\12. SubstractionAndMultiplicationOfPolynomialsMethods\obj\Debug\_12.SubstractionAndMultiplicationOfPolynomialsMethods.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\12. SubstractionAndMultiplicationOfPolynomialsMethods\obj\Debug\_12.SubstractionAndMultiplicationOfPolynomialsMethods.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\12. SubstractionAndMultiplicationOfPolynomialsMethods\bin\Debug\_12.SubstractionAndMultiplicationOfPolynomialsMethods.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\12. SubstractionAndMultiplicationOfPolynomialsMethods\obj\Debug\_12.SubstractionAndMultiplicationOfPolynomialsMethods.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\12. SubstractionAndMultiplicationOfPolynomialsMethods\obj\Debug\_12.SubstractionAndMultiplicationOfPolynomialsMethods.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\12. SubstractionAndMultiplicationOfPolynomialsMethods\bin\Debug\_12.SubstractionAndMultiplicationOfPolynomialsMethods.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\12. SubstractionAndMultiplicationOfPolynomialsMethods\bin\Debug\_12.SubstractionAndMultiplicationOfPolynomialsMethods.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\12. SubstractionAndMultiplicationOfPolynomialsMethods\obj\Debug\12. SubstractionAndMultiplicationOfPolynomialsMethods.csprojResolveAssemblyReference.cache

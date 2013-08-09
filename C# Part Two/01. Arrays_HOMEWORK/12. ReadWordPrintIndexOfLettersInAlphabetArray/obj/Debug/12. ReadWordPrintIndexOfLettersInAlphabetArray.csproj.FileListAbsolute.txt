@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\12. ReadWordPrintIndexOfLettersInAlphabetArray\bin\Debug\_12.ReadWordPrintIndexOfLettersInAlphabetArray.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\12. ReadWordPrintIndexOfLettersInAlphabetArray\bin\Debug\_12.ReadWordPrintIndexOfLettersInAlphabetArray.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\12. ReadWordPrintIndexOfLettersInAlphabetArray\bin\Debug\_12.ReadWordPrintIndexOfLettersInAlphabetArray.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\12. ReadWordPrintIndexOfLettersInAlphabetArray\obj\Debug\12. ReadWordPrintIndexOfLettersInAlphabetArray.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\12. ReadWordPrintIndexOfLettersInAlphabetArray\obj\Debug\_12.ReadWordPrintIndexOfLettersInAlphabetArray.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\12. ReadWordPrintIndexOfLettersInAlphabetArray\obj\Debug\_12.ReadWordPrintIndexOfLettersInAlphabetArray.pdb

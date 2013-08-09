@@ -1,0 +1,12 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\07. ConvertFromBaseSToBaseD\bin\Debug\_07.ConvertFromBaseSToBaseD.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\07. ConvertFromBaseSToBaseD\bin\Debug\_07.ConvertFromBaseSToBaseD.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\07. ConvertFromBaseSToBaseD\bin\Debug\_07.ConvertFromBaseSToBaseD.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\07. ConvertFromBaseSToBaseD\obj\Debug\_07.ConvertFromBaseSToBaseD.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\07. ConvertFromBaseSToBaseD\obj\Debug\_07.ConvertFromBaseSToBaseD.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\04. NumeralSystems_HOMEWORK\07. ConvertFromBaseSToBaseD\obj\Debug\07. ConvertFromBaseSToBaseD.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\07. ConvertFromBaseSToBaseD\bin\Debug\_07.ConvertFromBaseSToBaseD.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\07. ConvertFromBaseSToBaseD\obj\Debug\_07.ConvertFromBaseSToBaseD.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\07. ConvertFromBaseSToBaseD\obj\Debug\_07.ConvertFromBaseSToBaseD.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\07. ConvertFromBaseSToBaseD\bin\Debug\_07.ConvertFromBaseSToBaseD.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\07. ConvertFromBaseSToBaseD\bin\Debug\_07.ConvertFromBaseSToBaseD.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\04. NumeralSystems_HOMEWORK\07. ConvertFromBaseSToBaseD\obj\Debug\07. ConvertFromBaseSToBaseD.csprojResolveAssemblyReference.cache
