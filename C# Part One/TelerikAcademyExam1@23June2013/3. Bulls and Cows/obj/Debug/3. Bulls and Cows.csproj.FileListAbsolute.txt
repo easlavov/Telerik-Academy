@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\3. Bulls and Cows\bin\Debug\_3.Bulls_and_Cows.exe.config
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\3. Bulls and Cows\bin\Debug\_3.Bulls_and_Cows.exe
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\3. Bulls and Cows\bin\Debug\_3.Bulls_and_Cows.pdb
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\3. Bulls and Cows\obj\Debug\3. Bulls and Cows.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\3. Bulls and Cows\obj\Debug\_3.Bulls_and_Cows.exe
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\3. Bulls and Cows\obj\Debug\_3.Bulls_and_Cows.pdb

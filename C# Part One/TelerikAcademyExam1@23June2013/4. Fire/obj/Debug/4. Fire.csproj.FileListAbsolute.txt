@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\4. Fire\bin\Debug\_4.Fire.exe.config
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\4. Fire\bin\Debug\_4.Fire.exe
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\4. Fire\bin\Debug\_4.Fire.pdb
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\4. Fire\obj\Debug\4. Fire.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\4. Fire\obj\Debug\_4.Fire.exe
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\4. Fire\obj\Debug\_4.Fire.pdb

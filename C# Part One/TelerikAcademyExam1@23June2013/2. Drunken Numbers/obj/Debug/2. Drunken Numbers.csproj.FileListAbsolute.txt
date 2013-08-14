@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\2. Drunken Numbers\bin\Debug\_2.Drunken_Numbers.exe.config
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\2. Drunken Numbers\bin\Debug\_2.Drunken_Numbers.exe
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\2. Drunken Numbers\bin\Debug\_2.Drunken_Numbers.pdb
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\2. Drunken Numbers\obj\Debug\2. Drunken Numbers.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\2. Drunken Numbers\obj\Debug\_2.Drunken_Numbers.exe
+G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\2. Drunken Numbers\obj\Debug\_2.Drunken_Numbers.pdb
