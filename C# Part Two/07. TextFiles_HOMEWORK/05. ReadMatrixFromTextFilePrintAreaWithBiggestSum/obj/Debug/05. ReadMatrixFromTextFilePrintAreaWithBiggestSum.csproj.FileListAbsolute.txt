@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\05. ReadMatrixFromTextFilePrintAreaWithBiggestSum\bin\Debug\_05.ReadMatrixFromTextFilePrintAreaWithBiggestSum.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\05. ReadMatrixFromTextFilePrintAreaWithBiggestSum\bin\Debug\_05.ReadMatrixFromTextFilePrintAreaWithBiggestSum.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\05. ReadMatrixFromTextFilePrintAreaWithBiggestSum\bin\Debug\_05.ReadMatrixFromTextFilePrintAreaWithBiggestSum.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\05. ReadMatrixFromTextFilePrintAreaWithBiggestSum\obj\Debug\05. ReadMatrixFromTextFilePrintAreaWithBiggestSum.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\05. ReadMatrixFromTextFilePrintAreaWithBiggestSum\obj\Debug\_05.ReadMatrixFromTextFilePrintAreaWithBiggestSum.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\05. ReadMatrixFromTextFilePrintAreaWithBiggestSum\obj\Debug\_05.ReadMatrixFromTextFilePrintAreaWithBiggestSum.pdb

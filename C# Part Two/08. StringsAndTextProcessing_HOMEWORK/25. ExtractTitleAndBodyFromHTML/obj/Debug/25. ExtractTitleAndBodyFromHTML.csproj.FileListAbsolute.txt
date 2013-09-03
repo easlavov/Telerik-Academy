@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\25. ExtractTitleAndBodyFromHTML\bin\Debug\_25.ExtractTitleAndBodyFromHTML.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\25. ExtractTitleAndBodyFromHTML\bin\Debug\_25.ExtractTitleAndBodyFromHTML.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\25. ExtractTitleAndBodyFromHTML\bin\Debug\_25.ExtractTitleAndBodyFromHTML.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\25. ExtractTitleAndBodyFromHTML\obj\Debug\25. ExtractTitleAndBodyFromHTML.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\25. ExtractTitleAndBodyFromHTML\obj\Debug\_25.ExtractTitleAndBodyFromHTML.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\25. ExtractTitleAndBodyFromHTML\obj\Debug\_25.ExtractTitleAndBodyFromHTML.pdb

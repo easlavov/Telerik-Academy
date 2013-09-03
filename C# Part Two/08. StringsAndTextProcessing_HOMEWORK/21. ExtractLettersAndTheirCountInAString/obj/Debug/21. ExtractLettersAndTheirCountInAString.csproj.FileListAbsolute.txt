@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\21. ExtractLettersAndTheirCountInAString\bin\Debug\_21.ExtractLettersAndTheirCountInAString.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\21. ExtractLettersAndTheirCountInAString\bin\Debug\_21.ExtractLettersAndTheirCountInAString.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\21. ExtractLettersAndTheirCountInAString\bin\Debug\_21.ExtractLettersAndTheirCountInAString.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\21. ExtractLettersAndTheirCountInAString\obj\Debug\21. ExtractLettersAndTheirCountInAString.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\21. ExtractLettersAndTheirCountInAString\obj\Debug\_21.ExtractLettersAndTheirCountInAString.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\21. ExtractLettersAndTheirCountInAString\obj\Debug\_21.ExtractLettersAndTheirCountInAString.pdb

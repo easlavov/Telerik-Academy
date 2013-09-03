@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\19. ExtractDates\bin\Debug\_19.ExtractDates.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\19. ExtractDates\obj\Debug\19. ExtractDates.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\19. ExtractDates\bin\Debug\_19.ExtractDates.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\19. ExtractDates\bin\Debug\_19.ExtractDates.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\19. ExtractDates\obj\Debug\_19.ExtractDates.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\19. ExtractDates\obj\Debug\_19.ExtractDates.pdb

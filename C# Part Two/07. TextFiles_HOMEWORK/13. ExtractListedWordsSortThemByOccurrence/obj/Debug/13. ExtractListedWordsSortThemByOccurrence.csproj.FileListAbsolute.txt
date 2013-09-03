@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\13. ExtractListedWordsSortThemByOccurrence\bin\Debug\_13.ExtractListedWordsSortThemByOccurrence.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\13. ExtractListedWordsSortThemByOccurrence\bin\Debug\_13.ExtractListedWordsSortThemByOccurrence.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\13. ExtractListedWordsSortThemByOccurrence\bin\Debug\_13.ExtractListedWordsSortThemByOccurrence.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\13. ExtractListedWordsSortThemByOccurrence\obj\Debug\13. ExtractListedWordsSortThemByOccurrence.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\13. ExtractListedWordsSortThemByOccurrence\obj\Debug\_13.ExtractListedWordsSortThemByOccurrence.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\13. ExtractListedWordsSortThemByOccurrence\obj\Debug\_13.ExtractListedWordsSortThemByOccurrence.pdb

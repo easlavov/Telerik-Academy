@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\04. CompareFilesLineByLine\bin\Debug\_04.CompareFilesLineByLine.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\04. CompareFilesLineByLine\bin\Debug\_04.CompareFilesLineByLine.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\04. CompareFilesLineByLine\bin\Debug\_04.CompareFilesLineByLine.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\04. CompareFilesLineByLine\obj\Debug\_04.CompareFilesLineByLine.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\04. CompareFilesLineByLine\obj\Debug\_04.CompareFilesLineByLine.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\04. CompareFilesLineByLine\obj\Debug\04. CompareFilesLineByLine.csprojResolveAssemblyReference.cache

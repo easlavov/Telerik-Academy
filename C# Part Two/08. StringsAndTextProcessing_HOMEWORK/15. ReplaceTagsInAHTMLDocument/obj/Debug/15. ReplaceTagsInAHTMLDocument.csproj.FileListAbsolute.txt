@@ -1,0 +1,12 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\15. ReplaceTagsInAHTMLDocument\bin\Debug\_15.ReplaceTagsInAHTMLDocument.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\15. ReplaceTagsInAHTMLDocument\bin\Debug\_15.ReplaceTagsInAHTMLDocument.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\15. ReplaceTagsInAHTMLDocument\bin\Debug\_15.ReplaceTagsInAHTMLDocument.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\15. ReplaceTagsInAHTMLDocument\obj\Debug\_15.ReplaceTagsInAHTMLDocument.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\15. ReplaceTagsInAHTMLDocument\obj\Debug\_15.ReplaceTagsInAHTMLDocument.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\15. ReplaceTagsInAHTMLDocument\obj\Debug\15. ReplaceTagsInAHTMLDocument.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\15. ReplaceTagsInAHTMLDocument\bin\Debug\_15.ReplaceTagsInAHTMLDocument.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\15. ReplaceTagsInAHTMLDocument\obj\Debug\_15.ReplaceTagsInAHTMLDocument.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\15. ReplaceTagsInAHTMLDocument\obj\Debug\_15.ReplaceTagsInAHTMLDocument.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\15. ReplaceTagsInAHTMLDocument\bin\Debug\_15.ReplaceTagsInAHTMLDocument.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\15. ReplaceTagsInAHTMLDocument\bin\Debug\_15.ReplaceTagsInAHTMLDocument.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\15. ReplaceTagsInAHTMLDocument\obj\Debug\15. ReplaceTagsInAHTMLDocument.csprojResolveAssemblyReference.cache

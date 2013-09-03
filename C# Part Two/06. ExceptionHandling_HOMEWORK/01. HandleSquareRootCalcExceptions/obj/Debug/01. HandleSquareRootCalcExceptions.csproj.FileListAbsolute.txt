@@ -1,0 +1,9 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\01. HandleSquareRootCalcExceptions\bin\Debug\_01.HandleSquareRootCalcExceptions.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\01. HandleSquareRootCalcExceptions\bin\Debug\_01.HandleSquareRootCalcExceptions.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\01. HandleSquareRootCalcExceptions\bin\Debug\_01.HandleSquareRootCalcExceptions.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\01. HandleSquareRootCalcExceptions\obj\Debug\01. HandleSquareRootCalcExceptions.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\01. HandleSquareRootCalcExceptions\obj\Debug\_01.HandleSquareRootCalcExceptions.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\01. HandleSquareRootCalcExceptions\obj\Debug\_01.HandleSquareRootCalcExceptions.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\06. ExceptionHandling_HOMEWORK\01. HandleSquareRootCalcExceptions\bin\Debug\_01.HandleSquareRootCalcExceptions.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\06. ExceptionHandling_HOMEWORK\01. HandleSquareRootCalcExceptions\obj\Debug\_01.HandleSquareRootCalcExceptions.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\06. ExceptionHandling_HOMEWORK\01. HandleSquareRootCalcExceptions\obj\Debug\_01.HandleSquareRootCalcExceptions.pdb

@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\23. ReplaceConsecutiveIdenticalLetters\bin\Debug\_23.ReplaceConsecutiveIdenticalLetters.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\23. ReplaceConsecutiveIdenticalLetters\bin\Debug\_23.ReplaceConsecutiveIdenticalLetters.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\23. ReplaceConsecutiveIdenticalLetters\bin\Debug\_23.ReplaceConsecutiveIdenticalLetters.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\23. ReplaceConsecutiveIdenticalLetters\obj\Debug\23. ReplaceConsecutiveIdenticalLetters.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\23. ReplaceConsecutiveIdenticalLetters\obj\Debug\_23.ReplaceConsecutiveIdenticalLetters.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\23. ReplaceConsecutiveIdenticalLetters\obj\Debug\_23.ReplaceConsecutiveIdenticalLetters.pdb

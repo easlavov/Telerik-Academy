@@ -1,0 +1,11 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\03. PrintDayOfWeek\bin\Debug\_03.PrintDayOfWeek.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\03. PrintDayOfWeek\bin\Debug\_03.PrintDayOfWeek.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\03. PrintDayOfWeek\bin\Debug\_03.PrintDayOfWeek.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\03. PrintDayOfWeek\obj\Debug\03. PrintDayOfWeek.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\03. PrintDayOfWeek\obj\Debug\_03.PrintDayOfWeek.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\03. PrintDayOfWeek\obj\Debug\_03.PrintDayOfWeek.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\03. PrintDayOfWeek\obj\Debug\_03.PrintDayOfWeek.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\03. PrintDayOfWeek\obj\Debug\_03.PrintDayOfWeek.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\03. PrintDayOfWeek\bin\Debug\_03.PrintDayOfWeek.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\03. PrintDayOfWeek\bin\Debug\_03.PrintDayOfWeek.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\03. PrintDayOfWeek\obj\Debug\03. PrintDayOfWeek.csprojResolveAssemblyReference.cache

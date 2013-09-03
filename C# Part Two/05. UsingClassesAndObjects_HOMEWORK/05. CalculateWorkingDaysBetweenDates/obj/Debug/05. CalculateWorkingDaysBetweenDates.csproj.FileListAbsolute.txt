@@ -1,0 +1,12 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\05. CalculateWorkingDaysBetweenDates\bin\Debug\_05.CalculateWorkingDaysBetweenDates.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\05. CalculateWorkingDaysBetweenDates\obj\Debug\05. CalculateWorkingDaysBetweenDates.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\05. CalculateWorkingDaysBetweenDates\bin\Debug\_05.CalculateWorkingDaysBetweenDates.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\05. CalculateWorkingDaysBetweenDates\bin\Debug\_05.CalculateWorkingDaysBetweenDates.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\05. CalculateWorkingDaysBetweenDates\obj\Debug\_05.CalculateWorkingDaysBetweenDates.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\05. CalculateWorkingDaysBetweenDates\obj\Debug\_05.CalculateWorkingDaysBetweenDates.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\05. CalculateWorkingDaysBetweenDates\bin\Debug\_05.CalculateWorkingDaysBetweenDates.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\05. CalculateWorkingDaysBetweenDates\obj\Debug\_05.CalculateWorkingDaysBetweenDates.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\05. CalculateWorkingDaysBetweenDates\obj\Debug\_05.CalculateWorkingDaysBetweenDates.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\05. CalculateWorkingDaysBetweenDates\bin\Debug\_05.CalculateWorkingDaysBetweenDates.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\05. CalculateWorkingDaysBetweenDates\bin\Debug\_05.CalculateWorkingDaysBetweenDates.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\05. CalculateWorkingDaysBetweenDates\obj\Debug\05. CalculateWorkingDaysBetweenDates.csprojResolveAssemblyReference.cache

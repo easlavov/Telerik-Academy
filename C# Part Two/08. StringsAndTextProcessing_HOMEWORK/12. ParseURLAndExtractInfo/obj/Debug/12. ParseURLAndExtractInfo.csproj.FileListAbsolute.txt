@@ -1,0 +1,12 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\12. ParseURLAndExtractInfo\bin\Debug\_12.ParseURLAndExtractInfo.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\12. ParseURLAndExtractInfo\bin\Debug\_12.ParseURLAndExtractInfo.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\12. ParseURLAndExtractInfo\bin\Debug\_12.ParseURLAndExtractInfo.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\12. ParseURLAndExtractInfo\obj\Debug\12. ParseURLAndExtractInfo.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\12. ParseURLAndExtractInfo\obj\Debug\_12.ParseURLAndExtractInfo.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\12. ParseURLAndExtractInfo\obj\Debug\_12.ParseURLAndExtractInfo.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\12. ParseURLAndExtractInfo\bin\Debug\_12.ParseURLAndExtractInfo.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\12. ParseURLAndExtractInfo\obj\Debug\_12.ParseURLAndExtractInfo.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\12. ParseURLAndExtractInfo\obj\Debug\_12.ParseURLAndExtractInfo.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\12. ParseURLAndExtractInfo\bin\Debug\_12.ParseURLAndExtractInfo.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\12. ParseURLAndExtractInfo\bin\Debug\_12.ParseURLAndExtractInfo.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\12. ParseURLAndExtractInfo\obj\Debug\12. ParseURLAndExtractInfo.csprojResolveAssemblyReference.cache

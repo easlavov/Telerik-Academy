@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\10. ExtractTextFromXML\bin\Debug\_10.ExtractTextFromXML.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\10. ExtractTextFromXML\bin\Debug\_10.ExtractTextFromXML.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\10. ExtractTextFromXML\bin\Debug\_10.ExtractTextFromXML.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\10. ExtractTextFromXML\obj\Debug\10. ExtractTextFromXML.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\10. ExtractTextFromXML\obj\Debug\_10.ExtractTextFromXML.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\10. ExtractTextFromXML\obj\Debug\_10.ExtractTextFromXML.pdb

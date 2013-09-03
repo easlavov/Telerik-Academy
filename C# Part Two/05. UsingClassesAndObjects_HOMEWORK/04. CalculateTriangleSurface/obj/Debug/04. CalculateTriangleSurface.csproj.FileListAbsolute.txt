@@ -1,0 +1,12 @@
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\04. CalculateTriangleSurface\bin\Debug\_04.CalculateTriangleSurface.exe.config
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\04. CalculateTriangleSurface\bin\Debug\_04.CalculateTriangleSurface.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\04. CalculateTriangleSurface\bin\Debug\_04.CalculateTriangleSurface.pdb
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\04. CalculateTriangleSurface\obj\Debug\04. CalculateTriangleSurface.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\04. CalculateTriangleSurface\obj\Debug\_04.CalculateTriangleSurface.exe
+G:\SkyDrive\Telerik\CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\04. CalculateTriangleSurface\obj\Debug\_04.CalculateTriangleSurface.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\04. CalculateTriangleSurface\bin\Debug\_04.CalculateTriangleSurface.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\04. CalculateTriangleSurface\obj\Debug\_04.CalculateTriangleSurface.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\04. CalculateTriangleSurface\obj\Debug\_04.CalculateTriangleSurface.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\04. CalculateTriangleSurface\bin\Debug\_04.CalculateTriangleSurface.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\04. CalculateTriangleSurface\bin\Debug\_04.CalculateTriangleSurface.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\05. UsingClassesAndObjects_HOMEWORK\04. CalculateTriangleSurface\obj\Debug\04. CalculateTriangleSurface.csprojResolveAssemblyReference.cache

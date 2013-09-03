@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\20. ExtractPalindromesFromAText\bin\Debug\_20.ExtractPalindromesFromAText.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\20. ExtractPalindromesFromAText\bin\Debug\_20.ExtractPalindromesFromAText.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\20. ExtractPalindromesFromAText\bin\Debug\_20.ExtractPalindromesFromAText.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\20. ExtractPalindromesFromAText\obj\Debug\20. ExtractPalindromesFromAText.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\20. ExtractPalindromesFromAText\obj\Debug\_20.ExtractPalindromesFromAText.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\20. ExtractPalindromesFromAText\obj\Debug\_20.ExtractPalindromesFromAText.pdb

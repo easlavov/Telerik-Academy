@@ -1,0 +1,5 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\06. ReadListOfStringsExportSortSave\bin\Debug\_06.ReadListOfStringsExportSortSave.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\06. ReadListOfStringsExportSortSave\bin\Debug\_06.ReadListOfStringsExportSortSave.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\06. ReadListOfStringsExportSortSave\bin\Debug\_06.ReadListOfStringsExportSortSave.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\06. ReadListOfStringsExportSortSave\obj\Debug\_06.ReadListOfStringsExportSortSave.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\06. ReadListOfStringsExportSortSave\obj\Debug\_06.ReadListOfStringsExportSortSave.pdb

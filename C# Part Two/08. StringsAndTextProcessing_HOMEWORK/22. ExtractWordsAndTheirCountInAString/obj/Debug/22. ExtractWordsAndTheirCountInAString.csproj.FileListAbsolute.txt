@@ -1,0 +1,5 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\22. ExtractWordsAndTheirCountInAString\bin\Debug\_22.ExtractWordsAndTheirCountInAString.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\22. ExtractWordsAndTheirCountInAString\bin\Debug\_22.ExtractWordsAndTheirCountInAString.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\22. ExtractWordsAndTheirCountInAString\bin\Debug\_22.ExtractWordsAndTheirCountInAString.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\22. ExtractWordsAndTheirCountInAString\obj\Debug\_22.ExtractWordsAndTheirCountInAString.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\22. ExtractWordsAndTheirCountInAString\obj\Debug\_22.ExtractWordsAndTheirCountInAString.pdb

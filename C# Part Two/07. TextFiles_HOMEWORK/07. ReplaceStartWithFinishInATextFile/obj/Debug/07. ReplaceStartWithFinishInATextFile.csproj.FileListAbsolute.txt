@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\07. ReplaceStartWithFinishInATextFile\bin\Debug\_07.ReplaceStartWithFinishInATextFile.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\07. ReplaceStartWithFinishInATextFile\bin\Debug\_07.ReplaceStartWithFinishInATextFile.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\07. ReplaceStartWithFinishInATextFile\bin\Debug\_07.ReplaceStartWithFinishInATextFile.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\07. ReplaceStartWithFinishInATextFile\obj\Debug\_07.ReplaceStartWithFinishInATextFile.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\07. ReplaceStartWithFinishInATextFile\obj\Debug\_07.ReplaceStartWithFinishInATextFile.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\07. ReplaceStartWithFinishInATextFile\obj\Debug\07. ReplaceStartWithFinishInATextFile.csprojResolveAssemblyReference.cache

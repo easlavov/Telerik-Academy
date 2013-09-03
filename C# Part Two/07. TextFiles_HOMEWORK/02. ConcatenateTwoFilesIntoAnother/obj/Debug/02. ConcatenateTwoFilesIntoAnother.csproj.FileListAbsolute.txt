@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\02. ConcatenateTwoFilesIntoAnother\bin\Debug\_02.ConcatenateTwoFilesIntoAnother.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\02. ConcatenateTwoFilesIntoAnother\bin\Debug\_02.ConcatenateTwoFilesIntoAnother.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\02. ConcatenateTwoFilesIntoAnother\bin\Debug\_02.ConcatenateTwoFilesIntoAnother.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\02. ConcatenateTwoFilesIntoAnother\obj\Debug\02. ConcatenateTwoFilesIntoAnother.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\02. ConcatenateTwoFilesIntoAnother\obj\Debug\_02.ConcatenateTwoFilesIntoAnother.exe
+G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\02. ConcatenateTwoFilesIntoAnother\obj\Debug\_02.ConcatenateTwoFilesIntoAnother.pdb
