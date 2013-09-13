@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\02. CSharp2\Console Game\Console Game Local Draft\ProjectPig\bin\Debug\ProjectPig.exe.config
+G:\SkyDrive\Telerik\02. CSharp2\Console Game\Console Game Local Draft\ProjectPig\obj\Debug\ProjectPig.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\02. CSharp2\Console Game\Console Game Local Draft\ProjectPig\bin\Debug\ProjectPig.exe
+G:\SkyDrive\Telerik\02. CSharp2\Console Game\Console Game Local Draft\ProjectPig\bin\Debug\ProjectPig.pdb
+G:\SkyDrive\Telerik\02. CSharp2\Console Game\Console Game Local Draft\ProjectPig\obj\Debug\ProjectPig.exe
+G:\SkyDrive\Telerik\02. CSharp2\Console Game\Console Game Local Draft\ProjectPig\obj\Debug\ProjectPig.pdb
