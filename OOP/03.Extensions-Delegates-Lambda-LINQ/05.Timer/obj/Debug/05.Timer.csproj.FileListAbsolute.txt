@@ -1,5 +1,0 @@
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\05.Timer\bin\Debug\05.Timer.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\05.Timer\bin\Debug\05.Timer.pdb
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\05.Timer\obj\Debug\05.Timer.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\05.Timer\obj\Debug\05.Timer.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\05.Timer\obj\Debug\05.Timer.pdb

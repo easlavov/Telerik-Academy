@@ -1,5 +1,0 @@
-G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\01.School\bin\Debug\01.School.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\01.School\bin\Debug\01.School.pdb
-G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\01.School\obj\Debug\01.School.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\01.School\obj\Debug\01.School.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\01.School\obj\Debug\01.School.pdb

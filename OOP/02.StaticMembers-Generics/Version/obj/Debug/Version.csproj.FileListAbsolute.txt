@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\Version\bin\Debug\Version.exe.config
-G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\Version\obj\Debug\Version.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\Version\bin\Debug\Version.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\Version\bin\Debug\Version.pdb
-G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\Version\obj\Debug\Version.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\Version\obj\Debug\Version.pdb

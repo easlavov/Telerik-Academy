@@ -1,5 +1,0 @@
-G:\SkyDrive\Telerik\04. OOP\01.Homework\05.OOPPrinciples-PartTwo\02.Bank\bin\Debug\02.Bank.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\05.OOPPrinciples-PartTwo\02.Bank\bin\Debug\02.Bank.pdb
-G:\SkyDrive\Telerik\04. OOP\01.Homework\05.OOPPrinciples-PartTwo\02.Bank\obj\Debug\02.Bank.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\04. OOP\01.Homework\05.OOPPrinciples-PartTwo\02.Bank\obj\Debug\02.Bank.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\05.OOPPrinciples-PartTwo\02.Bank\obj\Debug\02.Bank.pdb

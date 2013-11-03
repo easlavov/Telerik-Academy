@@ -1,5 +1,0 @@
-G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\03.Animals\obj\Debug\03.Animals.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\03.Animals\bin\Debug\03.Animals.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\03.Animals\bin\Debug\03.Animals.pdb
-G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\03.Animals\obj\Debug\03.Animals.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\03.Animals\obj\Debug\03.Animals.pdb

@@ -1,5 +1,0 @@
-G:\SkyDrive\Telerik\04. OOP\01.Homework\06.Common-Type-System\02.Person\obj\Debug\02.Person.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\04. OOP\01.Homework\06.Common-Type-System\02.Person\bin\Debug\02.Person.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\06.Common-Type-System\02.Person\bin\Debug\02.Person.pdb
-G:\SkyDrive\Telerik\04. OOP\01.Homework\06.Common-Type-System\02.Person\obj\Debug\02.Person.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\06.Common-Type-System\02.Person\obj\Debug\02.Person.pdb

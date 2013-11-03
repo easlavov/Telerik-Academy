@@ -1,5 +1,0 @@
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\06.TimerUsingEvent\bin\Debug\06.TimerUsingEvent.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\06.TimerUsingEvent\bin\Debug\06.TimerUsingEvent.pdb
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\06.TimerUsingEvent\obj\Debug\06.TimerUsingEvent.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\06.TimerUsingEvent\obj\Debug\06.TimerUsingEvent.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\06.TimerUsingEvent\obj\Debug\06.TimerUsingEvent.pdb

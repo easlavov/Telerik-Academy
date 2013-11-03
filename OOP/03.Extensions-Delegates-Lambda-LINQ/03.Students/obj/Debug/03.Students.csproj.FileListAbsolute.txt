@@ -1,5 +1,0 @@
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\03.Students\bin\Debug\03.Students.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\03.Students\bin\Debug\03.Students.pdb
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\03.Students\obj\Debug\03.Students.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\03.Students\obj\Debug\03.Students.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\03.Students\obj\Debug\03.Students.pdb

@@ -1,5 +1,0 @@
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\02.ExtendIEnumerableT\obj\Debug\02.ExtendIEnumerableT.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\02.ExtendIEnumerableT\bin\Debug\02.ExtendIEnumerableT.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\02.ExtendIEnumerableT\bin\Debug\02.ExtendIEnumerableT.pdb
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\02.ExtendIEnumerableT\obj\Debug\02.ExtendIEnumerableT.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\02.ExtendIEnumerableT\obj\Debug\02.ExtendIEnumerableT.pdb

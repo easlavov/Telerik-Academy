@@ -1,4 +1,0 @@
-G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\ThreeDimensionalSpace\obj\Debug\ThreeDimensionalSpace.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\ThreeDimensionalSpace\obj\Debug\ThreeDimensionalSpace.pdb
-G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\ThreeDimensionalSpace\bin\Debug\ThreeDimensionalSpace.exe
-G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\ThreeDimensionalSpace\bin\Debug\ThreeDimensionalSpace.pdb
