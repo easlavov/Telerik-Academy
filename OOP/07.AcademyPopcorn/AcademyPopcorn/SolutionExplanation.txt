@@ -1,0 +1,30 @@
+﻿Task 1: Added three loops - for the left wall, the right wall and the ceiling;
+Task 2: Added new field - int sleepTime. Added a third parameter to the existing constructor - int sleepTime.
+		Added a second constructor that takes the original 2 parameters only, ensuring the program functions
+		as it did before the change;
+Task 3: The AddObject method in the Engine class has been edited to remove all Racket instances if the adeed object
+		is of type Racket;
+Task 4: Created a new class that inherits the Engine class. Added void method as described in the task;
+Task 5: Created a new class: TrailObject, an inheritor to the GameObject class. Its update method invokes a Tick
+		method that decreases the lifetime of an object of type TrailObject by 1 in each turn. After it becomes 0,
+		the isDestroyed bool is set to true and the engine removes the TrailObject from the game;
+Task 6: Created a new class: MeteoriteBall, a inheritor of the Ball class. To spawn a trail of TrailObject instances,
+		the ProduceObjects method has been overriden to return a single-element List , containing a newly-generated
+		instance of the TrailObject class, which takes the current cooridnates of the ball as its initial coords;
+Task 7: Simply replaced the the original Ball with an instance of the MeteoriteBall class;
+Task 8: Created UnpassableBlock class - inheritor of the IndestrictibleBlock class. It looks like the cahracter 'M'.
+		Created UnstoppableBall class - inheritor of the Ball class. Added overrides of GetCollectionGroupString() and
+		RespondToCollision methods. The RespondToCollision checks if the object that the UnstoppableBall collides with
+		is an IndestructibleBlock. This type of ball is intended to remain in the gaming field.;
+Task 9: Added a row of UnpassableBlock instances. Added one instance of the UnstoppableleBall;
+Task10: Added an ExplodingParticle class. Added an ExplodingBlock class. Upon destruction it spawns 8 Exploding Particles
+		in all directions. An override of the ProduceObject methods is used to create the effect of a supernova, 
+		obliterating all blocks in its path!
+Task11: Added a Gift class, inheritor of the MovingObject class. The constructor sets the direction of its instances
+		to down. Can only collide with the racket;
+Task12: Added a GiftBlock class, inheritor of the Block class. An override to the ProduceObjects() method has been
+		added - it allows the spawn of a Gift instance when the GiftBlock IsDestroyed;
+Task13: Added 2 classes: Bullet, ShootingRacket. Edited classes ShootingEngine, Gift. The Bullet class inherits the
+		Ball class. The main method has been expanded to catch the event of pressing the spacebar, which is used to
+		shoot a bullet. Upon destruction the Gift class spawns a ShootingRacket instance, which replaces the original
+		racket. Pressing the SpaceBar allows the racket to shoot a bullet. 

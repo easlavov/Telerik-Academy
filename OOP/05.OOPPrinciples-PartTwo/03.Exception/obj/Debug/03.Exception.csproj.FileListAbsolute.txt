@@ -1,0 +1,5 @@
+G:\SkyDrive\Telerik\04. OOP\01.Homework\05.OOPPrinciples-PartTwo\03.Exception\bin\Debug\03.Exception.exe
+G:\SkyDrive\Telerik\04. OOP\01.Homework\05.OOPPrinciples-PartTwo\03.Exception\bin\Debug\03.Exception.pdb
+G:\SkyDrive\Telerik\04. OOP\01.Homework\05.OOPPrinciples-PartTwo\03.Exception\obj\Debug\03.Exception.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\04. OOP\01.Homework\05.OOPPrinciples-PartTwo\03.Exception\obj\Debug\03.Exception.exe
+G:\SkyDrive\Telerik\04. OOP\01.Homework\05.OOPPrinciples-PartTwo\03.Exception\obj\Debug\03.Exception.pdb

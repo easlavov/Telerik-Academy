@@ -1,0 +1,6 @@
+G:\SkyDrive\Telerik\04. OOP\01.Homework\01.Constructors-Properties\MobilePhone\bin\Debug\MobilePhone.exe.config
+G:\SkyDrive\Telerik\04. OOP\01.Homework\01.Constructors-Properties\MobilePhone\obj\Debug\MobilePhone.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\04. OOP\01.Homework\01.Constructors-Properties\MobilePhone\bin\Debug\MobilePhone.exe
+G:\SkyDrive\Telerik\04. OOP\01.Homework\01.Constructors-Properties\MobilePhone\bin\Debug\MobilePhone.pdb
+G:\SkyDrive\Telerik\04. OOP\01.Homework\01.Constructors-Properties\MobilePhone\obj\Debug\MobilePhone.exe
+G:\SkyDrive\Telerik\04. OOP\01.Homework\01.Constructors-Properties\MobilePhone\obj\Debug\MobilePhone.pdb
