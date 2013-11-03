@@ -1,0 +1,5 @@
+G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\02.Humans\obj\Debug\02.Humans.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\02.Humans\bin\Debug\02.Humans.exe
+G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\02.Humans\bin\Debug\02.Humans.pdb
+G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\02.Humans\obj\Debug\02.Humans.exe
+G:\SkyDrive\Telerik\04. OOP\01.Homework\04.OOPPrinciples-PartOne\02.Humans\obj\Debug\02.Humans.pdb

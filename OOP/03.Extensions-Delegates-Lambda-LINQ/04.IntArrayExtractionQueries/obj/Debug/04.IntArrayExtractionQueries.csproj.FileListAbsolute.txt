@@ -1,0 +1,5 @@
+G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\04.IntArrayExtractionQueries\bin\Debug\04.IntArrayExtractionQueries.exe
+G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\04.IntArrayExtractionQueries\bin\Debug\04.IntArrayExtractionQueries.pdb
+G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\04.IntArrayExtractionQueries\obj\Debug\04.IntArrayExtractionQueries.exe
+G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\04.IntArrayExtractionQueries\obj\Debug\04.IntArrayExtractionQueries.pdb
+G:\SkyDrive\Telerik\04. OOP\01.Homework\03.Extensions-Delegates-Lambda-LINQ\04.IntArrayExtractionQueries\obj\Debug\04.IntArrayExtractionQueries.csprojResolveAssemblyReference.cache

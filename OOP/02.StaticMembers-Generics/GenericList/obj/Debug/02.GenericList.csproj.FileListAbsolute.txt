@@ -1,0 +1,5 @@
+G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\GenericList\obj\Debug\GenericList.exe
+G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\GenericList\obj\Debug\GenericList.pdb
+G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\GenericList\bin\Debug\GenericList.exe
+G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\GenericList\bin\Debug\GenericList.pdb
+G:\SkyDrive\Telerik\04. OOP\01.Homework\02.StaticMembers-Generics\GenericList\obj\Debug\02.GenericList.csprojResolveAssemblyReference.cache
