@@ -1,0 +1,5 @@
+G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\DocumentSystem-Skeleton\obj\Debug\DocumentSystem.csprojResolveAssemblyReference.cache
+G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\DocumentSystem-Skeleton\bin\Debug\DocumentSystem.exe
+G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\DocumentSystem-Skeleton\bin\Debug\DocumentSystem.pdb
+G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\DocumentSystem-Skeleton\obj\Debug\DocumentSystem.exe
+G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\DocumentSystem-Skeleton\obj\Debug\DocumentSystem.pdb
