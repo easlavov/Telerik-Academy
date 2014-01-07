@@ -1,0 +1,47 @@
+body
+{
+	font-family:"Lucida Sans Unicode";
+	background-color:#B0E0E6;
+	margin-top:0;
+}
+p, h1, ol
+{
+	color:#104E8B;
+}
+h1 + p
+{
+	margin-left:20px;
+}
+nav ul
+{
+	list-style-type:none;
+	display:block;	
+	padding:0;
+	margin:0;
+	margin-bottom:40px;
+}
+nav ul li
+{
+	float:left;
+	margin:0;
+	padding:0;
+	margin-right:70px;
+}
+nav ul:after
+{
+	clear:both;
+	display:block;
+	content:"";
+}
+h1
+{
+	border-top:1px solid gray;
+	border-bottom:1px solid gray;
+	padding-top:15px;
+	padding-bottom:5px;
+	margin-bottom:0;
+}
+img
+{
+	margin-top:5px;
+}
