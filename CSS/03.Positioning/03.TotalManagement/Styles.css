@@ -1,0 +1,104 @@
+body
+{
+	width:640px;
+	border:1px solid orange;
+}
+header
+{
+	background: #383838;
+	background: -moz-linear-gradient(left,  #383838 74%, #4c4c4c 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(74%,#383838), color-stop(100%,#4c4c4c));
+	background: -webkit-linear-gradient(left,  #383838 74%,#4c4c4c 100%);
+	background: -o-linear-gradient(left,  #383838 74%,#4c4c4c 100%);
+	background: -ms-linear-gradient(left,  #383838 74%,#4c4c4c 100%);
+	background: linear-gradient(to right,  #383838 74%,#4c4c4c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#4c4c4c',GradientType=1 );
+	padding-bottom:10px;
+}
+	header form
+	{
+		vertical-align:middle;		
+		padding-top:0;
+	}
+	header form label, input
+	{
+		margin-left:20px;
+	}
+	header form input[type=text]
+	{
+		padding-left:12px;
+		width:123px;
+		font-size:12px;
+		height:16px;
+		padding-top:0;
+		padding-bottom:3px;
+	}
+	header form img
+	{
+		max-width:40px;
+		width:auto;
+		height:auto;
+		padding-top:5px;
+		padding-left:10px;
+	}
+	header form label
+	{
+		font-weight:bold;
+		font-size:22px;
+		color:white;
+		vertical-align:12px;
+	}
+	header form input
+	{
+		vertical-align:15px;
+	}
+	.btn 
+	{
+	  background: #bd0000;
+	  background-image: -webkit-linear-gradient(top, #bd0000, #ff0303);
+	  background-image: -moz-linear-gradient(top, #bd0000, #ff0303);
+	  background-image: -ms-linear-gradient(top, #bd0000, #ff0303);
+	  background-image: -o-linear-gradient(top, #bd0000, #ff0303);
+	  background-image: linear-gradient(to bottom, #bd0000, #ff0303);
+	  -webkit-border-radius: 10;
+	  -moz-border-radius: 10;
+	  border-radius: 10px;
+	  font-family: Arial;
+	  color: #ffffff;
+	  font-size: 14px;
+	  padding: 5px 14px 4px 14px;
+	  border: solid #ffffff 1px;
+	  text-decoration: none;
+	  vertical-align:13px;
+	}
+
+	.btn:hover 
+	{
+		text-decoration: none;
+	}
+	
+div
+{
+	padding-left:10px;
+	background-color:#404040 ;
+}
+	div h1
+	{
+		margin:0;
+		padding-top:15px;
+		color:#DAA520;
+		font-weight:normal;
+	}
+	div p
+	{
+		font-family:"Lucida Sans Unicode";
+		color:#989898 ;
+		font-size:13px;
+		padding-right:60px;
+		padding-bottom:10px;
+		margin-bottom:0;
+	}
+	div p span
+	{
+		color:white;
+	}

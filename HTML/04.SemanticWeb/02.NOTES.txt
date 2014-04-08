@@ -1,0 +1,2 @@
+I did not aim for styling but rather for semantically correct html document.
+To accomplish positioning as per the example there are two possible options: using CSS or using tables. Styling is not requried and using tables to set the layout of the document is considered bad practice. That's why I left the document as it is. I hope you find it semantically correct.

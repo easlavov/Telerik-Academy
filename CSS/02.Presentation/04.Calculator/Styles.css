@@ -1,0 +1,205 @@
+#calculator
+{
+    width: 423px;
+    height: 389px;
+    background-color: #CDAA7D;
+}    
+    #calculator #calcImg
+    {
+        width:auto;
+        height:auto;
+        max-height: 17px;
+        padding-left: 10px;
+        padding-top:5px;
+    }
+    #title
+    {
+        font-size: 18px;
+    }
+    #controlButtons
+    {
+        padding-top:0;
+        padding-left:82px;
+    }
+    #minimizeButton
+    {
+        height:18px;
+        background: url(Min.png);
+    }
+    #maxRestoreButton
+    {
+        height:18px;
+        background: url(Max.png);    
+    }
+    #closeButton
+    {
+        height:20px;
+        width:35px;
+        color:white;
+        background-color: darkred;
+    }
+    #main
+    {
+        width:96%;
+        height:90%;
+        margin-left: 2%;
+        margin-top:1%;
+        background: #f2f9fe;
+        background: -moz-linear-gradient(top,  #f2f9fe 0%, #d9eef9 21%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f9fe), color-stop(21%,#d9eef9));
+        background: -webkit-linear-gradient(top,  #f2f9fe 0%,#d9eef9 21%);
+        background: -o-linear-gradient(top,  #f2f9fe 0%,#d9eef9 21%);
+        background: -ms-linear-gradient(top,  #f2f9fe 0%,#d9eef9 21%);
+        background: linear-gradient(to bottom,  #f2f9fe 0%,#d9eef9 21%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f9fe', endColorstr='#d9eef9',GradientType=0 );
+    }
+        #menus
+        {
+            height:5%;
+            width:100%;
+            background-color: #F5F5F5;
+        }
+        #innerFrame
+        {
+            height:95%;
+        }
+            .empty
+            {
+                opacity: 1.0;
+            }
+            #empty1
+            {
+                width:100%;
+                height:4%;                
+            }
+            #calcBody
+            {
+                opacity: 1.0;
+                margin-left:2%;
+                width:96%;
+                height:92.5%;
+            }
+                #display
+                {
+                    background: #d9eef9;
+                    background: -moz-linear-gradient(top,  #d9eef9 0%, #f2f9fe 61%);
+                    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d9eef9), 
+                        color-stop(61%,#f2f9fe));
+                    background: -webkit-linear-gradient(top,  #d9eef9 0%,#f2f9fe 61%);
+                    background: -o-linear-gradient(top,  #d9eef9 0%,#f2f9fe 61%);
+                    background: -ms-linear-gradient(top,  #d9eef9 0%,#f2f9fe 61%);
+                    background: linear-gradient(to bottom,  #d9eef9 0%,#f2f9fe 61%);
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9eef9', 
+                        endColorstr='#f2f9fe',GradientType=0 );
+                    height:15%;
+                    border:1px solid silver;
+                    border-radius:2px;
+                    text-align: right;
+                    vertical-align: bottom;
+                    font-family: consolas;
+                    font-size: 24px;
+                }
+                    #display div
+                    {
+                        padding-top:13px;
+                        margin-right:4px;
+                    }
+                #binary
+                {
+                    opacity: 1.0;
+                    height:19%;
+                    margin-top:1.6%;
+                    border:1px solid silver;
+                    border-radius:2px;
+                    font-family: consolas;
+                    font-size: 14px;
+                    line-height: 95%;
+                }
+                    span
+                    {
+                        padding-left:8px;
+                    }
+                    .hidden
+                    {
+                        visibility: hidden;
+                    }
+                    .bit
+                    {
+                        color:gray;
+                    }
+                
+                #controls
+                {                    
+                    margin-top:1.6%;
+                    height:60%;
+                    opacity: 1.0;                    
+                }                    
+                    table
+                    {
+                        width:100%;
+                        height:100%;
+                    }
+                    ul
+                    {
+                        list-style-type: none;
+                        padding:0;
+                        margin:0;
+                    }                    
+                    ul li
+                    {
+                        font-size: 13px;
+                    }
+                    td
+                    {
+                        padding:0px;
+                        width:37px;
+                        height:27px;
+                    }
+                    .radioButtons
+                    {
+                        border:1px solid silver;
+                        border-radius:2px;
+                    }                    
+                    #controls button
+                    {
+                        display:block;
+                        width:100%;
+                        height:100%;
+                        background-color: #d9eef9;
+                        border:none;
+                        border-radius:2px;
+                        margin:0px;
+                        padding:0;
+                        border:1px solid silver;
+                    }
+                    .active
+                    {
+                        background-color: #f2f9fe; background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f9fe), to(#d6f0fd));
+                        background-image: -webkit-linear-gradient(top, #f2f9fe, #d6f0fd);
+                        background-image: -moz-linear-gradient(top, #f2f9fe, #d6f0fd);
+                        background-image: -ms-linear-gradient(top, #f2f9fe, #d6f0fd);
+                        background-image: -o-linear-gradient(top, #f2f9fe, #d6f0fd);
+                        background-image: linear-gradient(to bottom, #f2f9fe, #d6f0fd);
+                        filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#f2f9fe, endColorstr=#d6f0fd);
+                    }
+                    .mem
+                    {
+                        border-style: outset !important;
+                        border-bottom-color: azure !important;
+                        border-left-color: azure !important;
+                    }
+                    .digit
+                    {
+                        background-color: azure !important;
+                        font-size: 16px;
+                    }
+                    .active:hover, .digit:hover, .mem:hover
+                    {
+                        background-image: none !important;
+                        background-color: orange !important;
+                    }
+                    #equals
+                    {
+                        
+                        font-size: 24px;
+                    }

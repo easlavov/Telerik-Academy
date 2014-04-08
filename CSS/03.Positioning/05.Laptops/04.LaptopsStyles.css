@@ -1,0 +1,86 @@
+body
+{
+	font-family:verdana;
+}
+
+nav
+{
+	padding-left:18%;	
+}
+
+	a
+	{
+		color:#33CCFF;
+		font-size:24px;
+	}
+hr
+{
+	border:1px solid black;
+}
+
+section
+{
+	display:inline-block;
+	border:2px solid black;
+	padding-left:2px;
+	padding-bottom:8px;
+	width:515px;
+	/* width:42%; */
+}
+	fieldset
+	{
+		display:inline-block;
+		text-align:left;
+		border:2px solid black;
+		width:42.5%;
+		height:80%;
+	}
+		
+		legend
+		{
+			text-align:center;
+		}
+		
+		img
+		{
+			float:left;
+			max-width:200px;
+			max-height:60px;
+			width: auto;
+			height: auto;
+		}
+		
+		fieldset span
+		{
+			display:inline-block;
+			wdith:6%;
+		}
+		
+		#hdd
+		{
+			margin-top:10%;
+		}
+		
+		#ram
+		{
+			margin-top:5%;
+		}
+		
+		#price
+		{
+			margin-top:6%;
+		}
+		
+		#cpu
+		{
+			padding-left:3%;
+		}
+
+div
+{
+	display:inline-block;
+	vertical-align:top;
+	margin-top:5%;
+	font-size:1.5em;
+}
+	

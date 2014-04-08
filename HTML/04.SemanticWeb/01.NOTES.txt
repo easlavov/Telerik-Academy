@@ -1,0 +1,20 @@
+Q1: Why I kept the naviagtion items in a list (but changed it to an unordered one)?
+A1: At first I thought keeping nav items in a list to be unnecessary as they semantically aren't really a list but rather separate items. I found out it is a debatable topic but after having a look at these articles I decided to keep the nav items in a list.
+http://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/
+http://css-tricks.com/wrapup-of-navigation-in-lists/
+------------------------------------------------------------------------------------------------------
+Q2: Why did I replaced the div tags with <p> in the articles?
+A2: Well, I don't have a strong argument to support this but I felt that div elements are more complex (of a sort) to use for a simple text which is semantically closer to a paragraph. Also I read this:
+http://www.w3schools.com/tags/tag_header.asp
+It gives the combination of tags I used in the homework as an example.
+ <article>
+   <header>
+     <h1>Internet Explorer 9</h1>
+     <p><time pubdate datetime="2011-03-15"></time></p>
+   </header>
+   <p>Windows Internet Explorer 9 (abbreviated as IE9) was released to
+   the  public on March 14, 2011 at 21:00 PDT.....</p>
+ </article> 
+------------------------------------------------------------------------------------------------------
+Q3: Why did I replace the b and i tags with strong and emhasize tags?
+A3: <b> and <i> do not have any semantic value unlike <strong> and <em>.

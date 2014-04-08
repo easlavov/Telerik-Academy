@@ -1,0 +1,83 @@
+*
+{
+	font-family:lucidaconsole;
+	font-weight:normal;
+	text-align:left;
+	font-size:14px;
+	padding:5px;
+}
+table, th, td
+{
+	border-collapse:collapse;
+	border: 1px solid black;
+}
+tfoot, thead
+{
+	background-color:#E8E8E8;
+}
+thead input[type='text']
+{
+	height:10px;
+	vertical-align:middle;
+}
+tfoot *
+{
+	border:none;
+}
+.scrollBut
+{
+	background-color:white;
+	border: 1px solid black;
+}
+.footBut
+{
+	border:none;
+	background-color:#E8E8E8;
+}
+.headBut
+{
+	width:22px;
+	height:22px;
+	vertical-align:middle;
+	font-size:11px;
+}
+#prodID
+{
+	width:60px;
+}
+#prodName
+{
+	width:260px;
+}
+#unPrice
+{
+	width:180px;
+}
+#qPerUnit
+{
+	width:185px;
+}
+#uInStock
+{
+	width:160px;
+}
+#counter
+{
+	text-align:right;
+}
+#idText
+{
+	width:25px;
+}
+#prodNameText
+{
+	width:145px;
+}
+#unPriceText, #unInStText
+{
+	width:75px;
+}
+#qPUText
+{
+	width:90px;
+}

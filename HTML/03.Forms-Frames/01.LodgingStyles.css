@@ -1,0 +1,64 @@
+table, th, td
+{
+	border-collapse:collapse;
+	border: 1px solid black;
+}
+th
+{			
+	width:150px;
+	text-align:right;
+}
+textarea
+{
+	width:260px;
+	height:60px;
+}
+.name
+{
+	width:270px
+}
+.phoneOne
+{
+	width:35px
+}
+.dateOne
+{
+	width:23px
+}
+#yearText
+{
+	width:46px
+}
+#cityText
+{
+	width:190px
+}
+#stateText
+{
+	width:45px
+}
+#zipText
+{
+	width:65px
+}
+#lastPhoneText
+{
+	width:145px
+}
+#emailText
+{
+	width:270px
+}
+#commentsTextArea
+{
+	height:80px
+}
+tfoot td
+{
+	height:30px;
+	background-color:#CCFFFF;
+}
+tfoot div
+{
+	text-align:center;
+}

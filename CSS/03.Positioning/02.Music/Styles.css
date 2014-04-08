@@ -1,0 +1,70 @@
+body
+{
+	background-color:#F0F0F0;
+}
+	h1
+	{
+		font-weight:normal;
+		font-size:18px;
+	}
+	ul
+	{
+		list-style-type:none;
+		padding:0;
+		margin-top:40px;
+	}
+		ul li
+		{
+			margin-top:40px;
+		}
+			ul li fieldset
+			{
+				padding:15px;
+				width:370px;
+				border:1px solid silver;
+				background-color:white;
+			}
+				ul li fieldset img
+				{
+					float:left;
+					max-width:150px;
+					width:auto;
+					height:auto;
+					border:1px solid silver;
+					margin-right:15px;
+				}
+				ul li fieldset span
+				{
+					display:block;
+					font-size:14px;
+				}
+				ul li fieldset .buttons
+				{
+					float:right;
+					margin-left:10px;
+					margin-top:25px;
+				}
+				ul li fieldset button
+				{
+					background-size: cover;
+					border:none;
+					font-size:12px;
+					padding-left:20px;					
+					height:24px;
+					border-right:2px solid #4F2902;
+					border-bottom:2px solid #4F2902;
+					border-top:1px solid #FFB6C1;
+					border-left:1px solid #8B5F65;
+					color:white;
+					border-radius:2px;
+				}
+				ul li fieldset .buttons .listenButton
+				{
+					background: url(RedButtonLong.png);
+					width:70px;
+				}
+				ul li fieldset .buttons .addButton
+				{
+					background: url(RedButtonLong.png);
+					width:60px;
+				}

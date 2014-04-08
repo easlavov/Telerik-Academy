@@ -1,0 +1,51 @@
+html
+{
+	background-color:dimgray;
+}
+*
+{
+	color:NavajoWhite;
+	font-family:calibri;
+}
+h1, #time, #action
+{
+	color:darkgray;
+}
+h1
+{
+	font-weight:normal;
+}
+th, td
+{
+	padding:10px;
+	padding-left:0px;
+}
+th
+{	
+	color:white;
+	font-style:italic;
+	font-weight:normal;
+	text-align:left;
+	vertical-align:top;
+}
+img
+{	
+	display: block;
+    max-width:230px;
+    max-height:14px;
+    width: auto;
+    height: auto;
+	float:left;
+	padding-right:2px;
+	padding-top:2px;
+}
+#supportStatus
+{
+	font-weight:bold;
+	color:red;
+}
+#status
+{
+	font-weight:bold;
+	color:#E86100;
+}

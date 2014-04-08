@@ -1,0 +1,209 @@
+﻿.mixin-default-border {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #d593ff;
+    background: -moz-linear-gradient(top, #d593ff 0%, #9215f2 12%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d593ff), color-stop(12%, #9215f2));
+    background: -webkit-linear-gradient(top, #d593ff 0%, #9215f2 12%);
+    background: -o-linear-gradient(top, #d593ff 0%, #9215f2 12%);
+    background: -ms-linear-gradient(top, #d593ff 0%, #9215f2 12%);
+    background: linear-gradient(to bottom, #d593ff 0%, #9215f2 12%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d593ff', endColorstr='#9215f2', GradientType=0);
+    color: #ffffff;
+    margin-top: 0;
+    height: 100%;
+    font-size: 1em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body header #header-container {
+    width: 100%;
+}
+
+body header #header-container div {
+    display: inline-block;
+}
+
+body header #header-container #logo-container {
+    margin-right: 62%;
+}
+
+body header #header-container #reg-form-container form div {
+    display: block;
+    padding-left: 5px;
+}
+
+body header #header-container #reg-form-container form div label {
+    text-align: right;
+    display: inline-block;
+    width: 70px;
+}
+
+body header #header-container #reg-form-container form div input {
+    height: 20px;
+    background-color: #b35ef3;
+    border-style: none;
+    border-radius: 15px;
+    border: 1px solid #603382;
+    margin-top: 10px;
+}
+
+body header #header-container #reg-form-container form button {
+    margin-top: 5px;
+    height: 30px;
+    width: 90px;
+    border-style: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #b35ef3;
+    border-right: 1px solid #603382;
+    border-bottom: 1px solid #603382;
+    border-left: 1px solid #C0AFCE;
+    border-top: 1px solid #C0AFCE;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+
+body header nav {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 75%;
+    height: 45px;
+    margin-left: 20px;
+}
+
+body header nav ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style: none;
+}
+
+body header nav ul li {
+    display: inline-block;
+}
+
+body header nav ul li a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+body header nav ul li li {
+    display: none;
+}
+
+body section {
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 75%;
+    display: inline-block;
+    float: left;
+}
+
+body section article {
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+body section article header h1 {
+    margin: 5px;
+}
+
+body section article p {
+    margin: 0;
+}
+
+body section article footer {
+    text-align: right;
+    margin: 5px;
+}
+
+body section article footer p {
+    font-size: 1.1em;
+}
+
+body section article footer p a {
+    color: #D0A3F7;
+    text-decoration: none;
+}
+
+body section article footer p time {
+    font-family: consolas;
+}
+
+body aside {
+    float: left;
+    width: 20%;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+
+body aside ul {
+    list-style: none;
+}
+
+body aside ul li {
+    border: 2px solid black;
+    border-radius: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+body aside ul li h2 {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+body aside ul li p {
+    padding-left: 10px;
+}
+
+body aside ul li p a,
+body aside ul li p strong,
+body aside ul li p em {
+    color: #A8AAB4;
+    text-decoration: none;
+}
+
+body aside ul li ul {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+body aside ul li ul li {
+    border: none;
+    margin: 5px;
+    margin-left: 15px;
+    padding: 0;
+    padding-left: 25px;
+    background: url(images/li-dot.png) no-repeat;
+    background-position: 0 50%;
+}
+
+body > footer {
+    height: 100%;
+    min-height: 100%;
+    padding-top: 15px;
+    clear: both;
+}
+
+body > footer p {
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: center;
+}

@@ -1,0 +1,194 @@
+﻿$default-bg-color:#9215F2;
+$start-bg-color:#D593FF;
+$default-font-color:white;
+$form-bg-color:#B35EF3;
+$form-border-color:#603382;
+
+@mixin vertical-gradient($from-color, $from-pos, $to-color, $to-pos)
+{
+	background: $from-color;
+	background: -moz-linear-gradient(top,  $from-color $from-pos, $to-color $to-pos);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop($from-pos,$from-color), color-stop($to-pos,$to-color));
+	background: -webkit-linear-gradient(top,  $from-color $from-pos,$to-color $to-pos);
+	background: -o-linear-gradient(top,  $from-color $from-pos,$to-color $to-pos);
+	background: -ms-linear-gradient(top,  $from-color $from-pos,$to-color $to-pos);
+	background: linear-gradient(to bottom,  $from-color $from-pos,$to-color $to-pos);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='${from-color}', endColorstr='${to-color}',GradientType=0 );
+}
+@mixin default-border
+{
+	border: 2px solid black;
+	border-radius:15px;
+}
+
+hmtl {
+	height:100%;
+}
+
+body {
+	@include vertical-gradient($start-bg-color,0%,$default-bg-color,12%);
+	color: $default-font-color;
+	margin-top:0;
+	height:100%;
+	font-size:1em;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	header {
+		#header-container {
+			width:100%;
+			div {
+				display:inline-block;
+			}		
+			#logo-container {
+				margin-right:62%;
+			}			
+			#reg-form-container {
+				form {
+					div {
+					display:block;
+					padding-left:5px;
+					label {
+						text-align:right;
+						display:inline-block;
+						width:70px;
+					}
+					input {
+						height:20px;
+						background-color: $form-bg-color;
+						border-style:none;
+						border-radius:15px;
+						border: 1px solid $form-border-color;
+						margin-top:10px;
+					}					
+				}
+				button {
+						margin-top:5px;
+						height:30px;
+						width:90px;
+						border-style:none;
+						border-radius:10px;
+						font-weight:bold;
+						color: $default-font-color;
+						background-color: $form-bg-color;
+						border-right: 1px solid $form-border-color;
+						border-bottom: 1px solid $form-border-color;
+						border-left: 1px solid #C0AFCE;
+						border-top: 1px solid #C0AFCE;
+						padding-top:3px;
+						padding-bottom:4px;
+					}
+				}
+			}	
+		}
+
+		nav {
+			@include default-border;
+			width:75%;
+			height:45px;
+			margin-left:20px;
+			ul {
+				margin-top:10px;
+				padding-left:20px;
+				list-style:none;
+				li {
+					display:inline-block;
+					a {
+						color: $default-font-color;
+						font-size:20px;
+						text-decoration:none;
+						margin-right:20px;
+					}
+					li {
+						display:none;
+					}
+				}
+			}
+		}
+	}
+	section {
+		margin-top:40px;
+		margin-left:10px;
+		width:75%;
+		display:inline-block;	
+		float:left;
+		article {
+			@include default-border;
+			margin-bottom:20px;
+			padding:20px;
+			header {
+				h1 {
+					margin:5px;
+				}
+			}
+			p {
+				margin:0;
+			}
+			footer {
+				text-align:right;
+				margin:5px;				
+				p {
+					font-size:1.1em;
+					a {
+						color:#D0A3F7;
+						text-decoration:none;						
+					}
+					time {
+						font-family:consolas;
+					}
+				}
+			}
+		}
+	}
+	aside {		
+		float:left;
+		width:20%;
+		display:inline-block;
+		margin-right:50px;
+		margin-top:40px;
+		ul {
+			list-style:none;
+			li {
+				@include default-border;
+				border-radius:5px;
+				margin-bottom:15px;
+				padding:15px;
+				h2 {
+					margin:0;
+					margin-bottom:5px;
+				}
+				p {
+					padding-left:10px;
+					a, strong, em {
+						color:#A8AAB4;
+						text-decoration:none;
+					}
+				}
+				ul {
+					margin-left:0;
+					margin-right:0;
+					padding-left:0;
+					li {
+						border:none;
+						margin:5px;
+						margin-left:15px;
+						padding:0;
+						padding-left:25px;
+						background: url(images/li-dot.png) no-repeat;
+                        background-position: 0 50%;
+					}
+				}
+			}
+		}
+	}
+	&>footer {
+		height:100%;
+		min-height:100%;
+		padding-top:15px;
+		clear:both;
+		p {
+			font-size:1.4em;
+			font-weight:bold;
+			text-align:center;
+		}
+	}
+}

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SASS_Homework", "http://localhost:41206", "{4612C5BF-60E4-4611-89C3-6957EBFE1796}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_41206"
+		Debug.AspNetCompiler.PhysicalPath = "..\SASS_Homework\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_41206\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_41206"
+		Release.AspNetCompiler.PhysicalPath = "..\SASS_Homework\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_41206\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\SASS_Homework\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ImageGallery", "http://localhost:46797", "{EE2E5117-22DF-48E9-BDF9-428918B6408B}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_46797"
+		Debug.AspNetCompiler.PhysicalPath = "..\ImageGallery\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_46797\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_46797"
+		Release.AspNetCompiler.PhysicalPath = "..\ImageGallery\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_46797\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\ImageGallery\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4612C5BF-60E4-4611-89C3-6957EBFE1796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4612C5BF-60E4-4611-89C3-6957EBFE1796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2E5117-22DF-48E9-BDF9-428918B6408B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2E5117-22DF-48E9-BDF9-428918B6408B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

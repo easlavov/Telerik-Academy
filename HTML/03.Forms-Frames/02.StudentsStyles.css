@@ -1,0 +1,20 @@
+table, th, td
+{
+	border-collapse:collapse;
+	border: 2px solid black;
+	border-color:gray;
+	padding:5px;
+}
+#persInfo, #uniMarks
+{
+	width:300px
+}
+tbody tr td:last-child
+{
+	font-weight:bold;
+	text-align:center;
+}
+tfoot td
+{
+	height:30px;
+} 

@@ -1,0 +1,49 @@
+*
+{
+	font-family:courier new;
+	font-weight:bold;
+}
+nav
+{
+	padding-left:18%;	
+}
+a
+{
+	color:#33CCFF;
+	font-size:24px;
+}
+hr
+{
+	border:1px solid black;
+}
+table
+{
+	float:left;
+}
+table, fieldset
+{
+	border:2px solid black;
+	padding:5px;
+}
+table table
+{
+	border:none;
+}
+fieldset
+{
+	text-align:left;
+}
+img
+{
+	display:block;
+	max-width:230px;
+    max-height:95px;
+    width: auto;
+    height: auto;
+}
+div
+{
+	float:left;
+	margin-top:10%;
+	margin-left:1%;
+}

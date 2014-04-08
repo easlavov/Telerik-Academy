@@ -1,0 +1,1 @@
+Color of h1 is orange to match the color of the monitor in the upper left part of the page.

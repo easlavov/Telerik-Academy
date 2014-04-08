@@ -1,0 +1,14 @@
+body #imageBar li {
+  display: inline-block; }
+  body #imageBar li label img {
+    max-width: 200px; }
+body #images {
+  list-style: none; }
+  body #images li input {
+    display: none; }
+    body #images li input:checked + img {
+      display: inline-block;
+      max-width: 600px; }
+  body #images li img {
+    display: none; }
+
