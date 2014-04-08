@@ -1,0 +1,1 @@
+With over 420 UI controls and thousands of scenarios covered out-of-the-box, you can leave the complexities of UI to us and focus on the business logic of your apps. Get started quickly with comprehensive technical documentation, and thousands of demos and sample apps with source code. Your apps will look stunning and perform flawlessly on any browser and device.
