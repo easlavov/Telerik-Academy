@@ -1,9 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\02. FindMaxSumOf3x3ElementsInAMAtrix\bin\Debug\_02.FindMaxSumOf3x3ElementsInAMAtrix.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\02. FindMaxSumOf3x3ElementsInAMAtrix\bin\Debug\_02.FindMaxSumOf3x3ElementsInAMAtrix.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\02. FindMaxSumOf3x3ElementsInAMAtrix\bin\Debug\_02.FindMaxSumOf3x3ElementsInAMAtrix.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\02. FindMaxSumOf3x3ElementsInAMAtrix\obj\Debug\02. FindMaxSumOf3x3ElementsInAMAtrix.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\02. FindMaxSumOf3x3ElementsInAMAtrix\obj\Debug\_02.FindMaxSumOf3x3ElementsInAMAtrix.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\02. FindMaxSumOf3x3ElementsInAMAtrix\obj\Debug\_02.FindMaxSumOf3x3ElementsInAMAtrix.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\02. FindMaxSumOf3x3ElementsInAMAtrix\bin\Debug\_02.FindMaxSumOf3x3ElementsInAMAtrix.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\02. FindMaxSumOf3x3ElementsInAMAtrix\obj\Debug\_02.FindMaxSumOf3x3ElementsInAMAtrix.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\02. FindMaxSumOf3x3ElementsInAMAtrix\obj\Debug\_02.FindMaxSumOf3x3ElementsInAMAtrix.pdb

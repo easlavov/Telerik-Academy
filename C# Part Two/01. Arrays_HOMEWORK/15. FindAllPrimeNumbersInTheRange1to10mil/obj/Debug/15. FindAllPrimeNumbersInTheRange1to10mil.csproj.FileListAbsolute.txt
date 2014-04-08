@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\15. FindAllPrimeNumbersInTheRange1to10mil\bin\Debug\_15.FindAllPrimeNumbersInTheRange1to10mil.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\15. FindAllPrimeNumbersInTheRange1to10mil\bin\Debug\_15.FindAllPrimeNumbersInTheRange1to10mil.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\15. FindAllPrimeNumbersInTheRange1to10mil\bin\Debug\_15.FindAllPrimeNumbersInTheRange1to10mil.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\15. FindAllPrimeNumbersInTheRange1to10mil\obj\Debug\_15.FindAllPrimeNumbersInTheRange1to10mil.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\15. FindAllPrimeNumbersInTheRange1to10mil\obj\Debug\_15.FindAllPrimeNumbersInTheRange1to10mil.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\15. FindAllPrimeNumbersInTheRange1to10mil\obj\Debug\15. FindAllPrimeNumbersInTheRange1to10mil.csprojResolveAssemblyReference.cache

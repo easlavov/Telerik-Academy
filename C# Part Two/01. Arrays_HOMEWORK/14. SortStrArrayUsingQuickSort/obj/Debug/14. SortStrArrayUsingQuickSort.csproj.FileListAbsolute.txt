@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\14. SortStrArrayUsingQuickSort\bin\Debug\_14.SortStrArrayUsingQuickSort.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\14. SortStrArrayUsingQuickSort\bin\Debug\_14.SortStrArrayUsingQuickSort.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\14. SortStrArrayUsingQuickSort\bin\Debug\_14.SortStrArrayUsingQuickSort.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\14. SortStrArrayUsingQuickSort\obj\Debug\14. SortStrArrayUsingQuickSort.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\14. SortStrArrayUsingQuickSort\obj\Debug\_14.SortStrArrayUsingQuickSort.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\14. SortStrArrayUsingQuickSort\obj\Debug\_14.SortStrArrayUsingQuickSort.pdb

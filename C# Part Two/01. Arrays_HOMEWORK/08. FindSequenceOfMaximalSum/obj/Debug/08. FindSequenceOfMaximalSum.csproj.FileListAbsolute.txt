@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\08. FindSequenceOfMaximalSum\bin\Debug\_08.FindSequenceOfMaximalSum.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\08. FindSequenceOfMaximalSum\bin\Debug\_08.FindSequenceOfMaximalSum.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\08. FindSequenceOfMaximalSum\bin\Debug\_08.FindSequenceOfMaximalSum.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\08. FindSequenceOfMaximalSum\obj\Debug\08. FindSequenceOfMaximalSum.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\08. FindSequenceOfMaximalSum\obj\Debug\_08.FindSequenceOfMaximalSum.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\08. FindSequenceOfMaximalSum\obj\Debug\_08.FindSequenceOfMaximalSum.pdb

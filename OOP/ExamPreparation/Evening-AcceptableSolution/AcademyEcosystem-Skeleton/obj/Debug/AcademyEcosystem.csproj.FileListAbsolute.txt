@@ -1,5 +1,0 @@
-G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\AcademyEcosystem-Skeleton\obj\Debug\AcademyEcosystem.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\AcademyEcosystem-Skeleton\bin\Debug\AcademyEcosystem.exe
-G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\AcademyEcosystem-Skeleton\bin\Debug\AcademyEcosystem.pdb
-G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\AcademyEcosystem-Skeleton\obj\Debug\AcademyEcosystem.exe
-G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\AcademyEcosystem-Skeleton\obj\Debug\AcademyEcosystem.pdb

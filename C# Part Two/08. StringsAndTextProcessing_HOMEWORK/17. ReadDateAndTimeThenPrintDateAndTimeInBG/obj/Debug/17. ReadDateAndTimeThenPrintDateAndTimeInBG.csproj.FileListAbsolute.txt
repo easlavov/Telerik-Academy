@@ -1,5 +1,0 @@
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\17. ReadDateAndTimeThenPrintDateAndTimeInBG\bin\Debug\_17.ReadDateAndTimeThenPrintDateAndTimeInBG.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\17. ReadDateAndTimeThenPrintDateAndTimeInBG\bin\Debug\_17.ReadDateAndTimeThenPrintDateAndTimeInBG.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\17. ReadDateAndTimeThenPrintDateAndTimeInBG\bin\Debug\_17.ReadDateAndTimeThenPrintDateAndTimeInBG.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\17. ReadDateAndTimeThenPrintDateAndTimeInBG\obj\Debug\_17.ReadDateAndTimeThenPrintDateAndTimeInBG.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\17. ReadDateAndTimeThenPrintDateAndTimeInBG\obj\Debug\_17.ReadDateAndTimeThenPrintDateAndTimeInBG.pdb

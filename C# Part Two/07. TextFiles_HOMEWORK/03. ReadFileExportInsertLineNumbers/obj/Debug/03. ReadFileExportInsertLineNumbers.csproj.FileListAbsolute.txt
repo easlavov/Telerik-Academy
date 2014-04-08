@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\03. ReadFileExportInsertLineNumbers\bin\Debug\_03.ReadFileExportInsertLineNumbers.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\03. ReadFileExportInsertLineNumbers\bin\Debug\_03.ReadFileExportInsertLineNumbers.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\03. ReadFileExportInsertLineNumbers\bin\Debug\_03.ReadFileExportInsertLineNumbers.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\03. ReadFileExportInsertLineNumbers\obj\Debug\_03.ReadFileExportInsertLineNumbers.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\03. ReadFileExportInsertLineNumbers\obj\Debug\_03.ReadFileExportInsertLineNumbers.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\03. ReadFileExportInsertLineNumbers\obj\Debug\03. ReadFileExportInsertLineNumbers.csprojResolveAssemblyReference.cache

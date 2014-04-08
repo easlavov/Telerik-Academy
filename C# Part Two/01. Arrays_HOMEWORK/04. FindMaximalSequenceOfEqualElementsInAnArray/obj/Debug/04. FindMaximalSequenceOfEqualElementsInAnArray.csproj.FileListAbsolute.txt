@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\04. FindMaximalSequenceOfEqualElementsInAnArray\bin\Debug\_04.FindMaximalSequenceOfEqualElementsInAnArray.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\04. FindMaximalSequenceOfEqualElementsInAnArray\bin\Debug\_04.FindMaximalSequenceOfEqualElementsInAnArray.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\04. FindMaximalSequenceOfEqualElementsInAnArray\bin\Debug\_04.FindMaximalSequenceOfEqualElementsInAnArray.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\04. FindMaximalSequenceOfEqualElementsInAnArray\obj\Debug\04. FindMaximalSequenceOfEqualElementsInAnArray.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\04. FindMaximalSequenceOfEqualElementsInAnArray\obj\Debug\_04.FindMaximalSequenceOfEqualElementsInAnArray.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\04. FindMaximalSequenceOfEqualElementsInAnArray\obj\Debug\_04.FindMaximalSequenceOfEqualElementsInAnArray.pdb

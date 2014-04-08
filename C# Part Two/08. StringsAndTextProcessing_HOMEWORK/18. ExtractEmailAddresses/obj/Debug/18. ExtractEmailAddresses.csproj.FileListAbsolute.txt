@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\18. ExtractEmailAddresses\bin\Debug\_18.ExtractEmailAddresses.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\18. ExtractEmailAddresses\obj\Debug\18. ExtractEmailAddresses.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\18. ExtractEmailAddresses\bin\Debug\_18.ExtractEmailAddresses.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\18. ExtractEmailAddresses\bin\Debug\_18.ExtractEmailAddresses.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\18. ExtractEmailAddresses\obj\Debug\_18.ExtractEmailAddresses.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\18. ExtractEmailAddresses\obj\Debug\_18.ExtractEmailAddresses.pdb

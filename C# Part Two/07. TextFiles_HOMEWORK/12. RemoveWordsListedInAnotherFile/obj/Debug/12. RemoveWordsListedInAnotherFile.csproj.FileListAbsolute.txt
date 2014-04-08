@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\12. RemoveWordsListedInAnotherFile\bin\Debug\_12.RemoveWordsListedInAnotherFile.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\12. RemoveWordsListedInAnotherFile\obj\Debug\12. RemoveWordsListedInAnotherFile.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\12. RemoveWordsListedInAnotherFile\bin\Debug\_12.RemoveWordsListedInAnotherFile.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\12. RemoveWordsListedInAnotherFile\bin\Debug\_12.RemoveWordsListedInAnotherFile.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\12. RemoveWordsListedInAnotherFile\obj\Debug\_12.RemoveWordsListedInAnotherFile.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\12. RemoveWordsListedInAnotherFile\obj\Debug\_12.RemoveWordsListedInAnotherFile.pdb

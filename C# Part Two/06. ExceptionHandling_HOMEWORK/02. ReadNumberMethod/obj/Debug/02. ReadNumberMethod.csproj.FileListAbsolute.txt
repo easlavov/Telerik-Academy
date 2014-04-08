@@ -1,8 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\02. ReadNumberMethod\bin\Debug\_02.ReadNumberMethod.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\02. ReadNumberMethod\bin\Debug\_02.ReadNumberMethod.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\02. ReadNumberMethod\bin\Debug\_02.ReadNumberMethod.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\02. ReadNumberMethod\obj\Debug\_02.ReadNumberMethod.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\02. ReadNumberMethod\obj\Debug\_02.ReadNumberMethod.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\06. ExceptionHandling_HOMEWORK\02. ReadNumberMethod\bin\Debug\_02.ReadNumberMethod.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\06. ExceptionHandling_HOMEWORK\02. ReadNumberMethod\obj\Debug\_02.ReadNumberMethod.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\06. ExceptionHandling_HOMEWORK\02. ReadNumberMethod\obj\Debug\_02.ReadNumberMethod.pdb

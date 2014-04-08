@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\AcademyGeometry\AcademyGeometry\bin\Debug\AcademyGeometry.exe.config
-G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\AcademyGeometry\AcademyGeometry\bin\Debug\AcademyGeometry.exe
-G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\AcademyGeometry\AcademyGeometry\bin\Debug\AcademyGeometry.pdb
-G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\AcademyGeometry\AcademyGeometry\obj\Debug\AcademyGeometry.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\AcademyGeometry\AcademyGeometry\obj\Debug\AcademyGeometry.exe
-G:\SkyDrive\Telerik\04. OOP\02.ExamPrep\AcademyGeometry\AcademyGeometry\obj\Debug\AcademyGeometry.pdb

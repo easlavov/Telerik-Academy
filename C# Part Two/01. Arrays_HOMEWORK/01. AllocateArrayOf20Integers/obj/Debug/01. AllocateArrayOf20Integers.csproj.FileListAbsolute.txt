@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\01. AllocateArrayOf20Integers\bin\Debug\_01.AllocateArrayOf20Integers.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\01. AllocateArrayOf20Integers\bin\Debug\_01.AllocateArrayOf20Integers.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\01. AllocateArrayOf20Integers\bin\Debug\_01.AllocateArrayOf20Integers.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\01. AllocateArrayOf20Integers\obj\Debug\01. AllocateArrayOf20Integers.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\01. AllocateArrayOf20Integers\obj\Debug\_01.AllocateArrayOf20Integers.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\01. AllocateArrayOf20Integers\obj\Debug\_01.AllocateArrayOf20Integers.pdb

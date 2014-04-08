@@ -1,9 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\13. SolveMultipleTasks\bin\Debug\_13.SolveMultipleTasks.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\13. SolveMultipleTasks\bin\Debug\_13.SolveMultipleTasks.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\13. SolveMultipleTasks\bin\Debug\_13.SolveMultipleTasks.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\13. SolveMultipleTasks\obj\Debug\13. SolveMultipleTasks.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\13. SolveMultipleTasks\obj\Debug\_13.SolveMultipleTasks.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\13. SolveMultipleTasks\obj\Debug\_13.SolveMultipleTasks.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\13. SolveMultipleTasks\bin\Debug\_13.SolveMultipleTasks.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\13. SolveMultipleTasks\obj\Debug\_13.SolveMultipleTasks.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\13. SolveMultipleTasks\obj\Debug\_13.SolveMultipleTasks.pdb

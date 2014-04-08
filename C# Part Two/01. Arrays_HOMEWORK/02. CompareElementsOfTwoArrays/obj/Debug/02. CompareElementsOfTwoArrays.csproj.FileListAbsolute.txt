@@ -1,5 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\02. CompareElementsOfTwoArrays\bin\Debug\_02.CompareElementsOfTwoArrays.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\02. CompareElementsOfTwoArrays\bin\Debug\_02.CompareElementsOfTwoArrays.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\02. CompareElementsOfTwoArrays\bin\Debug\_02.CompareElementsOfTwoArrays.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\02. CompareElementsOfTwoArrays\obj\Debug\_02.CompareElementsOfTwoArrays.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\02. CompareElementsOfTwoArrays\obj\Debug\_02.CompareElementsOfTwoArrays.pdb

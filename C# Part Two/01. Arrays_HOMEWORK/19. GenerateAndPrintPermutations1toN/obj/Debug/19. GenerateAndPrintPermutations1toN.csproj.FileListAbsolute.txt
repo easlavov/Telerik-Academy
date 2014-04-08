@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\19. GenerateAndPrintPermutations1toN\bin\Debug\_19.GenerateAndPrintPermutations1toN.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\19. GenerateAndPrintPermutations1toN\obj\Debug\19. GenerateAndPrintPermutations1toN.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\19. GenerateAndPrintPermutations1toN\bin\Debug\_19.GenerateAndPrintPermutations1toN.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\19. GenerateAndPrintPermutations1toN\bin\Debug\_19.GenerateAndPrintPermutations1toN.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\19. GenerateAndPrintPermutations1toN\obj\Debug\_19.GenerateAndPrintPermutations1toN.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\19. GenerateAndPrintPermutations1toN\obj\Debug\_19.GenerateAndPrintPermutations1toN.pdb

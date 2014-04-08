@@ -1,9 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\03. FindLongestSequenceOfEqualStrings\bin\Debug\_03.FindLongestSequenceOfEqualStrings.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\03. FindLongestSequenceOfEqualStrings\obj\Debug\03. FindLongestSequenceOfEqualStrings.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\03. FindLongestSequenceOfEqualStrings\bin\Debug\_03.FindLongestSequenceOfEqualStrings.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\03. FindLongestSequenceOfEqualStrings\bin\Debug\_03.FindLongestSequenceOfEqualStrings.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\03. FindLongestSequenceOfEqualStrings\obj\Debug\_03.FindLongestSequenceOfEqualStrings.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\03. FindLongestSequenceOfEqualStrings\obj\Debug\_03.FindLongestSequenceOfEqualStrings.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\03. FindLongestSequenceOfEqualStrings\bin\Debug\_03.FindLongestSequenceOfEqualStrings.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\03. FindLongestSequenceOfEqualStrings\obj\Debug\_03.FindLongestSequenceOfEqualStrings.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\03. FindLongestSequenceOfEqualStrings\obj\Debug\_03.FindLongestSequenceOfEqualStrings.pdb

@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\21. GenerateAndPrintCombinationsOfKfrom1toN\bin\Debug\_21.GenerateAndPrintCombinationsOfKfrom1toN.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\21. GenerateAndPrintCombinationsOfKfrom1toN\bin\Debug\_21.GenerateAndPrintCombinationsOfKfrom1toN.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\21. GenerateAndPrintCombinationsOfKfrom1toN\bin\Debug\_21.GenerateAndPrintCombinationsOfKfrom1toN.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\21. GenerateAndPrintCombinationsOfKfrom1toN\obj\Debug\21. GenerateAndPrintCombinationsOfKfrom1toN.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\21. GenerateAndPrintCombinationsOfKfrom1toN\obj\Debug\_21.GenerateAndPrintCombinationsOfKfrom1toN.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\21. GenerateAndPrintCombinationsOfKfrom1toN\obj\Debug\_21.GenerateAndPrintCombinationsOfKfrom1toN.pdb

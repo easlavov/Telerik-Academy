@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\01. PrintOddLinesOfATextFile\bin\Debug\_01.PrintOddLinesOfATextFile.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\01. PrintOddLinesOfATextFile\obj\Debug\01. PrintOddLinesOfATextFile.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\01. PrintOddLinesOfATextFile\bin\Debug\_01.PrintOddLinesOfATextFile.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\01. PrintOddLinesOfATextFile\bin\Debug\_01.PrintOddLinesOfATextFile.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\01. PrintOddLinesOfATextFile\obj\Debug\_01.PrintOddLinesOfATextFile.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\01. PrintOddLinesOfATextFile\obj\Debug\_01.PrintOddLinesOfATextFile.pdb

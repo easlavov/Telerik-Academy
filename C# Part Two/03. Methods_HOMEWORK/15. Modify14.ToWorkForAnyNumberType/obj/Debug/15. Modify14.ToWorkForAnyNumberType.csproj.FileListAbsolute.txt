@@ -1,9 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\15. Modify14.ToWorkForAnyNumberType\bin\Debug\_15.Modify14.ToWorkForAnyNumberType.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\15. Modify14.ToWorkForAnyNumberType\bin\Debug\_15.Modify14.ToWorkForAnyNumberType.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\15. Modify14.ToWorkForAnyNumberType\bin\Debug\_15.Modify14.ToWorkForAnyNumberType.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\15. Modify14.ToWorkForAnyNumberType\obj\Debug\15. Modify14.ToWorkForAnyNumberType.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\15. Modify14.ToWorkForAnyNumberType\obj\Debug\_15.Modify14.ToWorkForAnyNumberType.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\15. Modify14.ToWorkForAnyNumberType\obj\Debug\_15.Modify14.ToWorkForAnyNumberType.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\15. Modify14.ToWorkForAnyNumberType\bin\Debug\_15.Modify14.ToWorkForAnyNumberType.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\15. Modify14.ToWorkForAnyNumberType\obj\Debug\_15.Modify14.ToWorkForAnyNumberType.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\15. Modify14.ToWorkForAnyNumberType\obj\Debug\_15.Modify14.ToWorkForAnyNumberType.pdb

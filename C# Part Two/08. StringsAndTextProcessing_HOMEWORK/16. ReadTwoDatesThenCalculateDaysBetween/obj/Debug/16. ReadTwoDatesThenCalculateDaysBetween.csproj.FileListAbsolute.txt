@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\16. ReadTwoDatesThenCalculateDaysBetween\bin\Debug\_16.ReadTwoDatesThenCalculateDaysBetween.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\16. ReadTwoDatesThenCalculateDaysBetween\obj\Debug\16. ReadTwoDatesThenCalculateDaysBetween.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\16. ReadTwoDatesThenCalculateDaysBetween\bin\Debug\_16.ReadTwoDatesThenCalculateDaysBetween.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\16. ReadTwoDatesThenCalculateDaysBetween\bin\Debug\_16.ReadTwoDatesThenCalculateDaysBetween.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\16. ReadTwoDatesThenCalculateDaysBetween\obj\Debug\_16.ReadTwoDatesThenCalculateDaysBetween.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\16. ReadTwoDatesThenCalculateDaysBetween\obj\Debug\_16.ReadTwoDatesThenCalculateDaysBetween.pdb

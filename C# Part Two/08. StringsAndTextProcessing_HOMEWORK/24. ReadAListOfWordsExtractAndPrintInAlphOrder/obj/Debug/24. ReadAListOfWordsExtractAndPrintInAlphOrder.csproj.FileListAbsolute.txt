@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\24. ReadAListOfWordsExtractAndPrintInAlphOrder\bin\Debug\_24.ReadAListOfWordsExtractAndPrintInAlphOrder.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\24. ReadAListOfWordsExtractAndPrintInAlphOrder\bin\Debug\_24.ReadAListOfWordsExtractAndPrintInAlphOrder.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\24. ReadAListOfWordsExtractAndPrintInAlphOrder\bin\Debug\_24.ReadAListOfWordsExtractAndPrintInAlphOrder.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\24. ReadAListOfWordsExtractAndPrintInAlphOrder\obj\Debug\24. ReadAListOfWordsExtractAndPrintInAlphOrder.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\24. ReadAListOfWordsExtractAndPrintInAlphOrder\obj\Debug\_24.ReadAListOfWordsExtractAndPrintInAlphOrder.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\08. StringsAndTextProcessing_HOMEWORK\24. ReadAListOfWordsExtractAndPrintInAlphOrder\obj\Debug\_24.ReadAListOfWordsExtractAndPrintInAlphOrder.pdb

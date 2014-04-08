@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\20. GenerateAndPrintVariations1toN\bin\Debug\_20.GenerateAndPrintVariations1toN.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\20. GenerateAndPrintVariations1toN\bin\Debug\_20.GenerateAndPrintVariations1toN.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\20. GenerateAndPrintVariations1toN\bin\Debug\_20.GenerateAndPrintVariations1toN.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\20. GenerateAndPrintVariations1toN\obj\Debug\20. GenerateAndPrintVariations1toN.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\20. GenerateAndPrintVariations1toN\obj\Debug\_20.GenerateAndPrintVariations1toN.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\20. GenerateAndPrintVariations1toN\obj\Debug\_20.GenerateAndPrintVariations1toN.pdb

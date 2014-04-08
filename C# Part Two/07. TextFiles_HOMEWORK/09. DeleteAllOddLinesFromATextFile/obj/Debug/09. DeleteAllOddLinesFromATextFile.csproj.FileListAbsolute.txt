@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\09. DeleteAllOddLinesFromATextFile\bin\Debug\_09.DeleteAllOddLinesFromATextFile.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\09. DeleteAllOddLinesFromATextFile\bin\Debug\_09.DeleteAllOddLinesFromATextFile.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\09. DeleteAllOddLinesFromATextFile\bin\Debug\_09.DeleteAllOddLinesFromATextFile.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\09. DeleteAllOddLinesFromATextFile\obj\Debug\09. DeleteAllOddLinesFromATextFile.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\09. DeleteAllOddLinesFromATextFile\obj\Debug\_09.DeleteAllOddLinesFromATextFile.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\09. DeleteAllOddLinesFromATextFile\obj\Debug\_09.DeleteAllOddLinesFromATextFile.pdb

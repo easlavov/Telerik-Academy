@@ -1,5 +1,0 @@
-D:\Downloads\PracticeExam17.11.2013\SoftwareAcademy-Skeleton\bin\Debug\SoftwareAcademy.exe
-D:\Downloads\PracticeExam17.11.2013\SoftwareAcademy-Skeleton\bin\Debug\SoftwareAcademy.pdb
-D:\Downloads\PracticeExam17.11.2013\SoftwareAcademy-Skeleton\obj\Debug\SoftwareAcademy.csprojResolveAssemblyReference.cache
-D:\Downloads\PracticeExam17.11.2013\SoftwareAcademy-Skeleton\obj\Debug\SoftwareAcademy.exe
-D:\Downloads\PracticeExam17.11.2013\SoftwareAcademy-Skeleton\obj\Debug\SoftwareAcademy.pdb

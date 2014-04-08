@@ -1,9 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\14. ArithmeticOperationsMethods\bin\Debug\_14.ArithmeticOperationsMethods.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\14. ArithmeticOperationsMethods\bin\Debug\_14.ArithmeticOperationsMethods.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\14. ArithmeticOperationsMethods\bin\Debug\_14.ArithmeticOperationsMethods.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\14. ArithmeticOperationsMethods\obj\Debug\14. ArithmeticOperationsMethods.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\14. ArithmeticOperationsMethods\obj\Debug\_14.ArithmeticOperationsMethods.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\14. ArithmeticOperationsMethods\obj\Debug\_14.ArithmeticOperationsMethods.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\14. ArithmeticOperationsMethods\bin\Debug\_14.ArithmeticOperationsMethods.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\14. ArithmeticOperationsMethods\obj\Debug\_14.ArithmeticOperationsMethods.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\14. ArithmeticOperationsMethods\obj\Debug\_14.ArithmeticOperationsMethods.pdb

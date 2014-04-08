@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\5. Neurons\bin\Debug\_5.Neurons.exe.config
-G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\5. Neurons\bin\Debug\_5.Neurons.exe
-G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\5. Neurons\bin\Debug\_5.Neurons.pdb
-G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\5. Neurons\obj\Debug\5. Neurons.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\5. Neurons\obj\Debug\_5.Neurons.exe
-G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\5. Neurons\obj\Debug\_5.Neurons.pdb

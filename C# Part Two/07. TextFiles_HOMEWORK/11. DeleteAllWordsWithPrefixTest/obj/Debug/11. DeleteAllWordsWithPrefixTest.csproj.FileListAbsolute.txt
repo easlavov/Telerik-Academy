@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\11. DeleteAllWordsWithPrefixTest\bin\Debug\_11.DeleteAllWordsWithPrefixTest.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\11. DeleteAllWordsWithPrefixTest\bin\Debug\_11.DeleteAllWordsWithPrefixTest.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\11. DeleteAllWordsWithPrefixTest\bin\Debug\_11.DeleteAllWordsWithPrefixTest.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\11. DeleteAllWordsWithPrefixTest\obj\Debug\11. DeleteAllWordsWithPrefixTest.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\11. DeleteAllWordsWithPrefixTest\obj\Debug\_11.DeleteAllWordsWithPrefixTest.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\07. TextFiles_HOMEWORK\11. DeleteAllWordsWithPrefixTest\obj\Debug\_11.DeleteAllWordsWithPrefixTest.pdb

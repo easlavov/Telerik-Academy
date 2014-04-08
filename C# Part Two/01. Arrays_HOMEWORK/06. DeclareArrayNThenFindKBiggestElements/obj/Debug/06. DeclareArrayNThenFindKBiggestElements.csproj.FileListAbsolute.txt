@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\06. DeclareArrayNThenFindKBiggestElements\bin\Debug\_06.DeclareArrayNThenFindKBiggestElements.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\06. DeclareArrayNThenFindKBiggestElements\bin\Debug\_06.DeclareArrayNThenFindKBiggestElements.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\06. DeclareArrayNThenFindKBiggestElements\bin\Debug\_06.DeclareArrayNThenFindKBiggestElements.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\06. DeclareArrayNThenFindKBiggestElements\obj\Debug\06. DeclareArrayNThenFindKBiggestElements.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\06. DeclareArrayNThenFindKBiggestElements\obj\Debug\_06.DeclareArrayNThenFindKBiggestElements.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\06. DeclareArrayNThenFindKBiggestElements\obj\Debug\_06.DeclareArrayNThenFindKBiggestElements.pdb

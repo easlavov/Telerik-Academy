@@ -1,9 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\04. DownloadAndStoreAFile\bin\Debug\_04.DownloadAndStoreAFile.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\04. DownloadAndStoreAFile\bin\Debug\_04.DownloadAndStoreAFile.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\04. DownloadAndStoreAFile\bin\Debug\_04.DownloadAndStoreAFile.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\04. DownloadAndStoreAFile\obj\Debug\04. DownloadAndStoreAFile.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\04. DownloadAndStoreAFile\obj\Debug\_04.DownloadAndStoreAFile.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\06. ExceptionHandling_HOMEWORK\04. DownloadAndStoreAFile\obj\Debug\_04.DownloadAndStoreAFile.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\06. ExceptionHandling_HOMEWORK\04. DownloadAndStoreAFile\bin\Debug\_04.DownloadAndStoreAFile.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\06. ExceptionHandling_HOMEWORK\04. DownloadAndStoreAFile\obj\Debug\_04.DownloadAndStoreAFile.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\06. ExceptionHandling_HOMEWORK\04. DownloadAndStoreAFile\obj\Debug\_04.DownloadAndStoreAFile.pdb

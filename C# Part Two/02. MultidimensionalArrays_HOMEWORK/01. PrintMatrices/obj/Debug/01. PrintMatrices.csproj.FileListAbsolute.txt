@@ -1,9 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\01. PrintMatrices\bin\Debug\_01.PrintMatrices.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\01. PrintMatrices\bin\Debug\_01.PrintMatrices.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\01. PrintMatrices\bin\Debug\_01.PrintMatrices.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\01. PrintMatrices\obj\Debug\01. PrintMatrices.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\01. PrintMatrices\obj\Debug\_01.PrintMatrices.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\01. PrintMatrices\obj\Debug\_01.PrintMatrices.pdb
-G:\SkyDrive\Telerik\02. CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\01. PrintMatrices\bin\Debug\_01.PrintMatrices.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\01. PrintMatrices\obj\Debug\_01.PrintMatrices.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\02. MultidimensionalArrays_HOMEWORK\01. PrintMatrices\obj\Debug\_01.PrintMatrices.pdb

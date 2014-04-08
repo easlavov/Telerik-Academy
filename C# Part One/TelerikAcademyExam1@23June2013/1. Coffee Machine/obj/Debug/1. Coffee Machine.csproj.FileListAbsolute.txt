@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\1. Coffee Machine\bin\Debug\_1.Coffee_Machine.exe.config
-G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\1. Coffee Machine\obj\Debug\1. Coffee Machine.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\1. Coffee Machine\bin\Debug\_1.Coffee_Machine.exe
-G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\1. Coffee Machine\bin\Debug\_1.Coffee_Machine.pdb
-G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\1. Coffee Machine\obj\Debug\_1.Coffee_Machine.exe
-G:\SkyDrive\Telerik\01. CSharp1\TelerikAcademyExam1@23June2013\1. Coffee Machine\obj\Debug\_1.Coffee_Machine.pdb

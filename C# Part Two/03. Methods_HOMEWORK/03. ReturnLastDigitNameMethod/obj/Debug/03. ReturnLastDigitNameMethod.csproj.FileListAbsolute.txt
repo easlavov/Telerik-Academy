@@ -1,9 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\03. ReturnLastDigitNameMethod\bin\Debug\_03.ReturnLastDigitNameMethod.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\03. ReturnLastDigitNameMethod\bin\Debug\_03.ReturnLastDigitNameMethod.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\03. ReturnLastDigitNameMethod\bin\Debug\_03.ReturnLastDigitNameMethod.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\03. ReturnLastDigitNameMethod\obj\Debug\_03.ReturnLastDigitNameMethod.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\03. ReturnLastDigitNameMethod\obj\Debug\_03.ReturnLastDigitNameMethod.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\03. Methods_HOMEWORK\03. ReturnLastDigitNameMethod\obj\Debug\03. ReturnLastDigitNameMethod.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\03. ReturnLastDigitNameMethod\bin\Debug\_03.ReturnLastDigitNameMethod.exe.config
-G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\03. ReturnLastDigitNameMethod\obj\Debug\_03.ReturnLastDigitNameMethod.exe
-G:\SkyDrive\Telerik\02. CSharp2\Homework\03. Methods_HOMEWORK\03. ReturnLastDigitNameMethod\obj\Debug\_03.ReturnLastDigitNameMethod.pdb

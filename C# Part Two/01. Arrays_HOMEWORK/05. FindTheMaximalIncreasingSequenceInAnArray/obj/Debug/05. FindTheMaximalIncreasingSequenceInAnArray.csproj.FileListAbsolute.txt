@@ -1,6 +1,0 @@
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\05. FindTheMaximalIncreasingSequenceInAnArray\bin\Debug\_05.FindTheMaximalIncreasingSequenceInAnArray.exe.config
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\05. FindTheMaximalIncreasingSequenceInAnArray\bin\Debug\_05.FindTheMaximalIncreasingSequenceInAnArray.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\05. FindTheMaximalIncreasingSequenceInAnArray\bin\Debug\_05.FindTheMaximalIncreasingSequenceInAnArray.pdb
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\05. FindTheMaximalIncreasingSequenceInAnArray\obj\Debug\05. FindTheMaximalIncreasingSequenceInAnArray.csprojResolveAssemblyReference.cache
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\05. FindTheMaximalIncreasingSequenceInAnArray\obj\Debug\_05.FindTheMaximalIncreasingSequenceInAnArray.exe
-G:\SkyDrive\Telerik\CSharp2\Homework\01. Arrays_HOMEWORK\05. FindTheMaximalIncreasingSequenceInAnArray\obj\Debug\_05.FindTheMaximalIncreasingSequenceInAnArray.pdb
