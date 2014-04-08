@@ -1,0 +1,28 @@
+div {
+	width: 800px;
+}
+	
+	textarea, div div {
+		width:48%;
+		height:350px;
+		display:inline-block;
+		margin-bottom:5px;
+		margin-right:5px;
+	}
+	
+	#cloud-div {
+		border: 1px solid black;
+	}
+		
+		span {
+			margin: 8px;
+			display: inline-block;
+		}
+	
+	#source {
+		float:left;
+	}
+
+	input {
+		width:40%;
+	}

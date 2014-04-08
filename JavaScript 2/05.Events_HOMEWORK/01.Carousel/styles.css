@@ -1,0 +1,22 @@
+div, button {
+	float:left;
+}
+
+button {
+	margin-top:130px;
+}
+
+div {
+	width:1000px;
+	height:300px;
+	border:1px solid black;
+	padding-left:40px;
+}
+
+	div img {
+		max-width:300px;
+		height:auto;
+		margin-left:5px;
+		border:1px solid black;
+	}
+

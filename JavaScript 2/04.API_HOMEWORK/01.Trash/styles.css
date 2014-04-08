@@ -1,0 +1,41 @@
+#game-wrapper{
+	width:1000px;
+	height:600px;
+	border:2px solid black;
+	float:left;
+	margin-right: 5px;
+}
+	#bin{
+		max-width:150px;
+		height:auto;
+	}
+	
+	.junk{
+		max-width:50px;
+		height:auto;
+	}
+#scoreboard {
+	width:300px;
+	height:350px;
+	border:2px solid black;
+	float:left;
+	margin-left:5px;
+	text-align:center;
+}
+	#caption {
+		font-size: 24px;
+		font-weight: bold;
+		margin-top:50px;
+		margin-bottom: 40px;
+		color: red;
+	}
+	
+	#highscores div {
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+
+#clear-storage-button {
+	display: block;
+}

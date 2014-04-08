@@ -1,0 +1,10 @@
+div{
+	width:400px;
+	height:400px;
+	background-color:red;
+}
+	div div{
+		width: 100px;
+		height: 100px;
+		background-color:blue;
+	}
