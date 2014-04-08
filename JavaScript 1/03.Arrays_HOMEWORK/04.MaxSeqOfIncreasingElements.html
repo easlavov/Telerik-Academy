@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find longest sequence of increasing elements</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var array = [3, 2, 3, 4, 2, 2, 4, 5, 6, 9, 10, 2, 1, 3, 2, 3, 4, 5, 1, 3, 4, 8],
+            i,
+            currentStreak = 1,
+            longestStreak = 0,
+            lastCharIndex;
+
+        jsConsole.writeLine('The sequence is ' + array);
+        for (i = 1; i < array.length; i++) {
+            if (array[i] > array[i - 1]) {
+                currentStreak++;
+                if (currentStreak > longestStreak) {
+                    longestStreak = currentStreak;
+                    lastCharIndex = i;
+                }
+            }
+            else {
+                currentStreak = 1;
+            }
+        }
+
+        if (longestStreak > 1) {
+            jsConsole.write('The longest sequence of increasing elements is: ')
+            for (i = 0; i < longestStreak; i++) {
+                jsConsole.write(array[lastCharIndex - longestStreak + 1 + i] + ' ');
+            }
+        }
+        else {
+            jsConsole.writeLine('There is no sequence of equal elements!')
+        }
+    </script>
+
+</body>
+</html>

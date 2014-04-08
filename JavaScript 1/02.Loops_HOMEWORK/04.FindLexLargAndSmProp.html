@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Finds the lexicographically smallest and largest property in document, 
+           window and navigator objects</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        // The solution finds the smallest and largest elements in document,
+        // window and navigator as a whole (not separately).
+        var smallest = document.activeElement.toString(),
+            largest = "";
+        for (var prop in document) {
+            if (prop.toString() > largest) {
+                largest = prop.toString();
+            }
+            if (prop.toString() < smallest) {
+                smallest = prop.toString();
+            }
+        }
+
+        for (var prop in window) {
+            if (prop.toString() > largest) {
+                largest = prop.toString();
+            }
+            if (prop.toString() < smallest) {
+                smallest = prop.toString();
+            }
+        }
+
+        for (var prop in navigator) {
+            if (prop.toString() > largest) {
+                largest = prop.toString();
+            }
+            if (prop.toString() < smallest) {
+                smallest = prop.toString();
+            }
+        }
+
+        jsConsole.writeLine("Smallest property: " + smallest);
+        jsConsole.writeLine("Largest property: " + largest);        
+    </script>
+</body>
+</html>

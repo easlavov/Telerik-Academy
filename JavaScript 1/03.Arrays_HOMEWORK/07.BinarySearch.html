@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Binary search</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var sortedArray = [-20, 0, 15, 16, 18, 315, 1000, 450000, 10000000],
+            left = 0,
+            right = sortedArray.length - 1,
+            middle,
+            index,
+            number = 15;
+
+        jsConsole.writeLine('The sorted array is: ' + sortedArray);
+        while (true) {
+            if (right < left) {
+                index = -1;
+                break;
+            }
+            middle = Math.floor((right + left) / 2);
+            if (number < sortedArray[middle]) {
+                right = middle - 1;
+                continue;
+            }
+            else if (number > sortedArray[middle]) {
+                left = middle + 1;
+                continue;
+            }
+            else if (number == sortedArray[middle]) {
+                index = middle;
+                break;
+            }
+        }
+
+        if (index >= 0) {
+            jsConsole.writeLine('The index of ' + number + ' is ' + index);
+        }
+        else {
+            jsConsole.writeLine('The number ' + number + ' is not present in the array');
+        }
+    </script>
+</body>
+</html>

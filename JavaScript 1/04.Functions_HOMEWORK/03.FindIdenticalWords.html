@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Find all the occurrences of word in a text</title>
+    <link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="js-console"></div>
+    <script src="scripts/js-console.js"></script>
+    <script>
+        var input = 'This is just some text, with even more TEXT and text.';
+        jsConsole.writeLine(input);
+
+        function countWord(input, word, isCaseSensitive) {
+            switch (isCaseSensitive) {
+                case true: return countCaseSensitive(input, word); break;
+                default: return countCaseInsensitive(input, word); break;
+            }
+
+            function countCaseInsensitive(input, word) {
+                var matches = input.match(/\b\w*\b/g);
+                var counter = 0;
+                word = word.toLowerCase();
+                for (var i = 0; i < matches.length; i++) {
+                    if (matches[i].toLowerCase() === word) {
+                        counter++;
+                    }
+                }
+                return counter;
+            }
+
+            function countCaseSensitive(input, word) {
+                var matches = input.match(/\b\w*\b/g);
+                var counter = 0;
+                for (var i = 0; i < matches.length; i++) {
+                    if (matches[i] === word) {
+                        counter++;
+                    }
+                }
+                return counter;
+            }
+            
+        }
+
+        jsConsole.writeLine('Looking for the word "text".');
+        jsConsole.writeLine('Case insensitive search returns ' + countWord(input, 'text'));
+        jsConsole.writeLine('Case sensitive search returns ' + countWord(input, 'text', true));        
+    </script>
+</body>
+</html>
