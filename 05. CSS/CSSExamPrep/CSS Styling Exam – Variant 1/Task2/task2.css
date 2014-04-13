@@ -1,0 +1,131 @@
+﻿body,
+div,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+body #wrapper {
+  font-size: 1.0em;
+}
+body #wrapper .tab-strip {
+  list-style-type: none;
+  border: 1px solid black;
+  height: 230px;
+  width: 325px;
+  border-radius: 5px;
+}
+body #wrapper .tab-strip > li {
+  float: left;
+  padding: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid black;
+  border-left: none;
+  border-top: none;
+  border-radius: 5px;
+  background: #ededed;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ededed 0%, #ababab 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ededed), color-stop(100%, #ababab));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ededed 0%, #ababab 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ededed 0%, #ababab 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ededed 0%, #ababab 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ededed 0%, #ababab 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ababab', GradientType=0);
+  /* IE6-9 */
+}
+body #wrapper .tab-strip > li:focus a {
+  font-weight: bold;
+}
+body #wrapper .tab-strip > li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4em;
+}
+body #wrapper .tab-strip > li div {
+  display: none;
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  width: 400px;
+}
+body #wrapper .tab-strip > li div ul {
+  list-style-type: disc;
+}
+body #wrapper .tab-strip > li div ul li ul {
+  list-style-type: lower-alpha;
+  margin-left: 25px;
+}
+body #wrapper .tab-strip > li div table {
+  border-collapse: collapse;
+}
+body #wrapper .tab-strip > li div table th,
+body #wrapper .tab-strip > li div table td {
+  border: 1px solid black;
+}
+body #wrapper .tab-strip > li div table thead {
+  background: #ababab;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ababab 0%, #ededed 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ababab), color-stop(100%, #ededed));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ababab 0%, #ededed 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ababab 0%, #ededed 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ababab 0%, #ededed 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ababab 0%, #ededed 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ababab', endColorstr='#ededed', GradientType=0);
+  /* IE6-9 */
+}
+body #wrapper .tab-strip > li div table thead th {
+  padding: 5px;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+body #wrapper .tab-strip > li div table td {
+  padding: 10px;
+  padding-left: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #ededed;
+}
+body #wrapper .tab-strip > li:first-child {
+  border-left: none;
+}
+body #wrapper .tab-strip > li:last-child {
+  border-right: none;
+}
+body #wrapper .tab-strip > li:hover {
+  background: #EEEEEE;
+}
+body #wrapper .tab-strip .current {
+  background: none;
+  border: none;
+  border-radius: 0;
+  border-right: 1px solid black;
+}
+body #wrapper .tab-strip .current a {
+  font-weight: bold;
+}
+body #wrapper .tab-strip .current > div {
+  display: block;
+}
+/*# sourceMappingURL=task2.css.map */

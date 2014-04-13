@@ -1,0 +1,136 @@
+﻿@default-font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+@default-font-size: 16px;
+@default-border-radius: 14px;
+@default-text-color: #555555;
+
+.gradient (@top-color, @bottom-color) {
+    background: @top-color; /* Old browsers */
+    background: -moz-linear-gradient(top, @top-color 0%, @bottom-color 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,@top-color), color-stop(100%,@bottom-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @top-color 0%,@bottom-color 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @top-color 0%,@bottom-color 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @top-color 0%,@bottom-color 100%); /* IE10+ */
+    background: linear-gradient(to bottom, @top-color 0%,@bottom-color 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@top-color', endColorstr='@bottom-color',GradientType=0 ); /* IE6-9 */
+        
+}
+
+.clearFix() {
+    zoom: 1;
+
+    &:after {
+        display: block;
+        content: "";
+        height: 0;
+        clear: both;
+    }
+}
+
+body, div, h1, ul, li, p, span, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 960px;
+
+    #wrapper {
+        width: 380px;        
+        height: 463px;
+        margin: 30px;
+        border: 1px solid black;
+        border-radius: @default-border-radius;
+        .gradient(#eeeeee, #aaaaaa);
+        
+        div {
+            font-family: @default-font-family;            
+            color: @default-text-color;
+            padding-left:15px;
+            padding-right:15px;                   
+
+            h1 {
+                font-size: 1.8em;
+                text-align: center;
+                margin-top:15px;
+                margin-bottom:10px;
+            }
+
+            .messages-list {
+                list-style-type:none;
+
+                li {
+                    width:200px;
+                    height:60px;                    
+                    margin-bottom:5px;
+                    padding-left:15px;
+                    padding-right:15px;
+                    padding-top:5px;
+                    border: 1px solid black;
+                    border-radius:@default-border-radius;
+                    .clearFix();
+
+                    span {
+                        display:block;
+                        font-size: 1.1em;
+                        font-weight:bold;
+                    }
+
+                    p {
+                        text-align:justify;
+                    }
+
+                    .date {                        
+                        font-weight:normal;
+                        font-family:Consolas;
+                        font-size: 0.8em;
+                    }
+                }
+
+                .me-item {
+                    .gradient(#29EDFF, #C0FAFF);
+                    float:right;
+
+                    span:last-of-type {
+                        text-align:right;
+                    }
+                }
+
+                .toshko-item {
+                    .gradient(#DFFFD2, #6FFF3B);
+                    float:left;
+
+                    span:first-of-type {
+                        text-align:right;
+                    }
+                }
+            }
+
+            input[type='text'] {
+                margin-top:2px;
+                margin-right:2px;
+                padding-left:15px;
+                width:260px;
+                height:35px;
+                background-color:#eeeeee;
+                border:none;
+                border-radius:5px;                
+                color:@default-text-color;
+            }
+
+            button {
+                width:69px;
+                height:31px;  
+                padding-bottom:4px;
+                border:none;
+                border-radius:5px;
+                font-size:1.1em;
+                              
+                .gradient(#EDEDED,#ADADAD);
+
+                &:hover {
+                    background:#eeeeee;
+                }
+            }
+        }
+    }
+}

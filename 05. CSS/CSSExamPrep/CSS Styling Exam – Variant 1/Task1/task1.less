@@ -1,0 +1,79 @@
+﻿@default-font-size: 16px;
+@main-bg-color: #8977FF;
+@border-color: #9D00FF;
+@default-font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+
+body {
+    font-size: @default-font-size;
+
+    div {
+        margin: 10px;
+        margin-left: 12px;
+
+        aside {
+            ul {
+                margin: 0;
+                padding: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+                border-radius: 10px;
+                display: inline-table;
+                list-style-type: none;
+                background: #d29bff; /* Old browsers */
+                background: -moz-linear-gradient(top, #d29bff 0%, #8977ff 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d29bff), color-stop(100%,#8977ff)); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top, #d29bff 0%,#8977ff 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top, #d29bff 0%,#8977ff 100%); /* Opera 11.10+ */
+                background: -ms-linear-gradient(top, #d29bff 0%,#8977ff 100%); /* IE10+ */
+                background: linear-gradient(to bottom, #d29bff 0%,#8977ff 100%); /* W3C */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d29bff', endColorstr='#8977ff',GradientType=0 ); /* IE6-9 */
+                li {
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    border-bottom: 1px solid @border-color;
+                    position: relative;
+
+                    a {
+                        padding: 15px;
+                        text-decoration: none;
+                        font-family: @default-font-family;
+                        font-size: 1.4em;
+                        color: black;
+                    }
+
+                    ul {                        
+                        background: #B5AAFF;                        
+                        background-image: url(imgs/arrow.png);
+                        background-position: 5px 15px;
+                        background-repeat: no-repeat;
+                        display: none;
+                        position: absolute;
+                        left: 190px;
+                        top: -5px;
+                        width: 220px;
+                        padding-right: 5px;
+                        padding-left:20px;
+
+                        li {
+                            text-align: center;
+                            font-size: 0.8em;
+                        }
+                    }
+
+                    &:last-child {
+                        border: none;
+                    }
+
+                    &:hover {
+                        border-radius: 5px;
+                        border: 1px solid @border-color;
+                    }
+
+                    &:hover ul {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+}
