@@ -1,0 +1,111 @@
+﻿@default-font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+@default-font-size: 16px;
+
+.gradient (@top-color, @top-perc, @bottom-color, @bottom-perc) {
+    background: @top-color; /* Old browsers */
+    background: -moz-linear-gradient(top, @top-color @top-perc, @bottom-color @bottom-perc); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@top-perc,@top-color), color-stop(@bottom-perc,@bottom-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* IE10+ */
+    background: linear-gradient(to bottom, @top-color @top-perc,@bottom-color @bottom-perc); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@top-color', endColorstr='@bottom-color',GradientType=0 ); /* IE6-9 */
+}
+
+body, div, ul, li, a, img, span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: @default-font-family;
+    font-size: @default-font-size;
+
+
+    #wrapper {
+        width: 960px;
+
+        .notification-list {
+            margin-top: 25px;
+            margin-left: 25px;
+            list-style-type: none;
+            border: 1px solid black;
+            width: 470px;
+            border-top-right-radius: 15px;
+            border-top-left-radius: 15px;
+            border-bottom: none;
+            .gradient(#ABABAB, 0, #DDDDDD, 80%);
+
+            & > li{
+                border-bottom:1px solid black;
+            }
+
+            li {
+                display: inline-block;
+                border-right: 1px solid black;
+                height: 20px;
+                padding: 5px 15px;
+
+                &:first-of-type {
+                }
+
+                &:last-of-type {
+                    border-right: none;
+                }
+
+                a {
+                    text-decoration: none;
+                    display: block;
+                    color: #777777;
+
+                    img {
+                        max-height: 15px;
+                        width: auto;
+                    }
+
+                    span {
+                        font-size: 1.2em;
+                    }
+                }
+
+                .content {
+                    display: none;
+                    position: absolute;
+                    width: 470px;
+                    top: 57px;
+                    left: 25px;                    
+                    border:1px solid black;
+                    border-top: none;
+                    .gradient(#ddd, 100%, #ABABAB, 0%);
+                }
+
+                &:hover {
+                    border-bottom:none;
+                }
+
+                &:hover .content {
+                    display: block;                    
+
+                    ul {
+                        list-style-type: none;
+
+                        li {
+                            display: inline-block;
+                            border:none;
+
+                            a {
+                                font-size: 1.0em;
+
+                                span {
+                                    font-size: 1.0em;
+                                    
+                                margin-left:5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

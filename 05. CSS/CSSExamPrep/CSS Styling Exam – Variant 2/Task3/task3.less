@@ -1,0 +1,100 @@
+﻿@default-font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+@default-font-size: 16px;
+
+.gradient (@top-color, @top-perc, @bottom-color, @bottom-perc) {
+    background: @top-color; /* Old browsers */
+    background: -moz-linear-gradient(top, @top-color @top-perc, @bottom-color @bottom-perc); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@top-perc,@top-color), color-stop(@bottom-perc,@bottom-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* IE10+ */
+    background: linear-gradient(to bottom, @top-color @top-perc,@bottom-color @bottom-perc); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@top-color', endColorstr='@bottom-color',GradientType=0 ); /* IE6-9 */
+}
+
+body {
+    width: 960px;
+    font-size: @default-font-size;
+    font-family: @default-font-family;    
+
+    #wrapper {
+        width: 384px;
+        margin: 25px 17px;
+        padding: 13px;
+        border: 1px solid #333333;
+        border-radius: 15px;
+        .gradient(#68D1FF, 0, #8CFFFB, 100%);
+
+        form {
+            text-align: right;
+            margin-top: 2px;
+            color: #333333;
+            font-size:1.00em;
+
+            fieldset {
+                border: 3px solid #333333;
+                border-radius: 5px;
+                padding: 6px 15px;
+                padding-bottom:5px;
+
+                legend {
+                    font-size: 1.30em;
+                    font-style: italic;
+                    padding: 0 15px;
+                }
+
+                label {
+                    font-size: 1.00em;
+                }
+
+                input {
+                    height: 24px;
+                    margin-bottom: 1px;
+                    padding-left: 10px;
+                    border-style: none;
+                    border: 1px solid #008FCE;
+                    border-radius: 5px;
+                    .gradient(#69D2FF, 0, #8BFEFB, 100%);
+
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+                }
+
+                input[type="text"], input[type="password"] {
+                    width: 49%;
+                }
+
+                input[type="number"] {
+                    width: 40px;
+                    padding-left:5px;                    
+                }
+
+            }
+
+            input[type='radio'] {
+                margin-top:7px;
+                margin-bottom:16px;
+                margin-left:0;
+                margin-right:0;
+            }
+
+            button, input[type='reset'] {
+                padding: 5px 15px;
+                margin-left:0;
+                margin-right:0;
+                font-size:1.2em;
+                color: #333333;
+                .gradient(#36C2FF, 0, #8BFEFB, 100%);
+                border:none;
+                border-bottom: 1px solid black;
+                border-radius: 5px;
+
+                &:hover {
+                    background:#9BE1FF;
+                }
+
+            }
+        }
+    }
+}

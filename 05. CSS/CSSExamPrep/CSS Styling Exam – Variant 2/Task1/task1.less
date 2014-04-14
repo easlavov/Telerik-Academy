@@ -1,0 +1,109 @@
+﻿@default-font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+@default-font-size: 18px;
+
+.gradient (@top-color, @top-perc, @bottom-color, @bottom-perc) {
+    background: @top-color; /* Old browsers */
+    background: -moz-linear-gradient(top, @top-color @top-perc, @bottom-color @bottom-perc); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@top-perc,@top-color), color-stop(@bottom-perc,@bottom-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* IE10+ */
+    background: linear-gradient(to bottom, @top-color @top-perc,@bottom-color @bottom-perc); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@top-color', endColorstr='@bottom-color',GradientType=0 ); /* IE6-9 */
+}
+
+body, div, ul, li, a, h1, p, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 960px;
+    font-family: @default-font-family;
+    font-size: @default-font-size;
+
+    #wrapper {
+        margin: 50px;
+        text-align: center;
+        color: #444444;
+
+        .accordion {
+            list-style-type: none;
+            width: 400px;
+
+            li {
+                border: 1px solid black;
+
+                .accordion-btn {
+                    text-decoration: none;
+                    color: #444444;
+                    font-size: 1.3em;
+                    font-weight: bold;
+                    display: block;
+                    .gradient(#EEEEEE, 25%, #AAAAAA, 75%);
+                }
+
+                .accordion-content {
+                    display: none;
+                    padding: 5px 15px;
+                    text-align: left;
+                    background: #aaa;
+
+                    h1 {
+                        color: #5E5E5E;
+                        text-align: center;
+                        font-size: 1.6em;
+                        padding: 5px;
+                    }
+
+                    p {
+                        text-align: justify;
+                    }
+
+                    table {
+                        border-collapse: collapse;
+                        margin: 15px 5px;
+                        margin-left: 6px;
+
+                        th, td {
+                            border: 1px solid black;
+                            font-size: 1.0em;
+                            padding: 5px;
+                        }
+
+                        th {
+                            .gradient(#ECECEC,0%,#898989,100%);
+                        }
+
+                        th:first-of-type {
+                            border-top-left-radius: 15px;
+                        }
+
+                        td {
+                            color: #FFFFFF;
+                        }
+
+                        tr:nth-child(odd) {
+                            .gradient(#CBCBCB, 0%,#898989, 100%);
+                        }
+
+                        tr:nth-child(even) {
+                            .gradient(#898989, 0%,#CBCBCB, 100%);
+                        }
+                    }
+                }
+
+                &:hover {
+                    background: #aaa;
+                }
+            }
+
+            .current {
+
+                .accordion-content {
+                    display: block;
+                }
+            }
+        }
+    }
+}
