@@ -1,0 +1,130 @@
+﻿@def-font-fam: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+@def-font-size: 16px;
+@def-font-col: #0094FF;
+
+.gradient (@top-color, @top-perc, @bottom-color, @bottom-perc) {
+    background: @top-color; /* Old browsers */
+    background: -moz-linear-gradient(top, @top-color @top-perc, @bottom-color @bottom-perc); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@top-perc,@top-color), color-stop(@bottom-perc,@bottom-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* IE10+ */
+    background: linear-gradient(to bottom, @top-color @top-perc,@bottom-color @bottom-perc); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@top-color', endColorstr='@bottom-color',GradientType=0 ); /* IE6-9 */
+}
+
+body, div, ul, li, a, span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 960px;
+    font-family: @def-font-fam;
+    font-size: @def-font-size;
+
+    #wrapper {
+
+        .msg-bar {
+            list-style-type: none;
+            position: absolute;
+            top: 205px;
+            left: 50px;
+            border-top:4px solid white;
+
+
+            & > li {
+                display: inline-block;
+                border: 1px solid black;
+                padding: 5px 15px;
+                .gradient(#AAFFEF, 20%, #13FFD2, 100%);
+
+
+                a {
+                    text-decoration: none;
+                    color: @def-font-col;
+                }
+
+                .msg-bar-content {
+                    display: none;
+                    position: absolute;
+                    top: -159px;
+                    left: 0;
+                    padding:20px;
+                    padding-left:15px;
+                    padding-bottom:0px;
+                    padding-top:16px;
+                    border: 1px solid black;
+                    border-bottom: none;
+                    border-top-left-radius: 15px;
+                    border-top-right-radius: 15px;
+                    background-color:#AAFFEF;
+                    width:425px;
+
+                    ul {
+                        list-style-type:none;
+                        color: @def-font-col;                        
+
+                        .me-item, .other-item {
+                            display:block;
+                            background-color:#AAFFEF;
+                            padding-left:0px;
+                            margin-bottom:17px;
+
+                            .user {
+                                /*float:left;*/
+                                border:1px solid black;
+                                border-radius:15px;
+                                padding:5px;
+                                padding-left:25px;
+                                padding-right:15px;
+                                background-image:url(imgs/me.png);
+                                background-repeat:no-repeat;
+                                background-position-y:center;
+                                background-position-x:5px;
+                            }                            
+
+                            .user + span{
+                                border-bottom:1px solid black;
+                                font-size:1.0em;
+                                float:right;
+                                width:315px;
+                                text-align:right;
+                                padding-bottom:5px;
+                                padding-right:10px;
+
+                                
+                            }      
+                            
+                            &:last-of-type {
+                                margin-bottom:11px;
+
+                                span:last-of-type{
+                                    border-bottom:none;
+                                }
+                            }                     
+                        }
+
+                        .other-item .user {
+                            background-image:url(imgs/male.png);
+                        }
+                    }
+                }
+
+                &:hover {
+                    border-top:4px solid #AAFFEF;
+                    background:#00DDB3;
+                }
+
+                &:hover > .msg-bar-content{
+                    display:block;
+
+                }
+            }
+
+            &:hover {
+                border-top:none;
+            }
+        }
+    }
+}

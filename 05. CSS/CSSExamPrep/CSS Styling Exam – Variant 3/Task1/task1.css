@@ -1,0 +1,118 @@
+﻿body,
+div,
+ul,
+li,
+a,
+span {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 960px;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+  font-size: 16px;
+}
+body #wrapper .msg-bar {
+  list-style-type: none;
+  position: absolute;
+  top: 205px;
+  left: 50px;
+  border-top: 4px solid white;
+}
+body #wrapper .msg-bar > li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 5px 15px;
+  background: #aaffef;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #aaffef 20%, #13ffd2 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #aaffef), color-stop(100%, #13ffd2));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #aaffef 20%, #13ffd2 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #aaffef 20%, #13ffd2 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #aaffef 20%, #13ffd2 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #aaffef 20%, #13ffd2 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
+  /* IE6-9 */
+}
+body #wrapper .msg-bar > li a {
+  text-decoration: none;
+  color: #0094ff;
+}
+body #wrapper .msg-bar > li .msg-bar-content {
+  display: none;
+  position: absolute;
+  top: -159px;
+  left: 0;
+  padding: 20px;
+  padding-left: 15px;
+  padding-bottom: 0px;
+  padding-top: 16px;
+  border: 1px solid black;
+  border-bottom: none;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #AAFFEF;
+  width: 425px;
+}
+body #wrapper .msg-bar > li .msg-bar-content ul {
+  list-style-type: none;
+  color: #0094ff;
+}
+body #wrapper .msg-bar > li .msg-bar-content ul .me-item,
+body #wrapper .msg-bar > li .msg-bar-content ul .other-item {
+  display: block;
+  background-color: #AAFFEF;
+  padding-left: 0px;
+  margin-bottom: 17px;
+}
+body #wrapper .msg-bar > li .msg-bar-content ul .me-item .user,
+body #wrapper .msg-bar > li .msg-bar-content ul .other-item .user {
+  /*float:left;*/
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 15px;
+  background-image: url(imgs/me.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+body #wrapper .msg-bar > li .msg-bar-content ul .me-item .user + span,
+body #wrapper .msg-bar > li .msg-bar-content ul .other-item .user + span {
+  border-bottom: 1px solid black;
+  font-size: 1.0em;
+  float: right;
+  width: 315px;
+  text-align: right;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+body #wrapper .msg-bar > li .msg-bar-content ul .me-item:last-of-type,
+body #wrapper .msg-bar > li .msg-bar-content ul .other-item:last-of-type {
+  margin-bottom: 11px;
+}
+body #wrapper .msg-bar > li .msg-bar-content ul .me-item:last-of-type span:last-of-type,
+body #wrapper .msg-bar > li .msg-bar-content ul .other-item:last-of-type span:last-of-type {
+  border-bottom: none;
+}
+body #wrapper .msg-bar > li .msg-bar-content ul .other-item .user {
+  background-image: url(imgs/male.png);
+}
+body #wrapper .msg-bar > li:hover {
+  border-top: 4px solid #AAFFEF;
+  background: #00DDB3;
+}
+body #wrapper .msg-bar > li:hover > .msg-bar-content {
+  display: block;
+}
+body #wrapper .msg-bar:hover {
+  border-top: none;
+}
+/*# sourceMappingURL=task1.css.map */
