@@ -1,0 +1,82 @@
+﻿.gradient (@top-color, @top-perc, @bottom-color, @bottom-perc) {
+    background: @top-color; /* Old browsers */
+    background: -moz-linear-gradient(top, @top-color @top-perc, @bottom-color @bottom-perc); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@top-perc,@top-color), color-stop(@bottom-perc,@bottom-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* IE10+ */
+    background: linear-gradient(to bottom, @top-color @top-perc,@bottom-color @bottom-perc); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@top-color', endColorstr='@bottom-color',GradientType=0 ); /* IE6-9 */
+}
+
+html, body, div, hgroup, h3, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+    width: 960px;
+
+    #wrapper {
+        overflow: hidden;
+        margin: 20px;
+
+        & > div {
+            width: 138px;
+            padding: 10px 5px 0 4px;
+            border: 2px solid #D3D7DA;
+            border-right: none;
+            float: left;
+
+            &:last-of-type {
+                border-right: 2px solid #D3D7DA;
+            }
+
+            hgroup {
+                padding-left:40px;
+
+                h2, h3 {
+                    font-size: 1em;
+                }
+            }
+
+            &:nth-of-type(1) hgroup {
+                background:url(imgs/install.png);
+                background-repeat:no-repeat;
+                background-position-y:4px;
+            }
+
+            &:nth-of-type(2) hgroup {
+                background:url(imgs/tuneUp.png);
+                background-repeat:no-repeat;
+                background-position-y:4px;
+            }
+
+            &:nth-of-type(3) hgroup {
+                background:url(imgs/manage.png);
+                background-repeat:no-repeat;
+                background-position-y:4px;
+            }
+
+            &:nth-of-type(4) hgroup {
+                background:url(imgs/openSource.png);
+                background-repeat:no-repeat;
+                background-position-y:4px;
+            }
+
+            &:nth-of-type(5) hgroup {
+                background:url(imgs/twitter.png);
+                background-repeat:no-repeat;
+                background-position-y:4px;
+            }
+
+            &:nth-of-type(6) hgroup {
+                background:url(imgs/about.png);
+                background-repeat:no-repeat;
+                background-position-y:4px;
+            }
+        }
+    }
+}

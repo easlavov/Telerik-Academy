@@ -1,0 +1,65 @@
+﻿html,
+body,
+div,
+h1,
+img,
+p {
+  margin: 0;
+  padding: 0;
+}
+body #wrapper {
+  width: 960px;
+}
+body #wrapper div {
+  width: 873px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin: 25px 25px;
+  font-family: Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+  font-size: 16px;
+  padding: 15px 30px;
+  padding-bottom: 10px;
+  background: #de28ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #de28ff 15%, #f9dbff 75%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(15%, #de28ff), color-stop(75%, #f9dbff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #de28ff 15%, #f9dbff 75%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #de28ff 15%, #f9dbff 75%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #de28ff 15%, #f9dbff 75%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #de28ff 15%, #f9dbff 75%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
+  /* IE6-9 */
+}
+body #wrapper div h1 {
+  font-size: 1.8em;
+  padding-left: 5px;
+}
+body #wrapper div img {
+  position: absolute;
+  top: 110px;
+}
+body #wrapper div .left-arrow {
+  left: 25px;
+}
+body #wrapper div .right-arrow {
+  left: 928px;
+}
+body #wrapper div .postedby {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px 15px;
+  padding-right: 0;
+  margin: 5px 20px;
+  width: 381px;
+}
+body #wrapper div .info {
+  margin: 21px 5px;
+  text-align: justify;
+}
+/*# sourceMappingURL=task1.css.map */

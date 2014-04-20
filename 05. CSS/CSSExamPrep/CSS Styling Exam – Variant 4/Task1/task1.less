@@ -1,0 +1,66 @@
+﻿.gradient (@top-color, @top-perc, @bottom-color, @bottom-perc) {
+    background: @top-color; /* Old browsers */
+    background: -moz-linear-gradient(top, @top-color @top-perc, @bottom-color @bottom-perc); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@top-perc,@top-color), color-stop(@bottom-perc,@bottom-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* IE10+ */
+    background: linear-gradient(to bottom, @top-color @top-perc,@bottom-color @bottom-perc); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@top-color', endColorstr='@bottom-color',GradientType=0 ); /* IE6-9 */
+}
+
+html, body, div, h1, img, p {
+    margin:0;
+    padding:0;
+}
+
+body {
+
+    #wrapper {
+        width:960px;
+
+        div {
+            width:873px;
+            border:1px solid black;
+            border-radius:15px;
+            margin: 25px 25px;
+            font-family:Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+            font-size:16px;
+            padding: 15px 30px;
+            padding-bottom:10px;
+            .gradient(#DE28FF, 15%, #F9DBFF, 75%);
+
+            h1 {
+                font-size:1.8em;
+                padding-left:5px;
+            }
+
+            img {
+                position:absolute;
+                top:110px;
+            }
+
+            .left-arrow {
+                left:25px;
+            }
+
+            .right-arrow {
+                left:928px;
+            }
+
+            .postedby {
+                border-top:1px solid black;
+                border-bottom:1px solid black;
+                padding: 5px 15px;
+                padding-right:0;
+                margin: 5px 20px;
+                width:381px;
+            }
+
+            .info {
+                margin: 21px 5px;
+                text-align:justify;
+            }
+        }
+    }
+}

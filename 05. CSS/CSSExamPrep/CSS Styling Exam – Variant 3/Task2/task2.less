@@ -12,12 +12,53 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@top-color', endColorstr='@bottom-color',GradientType=0 ); /* IE6-9 */
 }
 
+body, div, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    width:960px;
-    font-family:@def-font-fam;
-    font-size:@def-font-size;
+    width: 960px;
+    font-family: @def-font-fam;
+    font-size: @def-font-size;
 
     #wrapper {
+        margin: 25px 25px;
 
+        .select-list {
+
+            ul {
+                list-style-type: none;
+                border-top-left-radius: 5px;
+                .gradient(#8168FF, 0, white, 100%);
+                display: inline-block;
+                width: 150px;
+                height: 200px;
+                overflow-y: scroll;
+
+                li {
+                    padding: 5px 15px;
+                    border-bottom: 1px solid black;
+
+                    &:first-letter {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+            .selected {
+                background:#6C4EFF;
+            }
+
+            a {
+                vertical-align:80px;
+            }
+
+            .btn-unselect {
+            }
+
+            .btn-select {
+            }
+        }
     }
 }

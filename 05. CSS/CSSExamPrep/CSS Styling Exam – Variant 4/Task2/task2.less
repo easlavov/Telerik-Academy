@@ -1,0 +1,85 @@
+﻿.gradient (@top-color, @top-perc, @bottom-color, @bottom-perc) {
+    background: @top-color; /* Old browsers */
+    background: -moz-linear-gradient(top, @top-color @top-perc, @bottom-color @bottom-perc); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@top-perc,@top-color), color-stop(@bottom-perc,@bottom-color)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, @top-color @top-perc,@bottom-color @bottom-perc); /* IE10+ */
+    background: linear-gradient(to bottom, @top-color @top-perc,@bottom-color @bottom-perc); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@top-color', endColorstr='@bottom-color',GradientType=0 ); /* IE6-9 */
+}
+
+html, body, div, img, ul, li, a, span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+
+    #wrapper {
+        width: 960px;
+
+        & > div {
+            background: #CCCCCC;
+            overflow: hidden;
+            padding: 10px;
+            padding-right: 0;
+            padding-bottom: 10px;
+            margin: 15px;
+            border-radius: 5px;
+            width: 690px;
+
+            div {
+                float: left;
+                border-radius: 5px;
+
+                img {
+                    border-radius: 5px;
+                }
+            }
+
+            .holder {
+                img {
+                    width: 550px;
+                    height: 414px;
+                }
+            }
+
+            .playlist {
+                margin-left: 10px;
+                list-style-type: none;
+
+                ul {
+                    list-style-type: none;
+
+
+                    li {
+                        text-align: center;
+                        width: 110px;
+                        border-bottom: 1px solid black;
+                        padding: 5px 2px 5px 8px;
+
+                        a {
+                            text-decoration: none;
+                            text-align: center;
+
+                            img {
+                                margin: auto;
+                                border-radius: 10px;
+                                display: block;
+                            }
+
+                            span {
+                                /*display:inline-block;*/
+                                color: black;
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
