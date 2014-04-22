@@ -24,9 +24,9 @@ body {
         margin: 20px;
 
         & > div {
-            width: 138px;
-            padding: 10px 5px 0 4px;
-            border: 2px solid #D3D7DA;
+            width: 140px;
+            padding: 10px 4px 0 4px;
+            
             border-right: none;
             float: left;
 
@@ -35,7 +35,10 @@ body {
             }
 
             hgroup {
-                padding-left:40px;
+                padding-left: 40px;
+                /*padding-bottom:16px;*/
+                margin-bottom: 16px;
+                height: 40px;
 
                 h2, h3 {
                     font-size: 1em;
@@ -43,39 +46,95 @@ body {
             }
 
             &:nth-of-type(1) hgroup {
-                background:url(imgs/install.png);
-                background-repeat:no-repeat;
-                background-position-y:4px;
+                background: url(imgs/install.png);
+                background-repeat: no-repeat;
+                background-position-y: 4px;
             }
 
             &:nth-of-type(2) hgroup {
-                background:url(imgs/tuneUp.png);
-                background-repeat:no-repeat;
-                background-position-y:4px;
+                background: url(imgs/tuneUp.png);
+                background-repeat: no-repeat;
+                background-position-y: 4px;
             }
 
             &:nth-of-type(3) hgroup {
-                background:url(imgs/manage.png);
-                background-repeat:no-repeat;
-                background-position-y:4px;
+                background: url(imgs/manage.png);
+                background-repeat: no-repeat;
+                background-position-y: 4px;
             }
 
             &:nth-of-type(4) hgroup {
-                background:url(imgs/openSource.png);
-                background-repeat:no-repeat;
-                background-position-y:4px;
+                background: url(imgs/openSource.png);
+                background-repeat: no-repeat;
+                background-position-y: 4px;
             }
 
-            &:nth-of-type(5) hgroup {
-                background:url(imgs/twitter.png);
-                background-repeat:no-repeat;
-                background-position-y:4px;
+            &:nth-of-type(5) {
+
+                hgroup {
+                    background: url(imgs/twitter.png);
+                    background-repeat: no-repeat;
+                    background-position-y: 4px;
+                }
+
+                .yellowBox {
+                    background:#FFFFDD;
+                    border: 1px solid #FFFF00;
+                }
+
+                a {
+                    display: inline;
+                }
             }
 
             &:nth-of-type(6) hgroup {
-                background:url(imgs/about.png);
-                background-repeat:no-repeat;
-                background-position-y:4px;
+                background: url(imgs/about.png);
+                background-repeat: no-repeat;
+                background-position-y: 4px;
+            }
+
+            &:nth-of-type(4), &:nth-of-type(5), &:nth-of-type(6) {
+                hgroup {
+                    h2 {
+                        padding-top: 20px;
+                    }
+                }
+            }
+
+            & > p {
+                margin-bottom: 5px;
+            }
+
+            & > div {
+
+                a {
+                    display: block;
+                    text-decoration: none;
+                    color: #D12D2F;
+
+                    span {
+                        text-transform: uppercase;
+                    }
+                }
+            }
+
+            // borders
+            border-bottom: 2px solid #D3D7DA;
+            border-top: 2px solid #D3D7DA;
+            &:nth-of-type(odd) {
+                height:250px;
+            }
+
+            &:nth-of-type(1) {
+                border-right:none;
+                border-left:2px solid #D3D7DA;;
+            }
+            
+            &:nth-of-type(even) {
+                height:270px;
+                border-left:2px solid #D3D7DA;
+                border-right:2px solid #D3D7DA;
+                .gradient(#FFFFFF, 0, #F1F2F3, 100%);
             }
         }
     }

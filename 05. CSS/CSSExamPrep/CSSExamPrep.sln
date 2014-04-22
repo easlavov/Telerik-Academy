@@ -275,6 +275,74 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Task3(3)", "http://localhos
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS Styling Exam – Example", "CSS Styling Exam – Example", "{D9D7C460-E820-42AB-AC6E-36D9985F5783}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Task1(6)", "http://localhost:6842", "{BAF98C22-D7BB-4564-8ABB-27928C047CBC}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_6842"
+		Debug.AspNetCompiler.PhysicalPath = "CSS Styling Exam – Example\Task1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6842\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_6842"
+		Release.AspNetCompiler.PhysicalPath = "CSS Styling Exam – Example\Task1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6842\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "CSS Styling Exam – Example\Task1\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Task2(4)", "http://localhost:6846", "{0DFFC0FB-1666-41CE-BDEB-608DB445984F}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_6846"
+		Debug.AspNetCompiler.PhysicalPath = "CSS Styling Exam – Example\Task2\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6846\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_6846"
+		Release.AspNetCompiler.PhysicalPath = "CSS Styling Exam – Example\Task2\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6846\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "CSS Styling Exam – Example\Task2\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Task3(4)", "http://localhost:6851", "{4ADED327-9E1D-4388-A856-7FF954AA7064}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_6851"
+		Debug.AspNetCompiler.PhysicalPath = "CSS Styling Exam – Example\Task3\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6851\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_6851"
+		Release.AspNetCompiler.PhysicalPath = "CSS Styling Exam – Example\Task3\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_6851\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "CSS Styling Exam – Example\Task3\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -304,6 +372,12 @@ Global
 		{5CC2A7FC-52FE-43F7-A24B-BB41329A96A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DAD6B27-FA8C-4B04-9DEC-522AC7AD01DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1DAD6B27-FA8C-4B04-9DEC-522AC7AD01DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF98C22-D7BB-4564-8ABB-27928C047CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF98C22-D7BB-4564-8ABB-27928C047CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DFFC0FB-1666-41CE-BDEB-608DB445984F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DFFC0FB-1666-41CE-BDEB-608DB445984F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADED327-9E1D-4388-A856-7FF954AA7064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADED327-9E1D-4388-A856-7FF954AA7064}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -321,5 +395,8 @@ Global
 		{DEC637A1-8DC1-4907-B769-764223C805FE} = {8EBAF569-9E5C-447B-B1E4-8C10DD579077}
 		{5CC2A7FC-52FE-43F7-A24B-BB41329A96A8} = {8EBAF569-9E5C-447B-B1E4-8C10DD579077}
 		{1DAD6B27-FA8C-4B04-9DEC-522AC7AD01DE} = {8EBAF569-9E5C-447B-B1E4-8C10DD579077}
+		{BAF98C22-D7BB-4564-8ABB-27928C047CBC} = {D9D7C460-E820-42AB-AC6E-36D9985F5783}
+		{0DFFC0FB-1666-41CE-BDEB-608DB445984F} = {D9D7C460-E820-42AB-AC6E-36D9985F5783}
+		{4ADED327-9E1D-4388-A856-7FF954AA7064} = {D9D7C460-E820-42AB-AC6E-36D9985F5783}
 	EndGlobalSection
 EndGlobal
