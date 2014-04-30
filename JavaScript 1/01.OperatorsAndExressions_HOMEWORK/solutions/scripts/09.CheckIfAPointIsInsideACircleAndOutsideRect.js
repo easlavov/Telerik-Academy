@@ -51,8 +51,9 @@ var rectHeight = 2;
 var rectangle = new Rectangle(rectX, rectY, rectWidth, rectHeight);
 
 
-write("Task: Write an expression that calculates trapezoid's area by given sides a and b and height h.");
-write('Look in scripts/07.CheckIfPositiveIntegerIsPrime.js for the code.');
+write("Task: Write an expression that checks for given point (x, y) if it is within the circle K( (1,1), 3)" +
+    " and out of the rectangle R(top=1, left=-1, width=6, height=2).");
+write('Look in scripts/09.CheckIfAPointIsInsideACircleAndOutsideRect.html for the code.');
 write(' ');
 write('Testing function.');
 
@@ -63,3 +64,6 @@ write('Point (2,2) is inside the circle and outside the rectangle: ' +
     isInsideCircleOutsideRect(circle, rectangle, 2, 2));
 write('Point (3,-0.5) is inside the circle and outside the rectangle: ' +
     isInsideCircleOutsideRect(circle, rectangle, 3, -0.5));
+
+write(' ');
+write('Test complete.');
