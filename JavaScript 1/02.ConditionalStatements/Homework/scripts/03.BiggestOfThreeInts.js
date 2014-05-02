@@ -20,8 +20,8 @@ write('Look in scripts/03.BiggestOfThreeInts.js for the code.');
 write(' ');
 write('Testing function.');
 
-write('The thre numbers are 5, -2, 3.13. The biggest is ' + biggest(5, -2, 3.13));
-write('The thre numbers are -5, -2, 3.13. The biggest is ' + biggest(-5, -2, 3.13));
-write('The thre numbers are 5, -2, -3.13. The biggest is ' + biggest(-5, -2, -3.13));
+write('The three numbers are 5, -2, 3.13. The biggest is ' + biggest(5, -2, 3.13));
+write('The three numbers are -5, -2, 3.13. The biggest is ' + biggest(-5, -2, 3.13));
+write('The three numbers are 5, -2, -3.13. The biggest is ' + biggest(-5, -2, -3.13));
 
 write('Test complete.');
