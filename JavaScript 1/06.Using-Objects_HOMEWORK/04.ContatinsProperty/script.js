@@ -3,8 +3,7 @@
 function hasProperty(obj, prop) {
     if (obj.hasOwnProperty(prop)) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }    
 }
@@ -20,17 +19,14 @@ function Main(bufferElement) {
     SetSolveButton(function () {
         if (arrHasProp) {
             WriteLine('The Array has the property "length".')
-        }
-        else {
+        } else {
             WriteLine('The Array does not have the property "length".')
         }
 
         if (numHasProp) {
             WriteLine('The number has the property "length".')
-        }
-        else {
+        } else {
             WriteLine('The number does not have the property "length".')
-        }
-       
+        }       
     });
 }

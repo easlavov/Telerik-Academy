@@ -19,6 +19,7 @@ function printYoungest(array) {
             indexOfYoungest = i;
         }
     }
+	
     WriteLine(array[indexOfYoungest].firstName + ' ' + array[indexOfYoungest].lastName);
 }
 

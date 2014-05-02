@@ -16,20 +16,17 @@ function groupBy(array, key) {
     var currentKeyValue;
     var pers;
 
-    if (key == 'age') {
-        
+    if (key == 'age') {        
         for (pers in array) {
             currentKeyValue = array[pers].age;
             add(currentKeyValue);
         }
-    }
-    else if (key == 'firstName') {
+    } else if (key == 'firstName') {
         for (pers in array) {
             currentKeyValue = array[pers].firstName;
             add(currentKeyValue);
         }
-    }
-    else if (key == 'lastName') {
+    } else if (key == 'lastName') {
         for (pers in array) {
             currentKeyValue = array[pers].lastName;
             add(currentKeyValue);
@@ -39,8 +36,7 @@ function groupBy(array, key) {
     function add(keyValue) {
         if (result.hasOwnProperty(keyValue)) {
             result[keyValue].push(array[pers]);
-        }
-        else {
+        } else {
             result[keyValue] = new Array();
             result[keyValue].push(array[pers]);
         }

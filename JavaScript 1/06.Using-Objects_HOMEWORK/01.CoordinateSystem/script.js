@@ -27,6 +27,7 @@ function pointDist(point1, point2) {
     var xDiff = (point2.x - point1.x) * (point2.x - point1.x);
     var yDiff = (point2.y - point1.y) * (point2.y - point1.y);
     var diffSum = xDiff + yDiff;
+	
     return Math.sqrt(diffSum);
 }
 
@@ -42,8 +43,7 @@ function canFormTriangle(line1, line2, line3) {
     var c = lineLength(line3);
     if ((a + b > c) && (a + c > b) && (c + b > a)) {
         return true;
-    }
-    else {
+    } else {
         return false;
     }
 }
@@ -56,15 +56,11 @@ function Main(bufferElement) {
     var p3Input = ReadLine('Point3: ', '5,6');
     var p4Input = ReadLine('Point4: ', '0,1');
     var p5Input = ReadLine('Point5: ', '2,2');
-    var p6Input = ReadLine('Point6: ', '1,6');
+    var p6Input = ReadLine('Point6: ', '1,6');    
 
-    
-
-    SetSolveButton(function () {
-                
+    SetSolveButton(function () {                
         var pointsCoords = [p1Input.value, p2Input.value, p3Input.value, p4Input.value, p5Input.value, p6Input.value];
-        performFunctionTests(pointsCoords);
-        
+        performFunctionTests(pointsCoords);        
     });
 }
 
@@ -81,10 +77,10 @@ function performFunctionTests(pointsCoords) {
     WriteLine('The length of c is: ' + lineLength(c) + ' units');
     if (canFormTriangle(a, b, c) == true) {
         WriteLine('The three lines can form a triangle');
-    }
-    else {
+    } else {
         WriteLine('The three lines can not form a triangle');
     }
+	
     WriteLine('*********************************')
 }
 
@@ -96,5 +92,6 @@ function convertCoordsToPoints(pointsCoords) {
         var y = splitPoint[1];
         pointsArray[i] = buildPoint(x, y);
     }
+	
     return pointsArray;
 }

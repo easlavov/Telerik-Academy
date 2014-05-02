@@ -9,7 +9,7 @@ function clone(obj) {
     // Handle Date
     if (obj instanceof Date) {
         copy = new Date();
-        copy.setTime(obj.getTime());
+        copy.setTime(obj.getTime());		
         return copy;
     }
 
@@ -18,7 +18,7 @@ function clone(obj) {
         copy = [];
         for (var i = 0, len = obj.length; i < len; i++) {
             copy[i] = clone(obj[i]);
-        }
+        }		
         return copy;
     }
 
@@ -26,8 +26,10 @@ function clone(obj) {
     if (obj instanceof Object) {
         copy = {};
         for (var attr in obj) {
-            if (obj.hasOwnProperty(attr)) copy[attr] = clone(obj[attr]);
-        }
+            if (obj.hasOwnProperty(attr)) {
+				copy[attr] = clone(obj[attr]);
+			}
+        }		
         return copy;
     }
 }
@@ -51,15 +53,13 @@ function Main(bufferElement) {
         var equal2 = element2 === element2a;
         if (equal1) {
             WriteLine('Element1 is equal to Element1a. They are of the same value. Expected behavior.');
-        }
-        else {
+        } else {
             WriteLine('Element1 is not equal to Element1a');
         }
         
         if (equal2) {
             WriteLine('Element2 is equal to Element2a (deep copied incorrectly!).');
-        }
-        else {
+        } else {
             WriteLine('Element2 is not equal to Element2a (reference type deep copied correctly!)');
         }
     });

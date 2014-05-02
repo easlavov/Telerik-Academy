@@ -13,7 +13,6 @@ function Main(bufferElement) {
     var inputElement = ReadLine('Enter element to remove or use default: ', '1');
 
     SetSolveButton(function () {
-
         var array = ParseStringCollection(inputArray, ',');
         var element = inputElement.value;
         array.remove(element);
