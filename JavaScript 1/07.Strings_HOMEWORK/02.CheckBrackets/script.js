@@ -6,8 +6,7 @@ function checkBrackets(expr) {
     for (var i = 0; i < expr.length; i++) {
         if (expr[i] === '(') {
             brackets.push('(')
-        }
-        else if (expr[i] === ')') {
+        } else if (expr[i] === ')') {
             brackets.push(')')
         }
     }
@@ -24,15 +23,18 @@ function checkBrackets(expr) {
                     startIndex = -1;
                     break;
                 }
+				
                 closingIndex++;
             }
         }
+		
         startIndex++;
     }
     // If brackets remain, then they've been placed incorrectly
     if (brackets.length > 0) {
         return false;
     }
+	
     return true;
 }
 
@@ -41,17 +43,13 @@ function Main(bufferElement) {
     
     var input = ReadLine('Enter new expression or use default: ', '((a + b /) 5 - d*x-z(d))');
 
-    SetSolveButton(function () {
-        
+    SetSolveButton(function () {        
         var toCheck = input.value;
         var areCorrect = checkBrackets(toCheck);
         if (areCorrect) {
             WriteLine('The brackets are correct.');
-        }
-        else {
+        } else {
             WriteLine('The brackets are not correct.');
         }
-        
-        
     });
 }

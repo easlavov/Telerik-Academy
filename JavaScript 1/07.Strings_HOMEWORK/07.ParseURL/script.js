@@ -33,16 +33,13 @@ function buildURL(protocol, server, resource) {
 
 // Test scripts
 function Main(bufferElement) {
-
     var input = ReadLine(
         'Enter new text or use default: ',
         "http://www.devbg.org/forum/index.php");
 
     SetSolveButton(function () {
-
         var toExtract = input.value;
         var url = parseURL(toExtract);
         WriteLine(url.toString());
-
     });
 }

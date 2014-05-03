@@ -8,16 +8,13 @@ function extractPalindromes(text) {
 
 // Test scripts
 function Main(bufferElement) {
-
     var input = ReadLine(
         'Enter new text or use default: ',
         "kuma.lisa@yahoo.com went to visit her friend kumcho_valcho@gmail.com. Later came zayo@abv.bg");
 
     SetSolveButton(function () {
-
         var toExtract = input.value;
         WriteLine('The extracted emails are the following:')
         WriteLine(extractPalindromes(toExtract));
-
     });
 }

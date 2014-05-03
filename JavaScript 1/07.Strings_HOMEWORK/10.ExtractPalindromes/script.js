@@ -32,21 +32,19 @@ function isPalindrome(word) {
     if (reversedWord == word) {
         return true;
     }
+	
     return false;
 }
 
 // Test scripts
-function Main(bufferElement) {
-
+function Main(bufferElement) {	
     var input = ReadLine(
         'Enter new text or use default: ',
         "Yesterday I listened to ABBA. Lamal is a fictional animal. The exe file is corrupted.");
 
     SetSolveButton(function () {
-
         var toExtract = input.value;
-        WriteLine('The extracted palindromes are the following:')
+        WriteLine('The extracted palindromes are the following:');
         WriteLine(extractPalindromes(toExtract));
-
     });
 }

@@ -12,15 +12,12 @@ function repl(text) {
 
 // Test scripts
 function Main(bufferElement) {
-
     var input = ReadLine(
         'Enter new text or use default: ',
         '<p>Please visit <a href="http://academy.telerik. com">our site</a> to choose a training course. Also visit <a href="www.devbg.org">our forum</a> to discuss the courses.</p>');
 
     SetSolveButton(function () {
-
         var toExtract = input.value;
         WriteLine(repl(toExtract));
-
     });
 }

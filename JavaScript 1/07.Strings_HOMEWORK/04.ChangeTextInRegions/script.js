@@ -28,14 +28,12 @@ function applyTags(text) {
             case 'l': subStrNew = subStrNew.toLowerCase(); break;
             case 'm': subStrNew = mix(subStrNew); break;
             default:
-
         }
 
         // define old string to be replaced in the original text
         switch (tagType) {
             case 'u': subStrOld = text.substring(indexOfOpeningTagEnd - 7, indexOfClosingTagStart + 9); break;
             default: subStrOld = text.substring(indexOfOpeningTagEnd - 8, indexOfClosingTagStart + 10); break;
-
         }        
 
         // replace
@@ -48,11 +46,11 @@ function applyTags(text) {
         for (var i = 0; i < str.length; i++) {
             if (getRandomInt(1,2) == 1) {
                 res += str[i].toLowerCase();
-            }
-            else {
+            } else {
                 res += str[i].toUpperCase();
             }
         }
+		
         return res;
     }
 }
@@ -69,10 +67,8 @@ function Main(bufferElement) {
         "We are <mixcase>living</mixcase> in a <upcase>yellow <mixcase>don't</mixcase> submarine</upcase>. We <mixcase>don't</mixcase> have <lowcase>anything</lowcase> else.");
 
     SetSolveButton(function () {
-
         var toEdit = input.value;
 
         WriteLine(applyTags(toEdit));
-
     });
 }

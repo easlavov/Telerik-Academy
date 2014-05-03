@@ -6,22 +6,21 @@ function stringFormat(format) {
         current = '\{' + placeholder + '\}';
         format = format.replace(current, arguments[i].toString(), 'g');
     }
+	
     return format;
 }
 
 // Test scripts
-function Main(bufferElement) {
-
+function Main(bufferElement) {	
     var input = ReadLine(
         'Enter new format or use default: ',
         "{0} {4} {0} {1} {2} {0} {1} {3} {2}");
     WriteLine('The hard coded arguments are: "Petar", "Ivan", 5, "Mara", -14');
     WriteLine('Press Solve to use the selected format with the hardcoded arguments')
     SetSolveButton(function () {
-
-        var format = input.value;
-        WriteLine('The new string is:')
-        WriteLine(stringFormat(format, "Petar", "Ivan", 5, "Mara", -14));
-
+		var format = input.value;
+		WriteLine("The function doesn't work in Chrome :(");
+		WriteLine('The new string is:')
+		WriteLine(stringFormat(format, "Petar", "Ivan", 5, "Mara", -14));
     });
 }
