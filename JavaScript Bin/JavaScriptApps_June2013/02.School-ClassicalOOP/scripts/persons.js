@@ -1,4 +1,4 @@
-﻿/// <reference path="D:\Programming\GitHub\Telerik-Academy\JavaScript Bin\JavaScriptApps_June2013\02.School-ClassicalOOP\_reference.js" />
+﻿/// <reference path="_references.js" />
 
 function Person(fName, lName, age) {
     this.firstName = fName;

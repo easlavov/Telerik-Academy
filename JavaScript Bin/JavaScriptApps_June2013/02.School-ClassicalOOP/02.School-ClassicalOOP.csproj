@@ -58,11 +58,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
-    <Content Include="persons.js" />
-    <Content Include="school.js" />
-    <Content Include="test.js" />
+    <Content Include="scripts\persons.js" />
+    <Content Include="scripts\school.js" />
+    <Content Include="scripts\test.js" />
     <Content Include="Web.config" />
-    <Content Include="_reference.js" />
+    <Content Include="scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
