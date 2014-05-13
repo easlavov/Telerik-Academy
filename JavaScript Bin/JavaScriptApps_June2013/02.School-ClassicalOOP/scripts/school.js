@@ -9,7 +9,7 @@ Array.prototype.remove = function (item) {
     }
 
     throw 'Element not found';
-}
+};
 
 function Class(name, formTeacher, capacity) {
     var students = [];
@@ -19,7 +19,7 @@ function Class(name, formTeacher, capacity) {
 
     this.getStudents = function () {
         return students;
-    }
+    };
 }
 
 Class.prototype = {
@@ -38,8 +38,7 @@ Class.prototype = {
     removeStudent: function (student) {
         this.getStudents().remove(student);
     }
-}
-
+};
 
 function School(name, town) {
     var classes = [];
@@ -48,18 +47,18 @@ function School(name, town) {
 
     this.getClasses = function () {
         return classes;
-    }
+    };
 }
 
 School.prototype = {
-    addClass : function (schoolClass) {
+    addClass: function (schoolClass) {
         if (schoolClass instanceof Class) {
             this.getClasses().push(schoolClass);
         } else {
             throw 'Invalid argument';
         }
     },
-    removeClass : function (schoolClass) {
+    removeClass: function (schoolClass) {
         this.getClasses().remove(schoolClass);
     }
-}
+};

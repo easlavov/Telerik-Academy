@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.School-ProtoypalOOP", "01.School-ProtoypalOOP\01.School-ProtoypalOOP.csproj", "{6D11FE53-13A2-4CF4-9B17-CCE201908F55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.School-PrototypalOOP", "01.School-ProtoypalOOP\01.School-PrototypalOOP.csproj", "{6D11FE53-13A2-4CF4-9B17-CCE201908F55}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.School-ClassicalOOP", "02.School-ClassicalOOP\02.School-ClassicalOOP.csproj", "{355C44A6-2934-4915-8B0B-786F77AF00C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SliderControl", "03.SliderControl\03.SliderControl.csproj", "{75F3D10B-46FB-4DBB-9383-D4A637487A4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{355C44A6-2934-4915-8B0B-786F77AF00C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{355C44A6-2934-4915-8B0B-786F77AF00C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{355C44A6-2934-4915-8B0B-786F77AF00C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F3D10B-46FB-4DBB-9383-D4A637487A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F3D10B-46FB-4DBB-9383-D4A637487A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F3D10B-46FB-4DBB-9383-D4A637487A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F3D10B-46FB-4DBB-9383-D4A637487A4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
