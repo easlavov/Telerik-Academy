@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.JoroTheNaughty", "02.Jor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ClojureParser", "03.ClojureParser\03.ClojureParser.csproj", "{FFA30EED-F901-43C6-A4F1-75DAF3FE9A6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. MaxSum", "04. MaxSum\04. MaxSum.csproj", "{8F7D4E53-8E41-4A6F-935F-FDAC7C4D6285}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. LabyrinthEscape", "05. LabyrinthEscape\05. LabyrinthEscape.csproj", "{108A953E-9F52-4D40-9758-1FFB550532EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{FFA30EED-F901-43C6-A4F1-75DAF3FE9A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFA30EED-F901-43C6-A4F1-75DAF3FE9A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFA30EED-F901-43C6-A4F1-75DAF3FE9A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7D4E53-8E41-4A6F-935F-FDAC7C4D6285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7D4E53-8E41-4A6F-935F-FDAC7C4D6285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7D4E53-8E41-4A6F-935F-FDAC7C4D6285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7D4E53-8E41-4A6F-935F-FDAC7C4D6285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{108A953E-9F52-4D40-9758-1FFB550532EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{108A953E-9F52-4D40-9758-1FFB550532EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{108A953E-9F52-4D40-9758-1FFB550532EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{108A953E-9F52-4D40-9758-1FFB550532EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
