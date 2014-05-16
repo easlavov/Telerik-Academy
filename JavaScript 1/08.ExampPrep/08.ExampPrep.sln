@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. MaxSum", "04. MaxSum\04
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. LabyrinthEscape", "05. LabyrinthEscape\05. LabyrinthEscape.csproj", "{108A953E-9F52-4D40-9758-1FFB550532EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Listy", "06. Listy\06. Listy.csproj", "{9F17AE56-0DE9-4CC3-9643-67B9AB28B759}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{108A953E-9F52-4D40-9758-1FFB550532EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{108A953E-9F52-4D40-9758-1FFB550532EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{108A953E-9F52-4D40-9758-1FFB550532EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F17AE56-0DE9-4CC3-9643-67B9AB28B759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F17AE56-0DE9-4CC3-9643-67B9AB28B759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F17AE56-0DE9-4CC3-9643-67B9AB28B759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F17AE56-0DE9-4CC3-9643-67B9AB28B759}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

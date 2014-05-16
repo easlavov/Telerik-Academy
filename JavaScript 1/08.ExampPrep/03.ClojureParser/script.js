@@ -35,7 +35,7 @@
             command = removeEmpty(command.split(' '));
             var commandParameter = command[0];
             switch (commandParameter) {
-                case 'def': return define(); break;
+                case 'def': return define();
                 case '+': return add(command.slice(1));
                 case '-': return subtract(command.slice(1));
                 case '*': return multiply(command.slice(1));
@@ -82,7 +82,7 @@
     }
 
     function subtract(array) {
-        normalizeStrings(array)
+        normalizeStrings(array);
         var minuend = array[0];
         for (i = 1; i < array.length; i += 1) {
             if (functionsArray[array[i]] !== undefined) {
@@ -96,7 +96,7 @@
     }
 
     function multiply(array) {
-        normalizeStrings(array)
+        normalizeStrings(array);
         var product = 1;
         for (i = 0; i < array.length; i += 1) {
             if (functionsArray[array[i]] !== undefined) {
@@ -110,7 +110,7 @@
     }
 
     function divide(array) {
-        normalizeStrings(array)
+        normalizeStrings(array);
         var dividend = parseInt(array[0]);
         for (i = 1; i < array.length; i += 1) {
             if (functionsArray[array[i]] !== undefined) {
@@ -153,8 +153,6 @@
             return newString;
         }
     }
-
-
 }
 
 var testArr = [];

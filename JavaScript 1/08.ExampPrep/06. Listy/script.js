@@ -1,5 +1,77 @@
 ﻿function Solve(params) {
-    
+    var functions = {};
+
+
+
+    // Returns a new array
+    function convertToNumArray(strArray) {
+        var numArr = [];
+        var i;
+        for (i = 0; i < strArray.length; i += 1) {
+            // first checking if the element is a function
+            if (functions[strArray[i]] !== undefined) {
+                // function value should always be a number
+                var funcValue = functions[strArray[i]];
+                numArr.push(funcValue);
+                continue;
+            } else {
+                var strAsNum = parseInt(strArray[i]);
+                numArr.push(strAsNum);
+            }
+        }
+
+        return numArr;
+    }
+
+    function getMin(array) {
+        // accepts only a valid numbers array!
+        var minimal = array[0];
+        var i;
+        for (i = 1; i < array.length; i++) {
+            if (array[i] < minimal) {
+                minimal = array[i];
+            }
+        }
+
+        return minimal;
+    }
+
+    function getMax(array) {
+        // accepts only a valid numbers array!
+        var maximal = array[0];
+        var i;
+        for (i = 1; i < array.length; i++) {
+            if (array[i] > maximal) {
+                maximal = array[i];
+            }
+        }
+
+        return maximal;
+    }
+
+    function getAverage(array) {
+        // accepts only a valid numbers array!
+        var sum = array[0];
+        var average;
+        var i;
+        for (i = 1; i < array.length; i++) {
+            sum += array[i];
+        }
+
+        average = (sum / array.length) | 0;
+        return average;
+    }
+
+    function getSum(array) {
+        // accepts only a valid numbers array!
+        var sum = array[0];
+        var i;
+        for (i = 1; i < array.length; i++) {
+            sum += array[i];
+        }
+
+        return sum;
+    }
 }
 
 //function Solve(params) {
