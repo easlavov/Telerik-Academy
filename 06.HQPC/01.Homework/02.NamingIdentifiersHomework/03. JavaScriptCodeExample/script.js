@@ -1,4 +1,4 @@
-﻿function onButtonClick(event, args) {
+﻿function alertIfMozilla(event, args) {
     var currentWindow = window;
     var browser = currentWindow.navigator.appCodeName;
     var isMozilla = (browser === "Mozilla");
