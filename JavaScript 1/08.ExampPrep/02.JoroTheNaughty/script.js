@@ -40,8 +40,6 @@
 
     return result;
 
-    debugger;
-
     function initMatrix(matrix) {
         for (var i = 0; i < n; i++) {
             matrix[i] = [];

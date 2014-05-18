@@ -7,6 +7,7 @@
     {
         public static void Main(string[] args)
         {
+            const int TOTAL_SAFE_CELLS = 35;
             string command = string.Empty;
             char[,] field = InitiaiteGamingField();
             char[,] bombs = PlaceBombs();
@@ -16,7 +17,6 @@
             int row = 0;
             int column = 0;
             bool isNewGame = true;
-            const int TOTAL_SAFE_CELLS = 35;
             bool fieldCleared = false;
 
             do
