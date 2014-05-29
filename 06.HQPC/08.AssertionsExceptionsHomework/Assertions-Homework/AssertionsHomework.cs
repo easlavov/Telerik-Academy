@@ -4,6 +4,13 @@ using System.Diagnostics;
 
 class AssertionsHomework
 {
+    /// <summary>
+    /// Sorts the elements in an entire one-dimensional array using the IComparable<T> generic
+    /// interface implementation of each element of the Array by using the Selection sort
+    /// algorithm.
+    /// </summary>
+    /// <typeparam name="T">A type implementing the IComparable interface.</typeparam>
+    /// <param name="arr">The array to sort.</param>
     public static void SelectionSort<T>(T[] arr) where T : IComparable<T>
     {
         for (int index = 0; index < arr.Length-1; index++)
@@ -11,9 +18,25 @@ class AssertionsHomework
             int minElementIndex = FindMinElementIndex(arr, index, arr.Length - 1);
             Swap(ref arr[index], ref arr[minElementIndex]);
         }
+
+        Debug.Assert(ArraySortedAscending(arr), "Array not sorted in ascending order!");
     }
-  
-    private static int FindMinElementIndex<T>(T[] arr, int startIndex, int endIndex) 
+
+    // Custom method. Checks if an array is sorted in ascending order.
+    private static bool ArraySortedAscending<T>(T[] arr) where T : IComparable<T>
+    {
+        for (int i = 0; i < arr.Length - 1; i++)
+        {
+            if ((dynamic)arr[i] > arr[i + 1])
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    private static int FindMinElementIndex<T>(T[] arr, int startIndex, int endIndex)
         where T : IComparable<T>
     {
         int minElementIndex = startIndex;
@@ -24,6 +47,8 @@ class AssertionsHomework
                 minElementIndex = i;
             }
         }
+
+        Debug.Assert();
         return minElementIndex;
     }
 
@@ -39,7 +64,7 @@ class AssertionsHomework
         return BinarySearch(arr, value, 0, arr.Length - 1);
     }
 
-    private static int BinarySearch<T>(T[] arr, T value, int startIndex, int endIndex) 
+    private static int BinarySearch<T>(T[] arr, T value, int startIndex, int endIndex)
         where T : IComparable<T>
     {
         while (startIndex <= endIndex)
@@ -54,7 +79,7 @@ class AssertionsHomework
                 // Search on the right half
                 startIndex = midIndex + 1;
             }
-            else 
+            else
             {
                 // Search on the right half
                 endIndex = midIndex - 1;
