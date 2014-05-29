@@ -5,21 +5,19 @@
 
 // Divs that are directly inside other divs have been manually given
 // class "directly-inside-div" for testing purposes.
-var realDirectlyNestedDivsCount = document.getElementsByClassName('directly-inside-div').length;
+var directlyNestedDivsCount = document.getElementsByClassName('directly-inside-div').length;
 var welcomeMessage = 'The real count of directly nested divs in this html document is ' +
-                realDirectlyNestedDivsCount;
+                directlyNestedDivsCount;
 console.log(welcomeMessage);
 
 // Query solution
-var directlyNestedDivsCountQuery = getDirectlyNestedDivsByQuery();
-var queryMessage = 'The count of directly nested divs in this html document ' +
-                   'extracted by using query selector is ' +
-                   directlyNestedDivsCountQuery;
-console.log(queryMessage);
+var directlyNestedDivsQuery = getDirectlyNestedDivsByQuery();
+var queryMessage = 'The directly nested divs in this html document ' +
+                   'extracted by using query selector are :';
+console.dir(directlyNestedDivsQuery);
 
 // Tag name solution
-var directlyNestedDivsCountTagName = getDirectlyNestedDivsByTagName();
-var tagNameMessage = 'The count of directly nested divs in this html document ' +
-                     'extracted by using tag name is ' +
-                     directlyNestedDivsCountTagName;
-console.log(tagNameMessage);
+var directlyNestedDivsTagName = getDirectlyNestedDivsByTagName();
+var tagNameMessage = 'The directly nested divs in this html document ' +
+                   'extracted by using tag name are :';
+console.dir(directlyNestedDivsTagName);
