@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Diagnostics;
+using System.Collections;
 
 class AssertionsHomework
 {
@@ -13,7 +14,7 @@ class AssertionsHomework
     /// <param name="arr">The array to sort.</param>
     public static void SelectionSort<T>(T[] arr) where T : IComparable<T>
     {
-        for (int index = 0; index < arr.Length-1; index++)
+        for (int index = 0; index < arr.Length - 1; index++)
         {
             int minElementIndex = FindMinElementIndex(arr, index, arr.Length - 1);
             Swap(ref arr[index], ref arr[minElementIndex]);
@@ -39,6 +40,11 @@ class AssertionsHomework
     private static int FindMinElementIndex<T>(T[] arr, int startIndex, int endIndex)
         where T : IComparable<T>
     {
+        Debug.Assert(startIndex >= 0, "Start index must be 0 or bigger!");
+        Debug.Assert(startIndex < arr.Length, "Start index should be smaller than the array's length!");
+        Debug.Assert(endIndex >= startIndex, "End index must be equal to or bigger than the start index!");
+        Debug.Assert(endIndex < arr.Length, "End index should be smaller than the array's length!");
+
         int minElementIndex = startIndex;
         for (int i = startIndex + 1; i <= endIndex; i++)
         {
@@ -48,7 +54,8 @@ class AssertionsHomework
             }
         }
 
-        Debug.Assert();
+        Debug.Assert(minElementIndex >= 0 && minElementIndex <= endIndex,
+                    "Retruend index is outside the boundaries of the array!");
         return minElementIndex;
     }
 
@@ -59,8 +66,16 @@ class AssertionsHomework
         y = oldX;
     }
 
+    /// <summary>
+    /// Returns the index of an element in a sorted array.
+    /// </summary>
+    /// <typeparam name="T">An IComparable type.</typeparam>
+    /// <param name="arr">The sorted array to search.</param>
+    /// <param name="value">The element to search for.</param>
+    /// <returns>An integer value indicating the index of the value or -1 if not found.</returns>
     public static int BinarySearch<T>(T[] arr, T value) where T : IComparable<T>
     {
+        Debug.Assert(ArraySortedAscending(arr), "Input array not in ascending order!");
         return BinarySearch(arr, value, 0, arr.Length - 1);
     }
 
