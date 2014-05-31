@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="CSharpExam.cs" />
     <Compile Include="ExamResult.cs" />
+    <Compile Include="Methods.cs" />
     <Compile Include="SimpleMathExam.cs" />
     <Compile Include="ExceptionsHomework.cs" />
     <Compile Include="Exam.cs" />
