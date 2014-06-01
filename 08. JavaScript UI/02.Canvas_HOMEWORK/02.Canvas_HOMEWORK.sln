@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. StaticImages", "01. StaticImages\01. StaticImages.csproj", "{257B2697-F5DD-4098-A867-D9391ECA64F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. BouncingBall", "02. BouncingBall\02. BouncingBall.csproj", "{A87F5C3C-0A50-452C-98A7-C1DA1AE0F9BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Snake", "03. Snake\03. Snake.csproj", "{94781802-1610-401E-B967-29912BE9074F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{257B2697-F5DD-4098-A867-D9391ECA64F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257B2697-F5DD-4098-A867-D9391ECA64F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257B2697-F5DD-4098-A867-D9391ECA64F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257B2697-F5DD-4098-A867-D9391ECA64F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A87F5C3C-0A50-452C-98A7-C1DA1AE0F9BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A87F5C3C-0A50-452C-98A7-C1DA1AE0F9BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A87F5C3C-0A50-452C-98A7-C1DA1AE0F9BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A87F5C3C-0A50-452C-98A7-C1DA1AE0F9BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94781802-1610-401E-B967-29912BE9074F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94781802-1610-401E-B967-29912BE9074F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94781802-1610-401E-B967-29912BE9074F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94781802-1610-401E-B967-29912BE9074F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
