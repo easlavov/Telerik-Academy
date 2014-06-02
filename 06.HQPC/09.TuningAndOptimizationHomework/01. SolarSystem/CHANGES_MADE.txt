@@ -1,0 +1,27 @@
+﻿The only change made to the entire project is in the OrbitsCalculator class.
+The EarthRotation() method made an unecessary use of the decimal type, resulting in
+severely decreased performance:
+
+private void EarthRotation()
+{
+	for (decimal step = 0; step <= 360; step+=0.00005m)
+	{
+		EarthRotationAngle = ((double)step) * Days / EarthRotationPeriod;
+	}
+    Update("EarthRotationAngle");
+}
+
+The type of the 'step' variable has been set to float which greatly improved performance
+and at the same time preserved functionality:
+
+private void EarthRotation()
+{
+	for (float step = 0; step <= 360; step+=0.00005f)
+	{
+		EarthRotationAngle = (step) * Days / EarthRotationPeriod;
+	}
+    Update("EarthRotationAngle");
+}
+
+You can find screenshots of the performed before/after tests in the PerformanceTestImages
+folder.
