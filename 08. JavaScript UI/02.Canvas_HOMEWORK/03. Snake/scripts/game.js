@@ -9,6 +9,7 @@ var snakeHeadX = fieldWidth / 2;
 var snakeHeadY = fieldHeight / 2;
 var snakeHead = new SnakeHead(snakeHeadX, snakeHeadY, objectsSize);
 var snakeLength = 4;
+var speed = 125;
 var theSnake = new Snake(snakeHead, snakeLength);
 generateApple(objectsSize);
 var currentScore = 0;
@@ -32,7 +33,7 @@ var currentGame = setInterval(function () {
     } else {
         move(theSnake);
     }
-}, 150);
+}, speed);
 
 document.addEventListener('keydown', function (event) {
     var key = event.keyCode;

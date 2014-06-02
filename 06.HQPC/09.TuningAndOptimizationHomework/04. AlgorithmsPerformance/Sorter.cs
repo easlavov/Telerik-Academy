@@ -4,9 +4,9 @@ using System.Linq;
 
 public static class Sorter
 {
-    public static void InsertionSort<T>(IList<T> collection) where T : IComparable<T>
+    public static void InsertionSort<T>(T[] collection) where T : IComparable<T>
     {
-        for (int i = 1; i < collection.Count; i++)
+        for (int i = 1; i < collection.Length; i++)
         {
             T index = collection[i];
             int j = i;
@@ -22,10 +22,10 @@ public static class Sorter
         }
     }
 
-    public static void SelectionSort<T>(IList<T> collection) where T : IComparable<T>
+    public static void SelectionSort<T>(T[] collection) where T : IComparable<T>
     {
         int leftPivot = 0;
-        int count = collection.Count;
+        int count = collection.Length;
         while (leftPivot < count)
         {
             T smallest = collection[leftPivot];
@@ -50,21 +50,21 @@ public static class Sorter
         }
     }
 
-    public static void Quicksort<T>(IList<T> collection) where T : IComparable<T>
+    public static void Quicksort<T>(T[] collection) where T : IComparable<T>
     {
-        if (collection.Count < 2)
+        if (collection.Length < 2)
         {
             return;
         }
 
-        dynamic pivot = collection[collection.Count / 2];
+        dynamic pivot = collection[collection.Length / 2];
         IList<T> smaller = new List<T>();
         IList<T> pivotArr = new List<T>() { pivot };
         IList<T> bigger = new List<T>();
 
-        for (int i = 0; i < collection.Count; i++)
+        for (int i = 0; i < collection.Length; i++)
         {
-            if (i != collection.Count / 2)
+            if (i != collection.Length / 2)
             {
                 //if (collection[i] <= pivot)
                 if (collection[i].CompareTo(pivot) <= 0)
@@ -78,8 +78,8 @@ public static class Sorter
             }
         }
 
-        Quicksort(smaller);
-        Quicksort(bigger);
+        Quicksort(smaller.ToArray());
+        Quicksort(bigger.ToArray());
 
         List<T> newList = smaller.Concat(pivotArr).Concat(bigger).ToList();
         for (int i = 0; i < newList.Count; i++)
