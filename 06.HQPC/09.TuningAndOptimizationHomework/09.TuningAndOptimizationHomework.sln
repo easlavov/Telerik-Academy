@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. SolarSystem", "01. Sola
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. BasicOperatorsPerformanceComparison", "02. BasicOperatorsPerformanceComparison\02. BasicOperatorsPerformanceComparison.csproj", "{34331C3B-A13D-4BC3-B1F8-11A803EAB0DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. AdvancedOperationsPerformance", "03. AdvancedOperationsPerformance\03. AdvancedOperationsPerformance.csproj", "{8D42A1D0-2FEC-4A30-8880-4561EACB8183}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. AlgorithmsPerformance", "04. AlgorithmsPerformance\04. AlgorithmsPerformance.csproj", "{B15DC154-DF7F-463D-ADF9-A2C5706C9AD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{34331C3B-A13D-4BC3-B1F8-11A803EAB0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34331C3B-A13D-4BC3-B1F8-11A803EAB0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34331C3B-A13D-4BC3-B1F8-11A803EAB0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D42A1D0-2FEC-4A30-8880-4561EACB8183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D42A1D0-2FEC-4A30-8880-4561EACB8183}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D42A1D0-2FEC-4A30-8880-4561EACB8183}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D42A1D0-2FEC-4A30-8880-4561EACB8183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B15DC154-DF7F-463D-ADF9-A2C5706C9AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15DC154-DF7F-463D-ADF9-A2C5706C9AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15DC154-DF7F-463D-ADF9-A2C5706C9AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15DC154-DF7F-463D-ADF9-A2C5706C9AD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

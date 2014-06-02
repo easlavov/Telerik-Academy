@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-public static class Test
+public static class OperationsTest
 {
     private const int ITERATIONS = 10000000; // ten million
 
@@ -130,6 +127,7 @@ public static class Test
         return timeElapsed;
     }
 
+    // Danger: low-quality program code
     private static TimeSpan IncrementTest<T>(T variable)
     {
         Stopwatch stopWatch = new Stopwatch();

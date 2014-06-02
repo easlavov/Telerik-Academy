@@ -4,23 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-class Program
+class TestProgram
 {
     static void Main()
     {
-        var additionResult = Test.PerformTest("addition");
+        var additionResult = OperationsTest.PerformTest("addition");
         Console.WriteLine(additionResult + Environment.NewLine);
 
-        var subtractionResult = Test.PerformTest("subtraction");
+        var subtractionResult = OperationsTest.PerformTest("subtraction");
         Console.WriteLine(subtractionResult + Environment.NewLine);
 
-        var incrementationResult = Test.PerformTest("incrementation");
+        var incrementationResult = OperationsTest.PerformTest("incrementation");
         Console.WriteLine(incrementationResult + Environment.NewLine);
 
-        var multiplicationResult = Test.PerformTest("multiplication");
+        var multiplicationResult = OperationsTest.PerformTest("multiplication");
         Console.WriteLine(multiplicationResult + Environment.NewLine);
 
-        var divisionResult = Test.PerformTest("division");
+        var divisionResult = OperationsTest.PerformTest("division");
         Console.WriteLine(divisionResult + Environment.NewLine);
     }
 }

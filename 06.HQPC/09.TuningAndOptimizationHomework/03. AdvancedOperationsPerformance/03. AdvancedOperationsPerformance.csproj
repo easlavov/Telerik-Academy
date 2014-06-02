@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{34331C3B-A13D-4BC3-B1F8-11A803EAB0DA}</ProjectGuid>
+    <ProjectGuid>{8D42A1D0-2FEC-4A30-8880-4561EACB8183}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_02.BasicOperatorsPerformanceComparison</RootNamespace>
-    <AssemblyName>_02.BasicOperatorsPerformanceComparison</AssemblyName>
+    <RootNamespace>_03.AdvancedOperationsPerformance</RootNamespace>
+    <AssemblyName>_03.AdvancedOperationsPerformance</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,8 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="OperationsTest.cs" />
-    <Compile Include="TestProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestProgram.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
