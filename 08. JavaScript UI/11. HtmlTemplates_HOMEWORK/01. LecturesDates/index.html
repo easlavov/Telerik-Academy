@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>01. Courses dates</title>
+    <style>
+        body{
+            font-family: Arial;
+        }
+
+        table, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        thead, tr:nth-of-type(even) {
+            background-color: lightgray;
+        }
+
+        thead {
+            color: white;
+        }
+    </style>
+    <script src="handlebars-v1.3.0.js" type="text/javascript"></script>
+</head>
+<body>
+
+    <script id="lecture-dates-table-template" type="text/x-handlebars-template">
+        <table>
+            <thead>
+                <tr>
+                    <td>№</td>
+                    <td>Title</td>
+                    <td>Date #1</td>
+                    <td>Date #2</td>
+                </tr>
+            </thead>
+
+            <tbody>
+                {{#each lectures}}
+                    <tr>
+                        <td>{{@index}}</td>
+                        <td>{{title}}</td>
+                        <td>{{firstDate}}</td>
+                        <td>{{secondDate}}</td>
+                    </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </script>
+
+    <script>
+        var lectures = [{
+            title:'Course intro',
+            firstDate:'Wed 18:00, 28-May-2014',
+            secondDate:'Thu 14:00, 29-May-2014'
+        },{
+            title:'DOM',
+            firstDate:'Wed 18:00, 28-May-2014',
+            secondDate:'Thu 14:00, 29-May-2014'
+        },{
+            title:'Canvas',
+            firstDate:'Thu 18:00, 29-May-2014',
+            secondDate:'Fri 14:00, 30-May-2014'
+        },{
+            title:'Kinetic',
+            firstDate:'Thu 18:00, 29-May-2014',
+            secondDate:'Fri 14:00, 30-May-2014'
+        },{
+            title:'SVG',
+            firstDate:'Wed 18:00, 04-Jun-2014',
+            secondDate:'Thu 14:00, 05-Jun-2014'
+        },];
+
+
+        var templateString = document.getElementById('lecture-dates-table-template').innerHTML;
+        var template = Handlebars.compile(templateString);
+
+        var finalHtml = template({
+            lectures:lectures
+        });
+
+        document.body.innerHTML = finalHtml;
+    </script>
+</body>
+</html>
