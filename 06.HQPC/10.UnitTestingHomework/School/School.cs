@@ -5,8 +5,8 @@
 
     public class School
     {
-        private const int ID_NUMBER_MINIMAL_VALUE = 10000;
-        private const int ID_NUMBER_MAXIMAL_VALUE = 99999;
+        public const int ID_NUMBER_MINIMAL_VALUE = 10000;
+        public const int ID_NUMBER_MAXIMAL_VALUE = 99999;
         private List<Student> students;
         private List<Course> courses;
         private int idCounter = ID_NUMBER_MINIMAL_VALUE;
@@ -45,7 +45,7 @@
 
         public int IdCounter
         {
-            private get
+            get
             {
                 return this.idCounter;
             }

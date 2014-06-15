@@ -5,7 +5,7 @@
 
     public class Course
     {
-        private const int MAX_STUDENTS_COUNT = 29;
+        public const int MAX_STUDENTS_COUNT = 29;
         private List<Student> students;
         private string name;
 
@@ -43,7 +43,7 @@
 
         public void AddStudent(Student student)
         {
-            if (this.Students.Count > MAX_STUDENTS_COUNT)
+            if (this.Students.Count == MAX_STUDENTS_COUNT)
             {
                 string message = string.Format("A class can have no more than {0} students.", MAX_STUDENTS_COUNT);
                 throw new InvalidOperationException(message);
