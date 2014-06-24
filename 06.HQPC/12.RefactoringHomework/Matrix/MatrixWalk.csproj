@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3E790408-62A5-4CD2-8202-7B60ABB39B0B}</ProjectGuid>
+    <ProjectGuid>{A822E11F-E7E1-4B47-BDD9-3D75B472BE45}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RotatingWalkInMatrix</RootNamespace>
-    <AssemblyName>RotatingWalkInMatrix</AssemblyName>
+    <RootNamespace>Matrix</RootNamespace>
+    <AssemblyName>Matrix</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,9 +41,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main.cs" />
+    <Compile Include="Matrix.cs" />
+    <Compile Include="TestProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RotatingWalk.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
