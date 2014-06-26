@@ -3,25 +3,22 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>01. DOM Manipulations Module</title>
-    <script src="movingDivs.js" type="text/javascript"></script>
 </head>
 <body>
-    <button id="fill-buffer-button">Click to add the 100th element to the buffer</button>
-    <button id="remove-all-children-button" disabled="disabled">Click to remove all children of the test div</button>
 
-    <div id="test-div">
-
-    </div>
+    <script src="movingDivs.js" type="text/javascript"></script>
     <script>
+        movingDivs.add('ellipse');
+        movingDivs.add('ellipse');
+        movingDivs.add('ellipse');
+        movingDivs.add('ellipse');
+        movingDivs.add('ellipse');
 
-        movingDivs.addHandler('#fill-buffer-button', 'click', function () {
-            movingDivs.getElementBySelector('#remove-all-children-button').disabled = false;
-            movingDivs.getElementBySelector('#fill-buffer-button').disabled = true;
-        });
-
-        movingDivs.addHandler('#remove-all-children-button', 'click', function () {
-            movingDivs.getElementBySelector('#remove-all-children-button').disabled = true;
-        });
+        movingDivs.add('rect');
+        movingDivs.add('rect');
+        movingDivs.add('rect');
+        movingDivs.add('rect');
+        movingDivs.startMovement();
     </script>
 </body>
 </html>
