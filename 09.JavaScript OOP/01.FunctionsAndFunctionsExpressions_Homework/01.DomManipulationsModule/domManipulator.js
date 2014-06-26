@@ -1,18 +1,18 @@
 var domManipulator = (function () {
-    var MAX_BUFFER_SIZE = 5;
+    var MAX_BUFFER_SIZE = 100;
     var buffer = [];
 
-    function appendElement(selector, element) {
+    function appendChild(element, selector) {
         var parent = document.querySelector(selector);
         parent.appendChild(element);
     }
 
-    function removeElement(selector, element) {
+    function removeChild(element, selector) {
         var parent = document.querySelector(selector);
         parent.removeChild(element);
     }
 
-    function attachEventHandler(selector, eventType, eventHandler) {
+    function addHandler(selector, eventType, eventHandler) {
         var element = document.querySelector(selector);
         element.addEventListener(eventType, eventHandler);
     }
@@ -25,7 +25,7 @@ var domManipulator = (function () {
 
         buffer[parent].appendChild(element);
 
-        // Flush if necessary
+        // Flush buffer if necessary
         if (buffer[parent].childElementCount === MAX_BUFFER_SIZE) {
             parent.appendChild(buffer[parent]);
         }
@@ -40,9 +40,9 @@ var domManipulator = (function () {
     }
 
     return {
-        appendElement : appendElement,
-        removeElement : removeElement,
-        attachEventHandler : attachEventHandler,
+        appendChild : appendChild,
+        removeChild : removeChild,
+        addHandler : addHandler,
         addToBuffer : addToBuffer,
         getElementBySelector : getElementBySelector,
         getElementsBySelector : getElementsBySelector
