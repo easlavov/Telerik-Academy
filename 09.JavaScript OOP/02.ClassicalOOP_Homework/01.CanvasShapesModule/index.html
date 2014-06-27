@@ -5,17 +5,18 @@
     <title>01. DOM Manipulations Module</title>
 </head>
 <body>
-    <div id="console-holder"></div>
+    <canvas id="the-canvas" width="800" height="600">
+
+    </canvas>
 
     <script src="canvasShapes.js" type="text/javascript"></script>
     <script>
-        specialConsole.createConsoleIn('#console-holder');
-        specialConsole.writeLine("Message: hello");
-        //logs to the console "Message: hello"
-        specialConsole.writeLine("Message: {0}", "hello");
-        //logs to the console "Message: hello"
-        specialConsole.writeError("Error: {0}", "Something happened");
-        specialConsole.writeWarning("Warning: {0}", "A warning");
+        var canvasDrawer = new CanvasShapes('the-canvas');
+        canvasDrawer.fillRectangle(50, 50, 200, 100, 'yellow');
+        canvasDrawer.strokeRectangle(100, 70, 50, 50, 'red', 2);
+        canvasDrawer.fillCircle(15, 15, 10, 'red');
+        canvasDrawer.strokeCircle(300, 100, 30, 'green', 5);
+        canvasDrawer.line(75, 75, 300, 100, 'orange', 3);
     </script>
 </body>
 </html>

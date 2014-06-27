@@ -1,59 +1,62 @@
-var specialConsole = (function(){
-    var console;
-    var spanTemplate = document.createElement('span');
+var CanvasShapes = function(canvasId){
+    var context = getContext(canvasId);
+    var DEFAULT_FILL_COLOR = 'black';
+    var DEFAULT_STROKE_COLOR = 'black';
+    var DEFAULT_STROKE_WIDTH = 2;
 
-    function createConsoleIn(parentSelector){
-        var parent = document.querySelector(parentSelector);
-        var div = document.createElement('div');
-        div.style.width = '1000px';
-        div.style.height = '600px';
-        div.style.fontFamily = 'consolas';
-        div.style.fontSize = '14px';
-        div.style.color = 'white';
-        div.style.backgroundColor = 'black';
-        div.style.overflowY = 'scroll';  // overflow-y: scroll
-        div.style.wordWrap = 'break-word';
-
-        console = div;
-
-        parent.appendChild(console);
+    function fillRectangle(x, y, width, height, fillColor) {
+        context.fillStyle = fillColor || DEFAULT_FILL_COLOR;
+        context.fillRect(x, y, width, height);
     }
 
-    function getPlaceholders(args){
-        var pHarr = new Array();
-        for (var i = 1; i < args.length; i++) {
-            pHarr.push(args[i]);
-        }
-
-        return pHarr;
+    function strokeRectangle(x, y, width, height, strokeColor, strokeWidth) {
+        context.strokeStyle = strokeColor || DEFAULT_STROKE_COLOR;
+        context.lineWidth = strokeWidth || DEFAULT_STROKE_WIDTH;
+        context.strokeRect(x, y, width, height);
     }
 
-    function formatString(str, args){
-        var current;
-        for (var i = 0, placeholder = 0; i < args.length; i++, placeholder++) {
-            current = '\{' + placeholder + '\}';
-            str = str.replace(current, args[i].toString(), 'g');
-        }
-
-        return str;
+    function fillCircle(x, y, radius, fillColor) {
+        context.fillStyle = fillColor || DEFAULT_FILL_COLOR;
+        context.beginPath();
+        context.arc(x, y, radius, 0, 2 * Math.PI, true);
+        context.fill();
+        context.closePath();
     }
 
-    function writeLine(str) {
-        var line = spanTemplate.cloneNode(true);
-        if (arguments.length > 1){
-            var argsArray = getPlaceholders(arguments);
-            str = formatString(str, argsArray);
+    function strokeCircle(x, y, radius, strokeColor, strokeWidth) {
+        context.strokeStyle = strokeColor || DEFAULT_STROKE_COLOR;
+        context.lineWidth = strokeWidth || DEFAULT_STROKE_WIDTH;
+        context.beginPath();
+        context.arc(x, y, radius, 0, 2 * Math.PI, true);
+        context.stroke();
+        context.closePath();
+    }
+
+    function line(x1, y1, x2, y2, color, strokeWidth) {
+        context.strokeStyle = color || DEFAULT_STROKE_COLOR;
+        context.lineWidth = strokeWidth || DEFAULT_STROKE_WIDTH;
+        context.beginPath();
+        context.moveTo(x1, y1);
+        context.lineTo(x2, y2);
+        context.stroke();
+        context.closePath();
+    }
+
+    function getContext(id) {
+        var canvas = document.getElementById(id);
+        if (!canvas) {
+            throw 'Incorrect ID passed as argument';
         }
 
-        line.textContent = str.toString();
-        console.appendChild(line);
-        console.appendChild(document.createElement('br'));
+        var ctx = canvas.getContext('2d');
+        return ctx;
     }
 
     return {
-        createConsoleIn : createConsoleIn,
-        writeLine : writeLine,
-        writeError: writeLine,
-        writeWarning : writeLine
+        fillRectangle : fillRectangle,
+        strokeRectangle : strokeRectangle,
+        fillCircle : fillCircle,
+        strokeCircle : strokeCircle,
+        line : line
     }
-})();
+};
