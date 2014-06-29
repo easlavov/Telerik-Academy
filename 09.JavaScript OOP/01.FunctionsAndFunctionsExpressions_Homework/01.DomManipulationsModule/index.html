@@ -12,7 +12,6 @@
     </ul>
 
     <button id="fill-buffer-button">Click to add the 100th element to the buffer</button>
-    <button id="remove-all-children-button" disabled="disabled">Click to remove all children of the test div</button>
     <button id="remove-first-li-button">Click to remove the first list item from the list</button>
 
     <div id="test-div">
@@ -28,23 +27,18 @@
         pTemplate.innerText = 'this is a paragraph appended through the buffer';
         var newDiv;
         for (var i = 0; i < 99; i++) {
-            addDivToTestDiv();
+            addDivToTestDiv(i + 1);
         }
 
-        function addDivToTestDiv() {
+        function addDivToTestDiv(num) {
             newDiv = pTemplate.cloneNode(true);
+            newDiv.innerText += ' #' + num;
             domManipulator.addToBuffer('#test-div', newDiv);
         }
 
         domManipulator.addHandler('#fill-buffer-button', 'click', function () {
-            addDivToTestDiv();
-            domManipulator.getElementBySelector('#remove-all-children-button').disabled = false;
+            addDivToTestDiv(100);
             domManipulator.getElementBySelector('#fill-buffer-button').disabled = true;
-        });
-
-        domManipulator.addHandler('#remove-all-children-button', 'click', function () {
-            removeAllElementsWithRemoveChild();
-            domManipulator.getElementBySelector('#remove-all-children-button').disabled = true;
         });
 
         domManipulator.addHandler('.button-test-class', 'click', function () {
@@ -54,13 +48,6 @@
         domManipulator.addHandler('#remove-first-li-button', 'click', function (){
             domManipulator.removeChild('ul', 'li:first-child');
         });
-
-        function removeAllElementsWithRemoveChild() {
-            var paragraphs = domManipulator.getElementsBySelector('#test-div p');
-            for (var i = 0; i < paragraphs.length; i++) {
-                domManipulator.removeChild(paragraphs[i], '#test-div');
-            }
-        }
     </script>
 </body>
 </html>
