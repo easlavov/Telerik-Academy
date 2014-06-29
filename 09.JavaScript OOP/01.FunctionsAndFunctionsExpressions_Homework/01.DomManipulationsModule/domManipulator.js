@@ -7,14 +7,19 @@ var domManipulator = (function () {
         parent.appendChild(element);
     }
 
-    function removeChild(element, selector) {
-        var parent = document.querySelector(selector);
-        parent.removeChild(element);
+    function removeChild(parentSelector, childSelector) {
+        var parent = document.querySelector(parentSelector);
+        var child = parent.querySelector(childSelector);
+        parent.removeChild(child);
     }
 
     function addHandler(selector, eventType, eventHandler) {
-        var element = document.querySelector(selector);
-        element.addEventListener(eventType, eventHandler);
+        var elements = document.querySelectorAll(selector);
+        var i;
+        // LiveNode lists can not be iterated with forEach that's why we're using a for loop
+        for (i = 0; i < elements.length; i += 1) {
+            elements[i].addEventListener(eventType, eventHandler);
+        }
     }
 
     function addToBuffer(selector, element) {
