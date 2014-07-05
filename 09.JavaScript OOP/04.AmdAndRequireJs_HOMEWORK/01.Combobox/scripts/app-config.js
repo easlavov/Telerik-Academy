@@ -2,12 +2,18 @@
     require.config({
         paths: {
             'jquery': '../libs/jquery-2.1.1',
-            'handlebars': '../libs/handlebars-v1.3.0'
+            'handlebars': '../libs/handlebars-v1.3.0',
+            'people': 'people',
+            'controls': 'controls'
         }
     });
 
-    require(['handlebars', 'jquery'], function (hb) {
-       console.log('Pesho');
-        $('<div>').html('Emko').appendTo('body');
+    require(['controls', 'people', 'jquery'], function (controls, people) {
+        // Refactor:
+        var comboBox = controls.ComboBox(people);
+        var template = $("#person-template").html();
+        var comboBoxHtml = comboBox.render(template);
+        var container = document.getElementById('combobox-container');
+        container.innerHTML = comboBoxHtml;
     });
 }());

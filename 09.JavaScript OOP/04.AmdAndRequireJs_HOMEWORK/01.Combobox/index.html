@@ -6,6 +6,17 @@
     <script src="libs\require.js" data-main="scripts/app-config"></script>
 </head>
 <body>
+    <div id="combobox-container">
 
+    </div>
+
+    <script id="person-template" type="text/x-handlebars-template">
+        {{#each items}}
+        <div class="person-item" id="person-item-{{id}}">
+            <strong class="person-name">{{name}}</strong><p class="person-age">{{age}}</p>
+            <img alt="{{name}} image" src="{{avatarUrl}}" width="100px" />
+        </div>
+        {{/each}}
+    </script>
 </body>
 </html>
