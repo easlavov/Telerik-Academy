@@ -1,7 +1,19 @@
+.combo-box {
+    width: 150px;
+}
+
 .combo-box .selected-item {
     width: 150px;
-    height: 100px;
+    height: 220px;
     border: 1px solid black;
+}
+
+.combo-box .selected-item:hover {
+    background-color: lightblue;
+}
+
+.combo-box .person-item:hover {
+    background-color: lightslategray;
 }
 
 .combo-box .person-item.hidden {

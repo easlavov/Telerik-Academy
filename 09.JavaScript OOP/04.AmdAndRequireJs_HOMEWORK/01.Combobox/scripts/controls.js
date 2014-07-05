@@ -33,17 +33,16 @@ define(['handlebars', 'jquery'], function () {
 
             $comboBoxContainer.find('.person-item').addClass('hidden');
 
+            attachEventHandlers($comboBoxContainer)
 
-            $wrapper = $('<div>').append($comboBoxContainer);
-            comboBoxFinalHtml = $wrapper.html();
+            comboBoxFinalHtml = $comboBoxContainer.get(0);
             return comboBoxFinalHtml;
         }
 
         return ComboBox;
     }());
 
-    function attachEventHandlers(comboBoxContainer) {
-        var $comboBoxContainer = $(comboBoxContainer);
+    function attachEventHandlers($comboBoxContainer) {
         $comboBoxContainer.on('click', '.selected-item', function () {
             var $this = $(this).parent();
             $this.find('.person-item').removeClass('hidden');
@@ -54,7 +53,7 @@ define(['handlebars', 'jquery'], function () {
             var $thisParent = $this.parent();
             $thisParent.find('.selected-item').html($this.html());
             $thisParent.find('.selected').removeClass('selected');
-            $this.addClass('.selected');
+            $this.addClass('selected');
             $thisParent.find('.person-item').addClass('hidden');
         });
     }

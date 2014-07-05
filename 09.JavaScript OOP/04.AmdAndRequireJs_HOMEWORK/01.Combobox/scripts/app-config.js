@@ -13,8 +13,7 @@
         var comboBox = controls.ComboBox(people);
         var template = $("#person-template").html();
         var comboBoxHtml = comboBox.render(template);
-        var container = document.getElementById('combobox-container');
-        container.innerHTML = comboBoxHtml;
-        controls.attachEventHandlers(container);
+        var $container = $('#combobox-container');
+        $container.append(comboBoxHtml);
     });
 }());
