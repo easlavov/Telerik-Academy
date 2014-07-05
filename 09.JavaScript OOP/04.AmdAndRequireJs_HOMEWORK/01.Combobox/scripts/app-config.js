@@ -15,5 +15,6 @@
         var comboBoxHtml = comboBox.render(template);
         var container = document.getElementById('combobox-container');
         container.innerHTML = comboBoxHtml;
+        controls.attachEventHandlers(container);
     });
 }());

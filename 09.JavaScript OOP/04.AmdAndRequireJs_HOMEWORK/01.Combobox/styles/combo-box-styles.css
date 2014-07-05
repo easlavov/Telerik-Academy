@@ -1,0 +1,13 @@
+.combo-box .selected-item {
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.combo-box .person-item.hidden {
+    display: none;
+}
+
+.combo-box .person-item.selected {
+    background-color: lightslategray;
+}
