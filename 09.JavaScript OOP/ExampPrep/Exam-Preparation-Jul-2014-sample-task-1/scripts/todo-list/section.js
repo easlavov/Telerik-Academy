@@ -21,10 +21,9 @@ define(['todo-list/item'],function (Item) {
         };
 
         Section.prototype.getData = function () {
-            var items = [];
             var title = this._title;
-            this._items.forEach(function (item) {
-                items.push(item.getData());
+            var items = this._items.map(function (item) {
+                return item.getData();
             });
 
             return {

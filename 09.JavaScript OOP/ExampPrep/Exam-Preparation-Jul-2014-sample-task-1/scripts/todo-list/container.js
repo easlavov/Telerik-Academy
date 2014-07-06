@@ -15,9 +15,8 @@ define(['todo-list/section'], function (Section) {
         };
 
         Container.prototype.getData = function () {
-            var sections = [];
-            this._sections.forEach(function (section) {
-                sections.push(section.getData());
+            var sections = this._sections.map(function (section) {
+                return section.getData();
             });
 
             return sections;
