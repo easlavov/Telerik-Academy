@@ -52,6 +52,18 @@ var Persons;
             var newDegree = new Degree(discipline, degree);
             this.degrees.push(newDegree);
         };
+
+        Student.prototype.getDegreeInDiscipline = function (discipline) {
+            var degree;
+            for (var i = 0; i < this.degrees.length; i++) {
+                if (this.degrees[i].discipline === discipline) {
+                    degree = this.degrees[i].degree;
+                    break;
+                }
+            }
+
+            return degree;
+        };
         return Student;
     })(Person);
     Persons.Student = Student;
@@ -78,6 +90,7 @@ var School;
         }
         Class.prototype.addStudent = function (student) {
             this.students.push(student);
+            return this;
         };
 
         Class.prototype.setTeacher = function (teacher) {
@@ -85,16 +98,41 @@ var School;
         };
 
         Class.prototype.getLowestGradeInClassInDiscipline = function (discipline) {
-            var lowestGrade = 0;
+            var lowestGrade;
             this.students.forEach(function (student) {
+                var degree = student.getDegreeInDiscipline(discipline);
+                if (!lowestGrade) {
+                    lowestGrade = degree;
+                } else if (degree < lowestGrade) {
+                    lowestGrade = degree;
+                }
             });
+
+            return lowestGrade;
         };
         return Class;
     })();
     School.Class = Class;
 })(School || (School = {}));
 
-var testPerson = new Persons.Person('Emo', 25);
-debugger;
-console.log(testPerson.greet());
+var RandomGenerator;
+(function (RandomGenerator) {
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+    RandomGenerator.getRandomInt = getRandomInt;
+})(RandomGenerator || (RandomGenerator = {}));
+
+var teacherKolev = new Persons.Teacher("Kolev", 45, "Medicine");
+var testClass = new School.Class();
+testClass.setTeacher(teacherKolev);
+testClass.addStudent(new Persons.Student("Ivancho", 15, 8)).addStudent(new Persons.Student("Ivancho", 15, 8)).addStudent(new Persons.Student("Pesho", 15, 8)).addStudent(new Persons.Student("Ginka", 15, 8)).addStudent(new Persons.Student("Stanka", 15, 8)).addStudent(new Persons.Student("Draganka", 15, 8)).addStudent(new Persons.Student("Nikodim", 15, 8)).addStudent(new Persons.Student("Karpat", 15, 8));
+
+testClass.students.forEach(function (student) {
+    var degree = RandomGenerator.getRandomInt(1, 75);
+    student.addDegree("Medicine", degree);
+});
+
+var lowestDegreeInMedicine = testClass.getLowestGradeInClassInDiscipline("Medicine");
+console.log("The lowest degree in Medicine in the class is " + lowestDegreeInMedicine);
 //# sourceMappingURL=app.js.map
