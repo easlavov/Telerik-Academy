@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePatternExample", "CompositePatternExample\CompositePatternExample.csproj", "{CED55C18-93D2-4501-8631-2C8F7C79D85E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatternExample", "DecoratorPatternExample\DecoratorPatternExample.csproj", "{80CA6CC9-B20F-4FC1-B04D-301300C3E071}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CED55C18-93D2-4501-8631-2C8F7C79D85E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CED55C18-93D2-4501-8631-2C8F7C79D85E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CED55C18-93D2-4501-8631-2C8F7C79D85E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CA6CC9-B20F-4FC1-B04D-301300C3E071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CA6CC9-B20F-4FC1-B04D-301300C3E071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CA6CC9-B20F-4FC1-B04D-301300C3E071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CA6CC9-B20F-4FC1-B04D-301300C3E071}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
