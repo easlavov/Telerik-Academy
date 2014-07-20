@@ -101,6 +101,47 @@
      */
     console.log('Task 6');
     console.log('Most popular author:');
+    var mostPopular = _.chain(booksArray)
+        .groupBy(function (book) {
+            return book.author;
+        })
+        .sortBy(function (group) {
+            return group.length;
+        })
+        .last()
+        .first()
+        .value()
+        .author;
+    console.log(mostPopular);
+
+    /* Task 7:
+     By an array of people find the most common first and
+     last name. Use underscore.
+     */
+    console.log('Task 7');
+    console.log('Most common first name:');
+    var mostCommonFirstName = _.chain(personsArray)
+        .groupBy(function (person) {
+            return person.firstName;
+        })
+        .sortBy(function (group) {
+            return group.length;
+        })
+        .last()
+        .first().value().firstName;
+    console.log(mostCommonFirstName);
+
+    console.log('Most common last name:');
+    var mostCommonLastName = _.chain(personsArray)
+        .groupBy(function (person) {
+            return person.lastName;
+        })
+        .sortBy(function (group) {
+            return group.length;
+        })
+        .last()
+        .first().value().lastName;
+    console.log(mostCommonLastName);
 })();
 
 

@@ -79,3 +79,51 @@ var animalsArray = [
         legs: '2'
     }
 ];
+
+var booksArray = [{
+        title: 'The great King Katunko',
+        author: 'Hondo Onaka'
+    },{
+        title: 'On the mysteries of the Dark Side',
+        author: 'Count Dooku'
+    },{
+        title: 'Counts of Sereno',
+        author: 'Count Dooku'
+    },{
+        title: 'Cook with the Dark Side',
+        author: 'Count Dooku'
+    },{
+        title: 'The teachings of Darth Sidious',
+        author: 'Count Dooku'
+    },{
+        title: 'Unfortunate adventures',
+        author: 'Obi-Wan Kenobi'
+    },{
+        title: 'Your green garden',
+        author: 'Master Yoda'
+    },{
+        title: 'Aggressive diplomacy',
+        author: 'Padme Amidala'
+    },
+];
+
+var personsArray = [{
+        firstName: 'Ivan',
+        lastName: 'Ivanov'
+    },{
+        firstName: 'Petar',
+        lastName: 'Ivanov'
+    },{
+        firstName: 'Petar',
+        lastName: 'Kovachev'
+    },{
+        firstName: 'Ivan',
+        lastName: 'Ivanov'
+    },{
+        firstName: 'Ivan',
+        lastName: 'Petrov'
+    },{
+        firstName: 'Milen',
+        lastName: 'Tsvetanov'
+    },
+];
