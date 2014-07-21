@@ -1,0 +1,27 @@
+#wrapper {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+}
+
+#wrapper #number-input {
+    width: 300px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#wrapper #guess-button {
+    height: 50px;
+    font-size: 38px;
+    text-align: center;
+}
+
+#wrapper #feedback-div {
+    height: 70%;
+    font-size: 20px;
+    text-align: center;
+    overflow-y: auto;
+}
