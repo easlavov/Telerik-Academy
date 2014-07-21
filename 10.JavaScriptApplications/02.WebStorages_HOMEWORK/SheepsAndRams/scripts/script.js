@@ -3,39 +3,76 @@
     var generatedNumber;
     var $feedbackContainer = $('#feedback-div');
 
-    newGame();
+    startNewGame();
 
     $('#guess-button').on('click', function () {
         var userInput = $('#number-input').val();
+        $('#number-input').val('');
         userInput = parseInt(userInput);
         handleUserInput(userInput);
     });
 
+    $('#high-scores-button').on('click', displayHighScores);
+
     function handleUserInput(userGuess) {
         var sheepsAndRams;
+        guessesCount++;
         if (userGuess === generatedNumber) {
             saveScore(guessesCount);
+            startNewGame();
         } else {
             sheepsAndRams = getSheepsAndRams(generatedNumber, userGuess);
-            displaySheepsAndRams(sheepsAndRams);
+            displaySheepsAndRams(sheepsAndRams, userGuess);
         }
     }
 
     function saveScore(guessesCount) {
         var userName = prompt('Congratulations, you have guessed correctly! Enter your name', 'Unknown');
-        // TODO: Save score
+        localStorage.setItem(userName, guessesCount);
     }
 
-    function displaySheepsAndRams(sheepsAndRams) {
+    function displaySheepsAndRams(sheepsAndRams, userGuess) {
         var sheeps = sheepsAndRams.sheeps;
         var rams = sheepsAndRams.rams;
-        var message = 'Sheeps: ' + sheeps + '; Rams: ' + rams;
+        var message = userGuess + ': Sheeps: ' + sheeps + '; Rams: ' + rams;
         var $messageParagraph = $('<p>').text(message);
         $feedbackContainer.prepend($messageParagraph);
     }
 
-    function newGame() {
+    function startNewGame() {
         generateNumber();
+        $feedbackContainer.empty();
+        guessesCount = 0;
+    }
+
+    function displayHighScores() {
+        var allScores = getHighScores();
+        var message = '';
+        allScores.sort(function (score1, score2) {
+            return (score1.score - score2.score);
+        });
+        for (var i = 0; i < allScores.length && i < 5; i++) {
+            message += allScores[i].name + ' : ' + allScores[i].score + '\n';
+        }
+
+        alert(message);
+    }
+
+    function getHighScores() {
+        var allScores = [];
+        var name;
+        var score;
+        var i;
+        for (i in localStorage) {
+            name = i;
+            score = localStorage.getItem(i);
+            allScores.push({
+                name: name,
+                score: score
+            });
+        }
+
+        return allScores;
     }
 
     function generateNumber() {
