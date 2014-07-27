@@ -3,17 +3,39 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title></title>
-    <script src="libs/jquery-2.1.1.min.js" type="text/javascript"></script>
-    <script src="libs/q.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="libs/require.js" data-main="main"></script>
 </head>
 <body>
-    <h1>The getJson() is tested by making a request to http://restcountries.eu/</h1>
-    <script src="http-request.js" type="text/javascript"></script>
+    <h1>Get, add and delete students</h1>
 
-    <script>
-        addStudent('Svetlina Nakova', 30)
-                .then(getStudents)
-                .then(printStudents);
-    </script>
+    <button id="get-students-button">Get students</button>
+
+    <br/>
+
+    <div id="students-list"></div>
+
+    <div id="manipulations-div">
+        <div id="add-student-form">
+            <h3>Add student</h3>
+            <label for="student-name-input">Name</label>
+            <input id="student-name-input" type="text" />
+            <br/>
+            <label for="student-grade-input">Grade</label>
+            <input id="student-grade-input" type="text" />
+            <button id="submit-student-info">Submit</button>
+        </div>
+
+        <div id="delete-student-form">
+            <h3>Delete student</h3>
+            <label for="student-id-input">ID</label>
+            <input id="student-id-input" type="text" />
+            <button id="submit-delete-info">Submit</button>
+        </div>
+    </div>
+
+    <div id="server-feedback-div">
+        <h3>Server feedback</h3>
+    </div>
 </body>
 </html>

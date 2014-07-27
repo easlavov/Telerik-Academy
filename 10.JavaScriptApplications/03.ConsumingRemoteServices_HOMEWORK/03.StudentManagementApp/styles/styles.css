@@ -1,0 +1,17 @@
+div {
+    float: left;
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+div div {
+    height: 200px;
+    width: 280px;
+    border: none;
+}
+
+ul {
+    list-style-type: none;
+}
