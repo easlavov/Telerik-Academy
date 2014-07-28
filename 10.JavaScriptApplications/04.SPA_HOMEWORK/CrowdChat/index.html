@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="styles/styles.css" rel="stylesheet" />
+    <script src="libs/require.js" data-main="app.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="#/view-messages">View messages</a>
+            </li>
+            <li>
+                <a href="#/post-message">Post message</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="main-div">
+
+    </div>
+
+    <div id="mocha"></div>
+
+    <script id="post-template" type="text/x-handlebars-template">
+        <dt>Poster: {{by}}</dt>
+        <dd>Message: {{text}}</dd>
+    </script>
+
+    <script id="post-message-form-template" type="text/x-handlebars-template">
+        <label for="">Name: </label>
+        <input id="name-input" type="text" />
+        <label for="text-input">Message: </label>
+        <textarea id="text-input" />
+        <button id="submit-post-button">Send post</button>
+    </script>
+</body>
+</html>
