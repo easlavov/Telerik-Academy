@@ -66,6 +66,7 @@
     <Content Include="libs\q.js" />
     <Content Include="libs\require.js" />
     <Content Include="libs\sammy.js" />
+    <Content Include="styles\styles.css" />
     <None Include="scripts\_references.js" />
     <Content Include="libs\underscore-min.js" />
     <Content Include="scripts\http-requester.js" />
