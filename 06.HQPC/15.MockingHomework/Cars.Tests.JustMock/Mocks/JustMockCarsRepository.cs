@@ -16,10 +16,12 @@
             Mock.Arrange(() => this.CarsData.GetById(Arg.AnyInt)).Returns(this.FakeCarCollection.First());
             // TotalCars getter mock
             Mock.Arrange(() => this.CarsData.TotalCars).Returns(this.FakeCarCollection.Count);
-            // TODO: Remove mock
-            Mock.Arrange(() => this.CarsData.Remove(Arg.IsAny<Car>()))
-            // TODO: SortedByMake mock
-            // TODO: SortedByYear mock
+            // Remove mock
+            Mock.Arrange(() => this.CarsData.Remove(Arg.IsAny<Car>())).DoNothing();
+            // SortedByMake mock
+            Mock.Arrange(() => this.CarsData.SortedByMake()).Returns(this.FakeCarCollection.OrderBy(c => c.Make).ToList());
+            // SortedByYear mock
+            Mock.Arrange(() => this.CarsData.SortedByYear()).Returns(this.FakeCarCollection.OrderBy(y => y.Make).ToList());
         }
     }
 }

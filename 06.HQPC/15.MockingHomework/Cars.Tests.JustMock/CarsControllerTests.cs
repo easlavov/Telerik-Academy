@@ -96,6 +96,8 @@
             Assert.AreEqual(2005, model.Year);
         }
 
+        // TODO: Test Details, Search, Sort
+
         private object GetModel(Func<IView> funcView)
         {
             var view = funcView();
