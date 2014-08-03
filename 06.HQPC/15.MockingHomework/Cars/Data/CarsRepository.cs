@@ -54,6 +54,7 @@
 
             if (car == null)
             {
+                // Uncreachable code
                 throw new ArgumentException("Car with such Id could not be found");
             }
 

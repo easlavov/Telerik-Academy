@@ -96,7 +96,63 @@
             Assert.AreEqual(2005, model.Year);
         }
 
-        // TODO: Test Details, Search, Sort
+        // Fails because of a bug in the original code
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void GettingDetailsByIncorrectIdShouldThrowAnException()
+        {            
+            int id = 20;
+
+            var car = (Car)this.GetModel(() => this.controller.Details(id));
+        }
+
+        [TestMethod]
+        public void GettingDetailsByIdShouldReturnTheCorrectCar()
+        {
+            int id = 1;
+
+            var car = (Car)this.GetModel(() => this.controller.Details(id));
+
+            Assert.AreEqual(id, car.Id);
+            Assert.AreEqual("Audi", car.Make);
+            Assert.AreEqual("A4", car.Model);
+            Assert.AreEqual(2005, car.Year);
+        }
+
+        [TestMethod]
+        public void SearchingCarByMakeShouldReturnTheCorrectCars()
+        {
+            string make = "BMW";
+
+            var cars = (ICollection<Car>)this.GetModel(() => this.controller.Search(make));
+
+            Assert.AreEqual(make, cars.First().Make);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void SortingCarsByInvalidParameterShouldThrowAnException()
+        {
+            var cars = (IView)this.GetModel(() => this.controller.Sort("invalid"));
+        }
+
+        [TestMethod]
+        public void SortingCarsByMakeShouldReturnTheCorrectCars()
+        {
+            var cars = (ICollection<Car>)this.GetModel(() => this.controller.Sort("make"));
+
+            Assert.AreEqual("Audi", cars.First().Make);
+            Assert.AreEqual("Opel", cars.Last().Make);
+        }
+
+        [TestMethod]
+        public void SortingCarsByYearShouldReturnTheCorrectCars()
+        {
+            var cars = (ICollection<Car>)this.GetModel(() => this.controller.Sort("year"));
+
+            Assert.AreEqual(2005, cars.First().Year);
+            Assert.AreEqual(2010, cars.Last().Year);
+        }
 
         private object GetModel(Func<IView> funcView)
         {

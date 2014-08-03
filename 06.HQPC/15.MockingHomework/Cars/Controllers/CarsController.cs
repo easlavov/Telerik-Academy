@@ -48,6 +48,7 @@
 
             if (car == null)
             {
+                // Uncreachable code
                 throw new ArgumentNullException("Car could not be found");
             }
 
