@@ -1,9 +1,8 @@
 ﻿namespace CalendarSystem
 {
     using System;
-    using System.Globalization;
     using System.Linq;
-    using System.Text;
+    using CalendarSystem.Commands;
 
     public class CommandProcessor
     {
@@ -14,80 +13,36 @@
             this.calendarEventsManager = calendarEventsManager;
         }
 
-        public ICalendarEventsManager CalendarEventsManager
+        public string ProcessCommand(CommandParameters parameters)
         {
-            get
-            {
-                return this.calendarEventsManager;
-            }
-        }
-
-        public string ProcessCommand(Command com)
-        {
+            ICommand command = null;
+            string feedback = string.Empty;
             // First command
-            if ((com.CommandName == "AddEvent") && (com.Params.Length == 2))
+            if ((parameters.CommandName == "AddEvent"))
             {
-                var date = DateTime.ParseExact(com.Params[0], "yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture);
-                var e = new CalendarEvent
-                {
-                    Date = date,
-                    Title = com.Params[1],
-                    Location = null,
-                };
-
-                this.calendarEventsManager.AddEvent(e);
-
-                return "Event added";
-            }
-
-            if ((com.CommandName == "AddEvent") && (com.Params.Length == 3))
-            {
-                var date = DateTime.ParseExact(com.Params[0], "yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture);
-                var e = new CalendarEvent
-                {
-                    Date = date,
-                    Title = com.Params[1],
-                    Location = com.Params[2],
-                };
-
-                this.calendarEventsManager.AddEvent(e);
-
-                return "Event added";
+                command = new AddEventCommand(calendarEventsManager, parameters);                
             }
             // Second command
-            if ((com.CommandName == "DeleteEvents") && (com.Params.Length == 1))
+            if ((parameters.CommandName == "DeleteEvents"))
             {
-                int c = this.calendarEventsManager.DeleteEventsByTitle(com.Params[0]);
-
-                if (c == 0)
-                {
-                    return "No events found.";
-                }
-
-                return c + " events deleted";
+                command = new DeleteEventsCommand(calendarEventsManager, parameters);
             }
             // Third command
-            if ((com.CommandName == "ListEvents") && (com.Params.Length == 2))
+            if ((parameters.CommandName == "ListEvents"))
             {
-                var d = DateTime.ParseExact(com.Params[0], "yyyy-MM-ddTHH:mm:ss", CultureInfo.InvariantCulture);
-                var c = int.Parse(com.Params[1]);
-                var events = this.calendarEventsManager.CalendarEventsList(d, c).ToList();
-                var sb = new StringBuilder();
-
-                if (!events.Any())
-                {
-                    return "No events found";
-                }
-
-                foreach (var e in events)
-                {
-                    sb.AppendLine(e.ToString());
-                }
-
-                return sb.ToString().Trim();
+                command = new ListEventsCommand(calendarEventsManager, parameters);
             }
 
-            throw new Exception("WTF " + com.CommandName + " is?");
+            feedback = command.Execute();
+
+            if (command != null)
+            {
+                return feedback;
+            }
+            else
+            {
+                throw new InvalidOperationException("Invalid command: " + parameters.CommandName);
+            }
         }
     }
 }

@@ -45,8 +45,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CalendarSystemMain.cs" />
-    <Compile Include="Command.cs" />
+    <Compile Include="CommandParameters.cs" />
     <Compile Include="CalendarEvent.cs" />
+    <Compile Include="CommandParser.cs" />
+    <Compile Include="Commands\AddEventCommand.cs" />
+    <Compile Include="Commands\DeleteEventsCommand.cs" />
+    <Compile Include="Commands\ICommand.cs" />
+    <Compile Include="Commands\ListEventsCommand.cs" />
     <Compile Include="EventsManagerFast.cs" />
     <Compile Include="ICalendarEvent.cs" />
     <Compile Include="ICalendarEventsManager.cs" />
@@ -56,6 +61,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

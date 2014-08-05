@@ -12,25 +12,22 @@
 
             while (true)
             {
-                string ct = Console.ReadLine();
-                if (ct == "End" || ct == null)
+                string input = Console.ReadLine();
+                if (input == "End" || input == null)
                 {
-                    goto end;
+                    Environment.Exit(0);
                 }
 
                 try
                 {
-                    // The sequence of commands is finished
-                    Console.WriteLine(commandProcessor.ProcessCommand(Command.Parse(ct)));
+                    var command = CommandParser.Parse(input);
+                    string commandResult = commandProcessor.ProcessCommand(command);
+                    Console.WriteLine(commandResult);
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
                 }
-            }
-
-            end:
-            {
             }
         }
     }    
