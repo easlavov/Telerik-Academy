@@ -1,0 +1,42 @@
+Design pattern: Simple Factory
+	All computer components are created using Simple factory. Look in the ComputerComponents.ComponentsFactory namespace to find the implementation.
+
+Design pattern: Strategy
+	* 
+
+Design pattern: Template Method
+	* 
+
+Design pattern: Abstract factory
+	An Abstract factory is used to create Computers. Look in the ComputerComponents.ComputerFactory namespace to find the implementation.
+
+Design pattern: Composite
+	Compostie is used to handle raid and sole hdd drivers as one under the interface IHardDrive. It is implemented by the HardDrive and the HardDriveCollection (raid) classes. Look there for the implementation. Abstraction is so powerful! :) 
+
+Design pattern: Mediator
+	The IMotherboard acts as a mediator between the ram and vide card and all other PC compnonets (when needed - like in CPU).
+
+Found bottlenecks:
+	* Found bottleneck in the full HardDrive constructor. The constructor has been removed completely.
+	* Fixed bottleneck in the Play(int) method that needlessly incremented values
+	* Fixed a bottleneck that kept generating random numbers in a foolish way, located in the Cpu clas
+
+Found bugs:
+	* CalculateSquareRoot did nto return correct values;
+	* All other bugs appear to be fixed as I made major alterations to the code;
+	
+
+Single responsibility principle
+	* The VideoCard class is an excellent example. It does only what is natural to it and has a very strong cohesion. The same applies to the whole ABstract Factory hieirarchy.
+
+Open/closed principle
+	* The abstract class Computer is a good implementation of this principle. It is well open for extension and you can see that by looking at its inheritor Laptop (accepts battery);
+
+Liskov substitution principle
+	* Can be observed in the Computer hierarchy. The principle is well applied between the abstract Computer and its concrete inheritors laptop, PC and server.
+
+Interface segregation principle
+	* The prinicple is not violated anywhere as far as I can tell. No class implements interfaces partially.
+
+Dependency inversion principle
+	* For example: in the Motherboard class. All the class needs to work with is passed in its constructor. It can be found also in the Computer hierarchy.
