@@ -1,0 +1,66 @@
+What database models do you know?
+The most popular database model is the relational model. Other models include document, object, network, star models etc.
+
+Which are the main functions performed by a Relational Database Management System (RDBMS)?
+Storage of data in tables and the relationships between those tables.
+
+Define what is "table" in database terms.
+A table is a collection of related data held in a structured format. It consists of fields (columns), and rows.
+
+Explain the difference between a primary and a foreign key.
+The primary key of a relational table uniquely identifies each record in the table. A foreign key is a field that points to another tables' primary key. 
+
+Explain the different kinds of relationships between tables in relational databases.
+The three possible relationships in a RD are one-to-one, one-to-many, many-to-many.
+-A one-to-many relationship is the most common type of relationship. In this type of relationship, a row in table A can have many matching rows in table B, but a row in table B can have only one matching row in table A;
+-In a many-to-many relationship, a row in table A can have many matching rows in table B, and vice versa. You create such a relationship by defining a third table, called a junction table, whose primary key consists of the foreign keys from both table A and table B;
+-In a one-to-one relationship, a row in table A can have no more than one matching row in table B, and vice versa. A one-to-one relationship is created if both of the related columns are primary keys or have unique constraints.
+
+When is a certain database schema normalized? What are the advantages of normalized databases?What are database integrity constraints and when are they used?
+-Database normalization is the process of organizing the fields and tables of a relational database to minimize redundancy;
+-The objective is to isolate data so that additions, deletions, and modifications of a field can be made in just one table and then propagated through the rest of the database using the defined relationships;
+-Data integrity is the opposite of data corruption, which is a form of data loss. The overall intent of any data integrity technique is the same: ensure data is recorded exactly as intended (such as a database correctly rejecting mutually exclusive possibilities,) and upon later retrieval, ensure the data is the same as it was when it was originally recorded. In short, data integrity aims to prevent unintentional changes to information.
+
+Point out the pros and cons of using indexes in a database.
+Use of indices improves the speed of data retrieval operations on a database table at the cost of additional writes and storage space to maintain the index data structure.
+
+What's the main purpose of the SQL language?
+SQL is designed for managing data held in a relational database management system.
+
+What are transactions used for? Give an example.
+A transaction is a unit of work that you want to treat as "a whole". It has to either happen in full, or not at all. A classical example is transferring money from one bank account to another.
+
+What is a NoSQL database?
+A database which model is not relational.
+
+Explain the classical non-relational data models.
+-A document-oriented database is a computer program designed for storing, retrieving, and managing document-oriented information, also known as semi-structured data. Document-oriented databases are one of the main categories of NoSQL databases and the popularity of the term "document-oriented database" (or "document store") has grown[1] with the use of the term NoSQL itself. In contrast to relational databases and their notions of "Relations" (or "Tables"), these systems are designed around an abstract notion of a "Document";
+-An object database (also object-oriented database management system) is a database management system in which information is represented in the form of objects as used in object-oriented programming. Object databases are different from relational databases which are table-oriented. Object-relational databases are a hybrid of both approaches;
+-A tabular database, as the name implies is a database that is structured in a tabular form. It arranges data elements in vertical columns and horizontal rows. Each cell is formed by the intersection of a column and row. Each row and column is uniquely numbered to make it orderly and efficient. This type of database has a virtually infinite range for mass data storage;
+
+Give few examples of NoSQL databases and their pros and cons.
+Examples: MongoDB, Oracle NoSQL Database, JADE, Mnesia.
+Pros:
+-Horizontal scalability;
+-Easy to use;
+-Very fast for adding new data and for simple operations/queries;
+-No need to make significant changes in code when data structure is modified;
+-Ability to store complex data types (for document based solutions) in a single item of storage.
+Cons:
+-No indexing support;
+-No ACID;
+-Absence of standardization.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
