@@ -111,3 +111,31 @@ FROM Employees e
 
 --Write a SQL query to find all departments and all 
 --town names as a single list. Use UNION.
+SELECT d.Name
+FROM Departments d
+UNION
+SELECT t.Name
+FROM Towns t
+
+--Write a SQL query to find all the employees and the 
+--manager for each of them along with the employees 
+--that do not have manager. Use right outer join. 
+--Rewrite the query to use left outer join.SELECT e.FirstName, e.LastName, m.FirstName + m.LastName AS Manager
+FROM Employees m
+	RIGHT OUTER JOIN Employees e
+		ON e.ManagerID = m.EmployeeID
+SELECT e.FirstName, e.LastName, m.FirstName + m.LastName AS Manager
+FROM Employees e
+	LEFT OUTER JOIN Employees m
+		ON e.ManagerID = m.EmployeeID
+
+--Write a SQL query to find the names of all 
+--employees from the departments "Sales" and 
+--"Finance" whose hire year is between 1995 and 2005.
+
+SELECT e.FirstName, e.LastName, e.HireDate, d.Name
+FROM Employees e
+	INNER JOIN Departments d
+	ON (e.DepartmentID = d.DepartmentID
+		AND e.HireDate > '1/1/1995' AND e.HireDate < '12/31/2005'
+		AND d.Name IN ('Sales', 'Finance'))
