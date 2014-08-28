@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.ReadExcelFile", "06.Read
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.AddRowsToExcelFile", "07.AddRowsToExcelFile\07.AddRowsToExcelFile.csproj", "{8618CD0B-4EFA-4082-BEC6-9D1D8EA8E0FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.FindProductsInDb", "08.FindProductsInDb\08.FindProductsInDb.csproj", "{6A003E7D-F621-41DF-907B-309A27B1F57E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{8618CD0B-4EFA-4082-BEC6-9D1D8EA8E0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8618CD0B-4EFA-4082-BEC6-9D1D8EA8E0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8618CD0B-4EFA-4082-BEC6-9D1D8EA8E0FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A003E7D-F621-41DF-907B-309A27B1F57E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A003E7D-F621-41DF-907B-309A27B1F57E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A003E7D-F621-41DF-907B-309A27B1F57E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A003E7D-F621-41DF-907B-309A27B1F57E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
