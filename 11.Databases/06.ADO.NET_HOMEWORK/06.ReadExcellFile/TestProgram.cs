@@ -10,7 +10,6 @@ class TestProgram
 {
     static void Main()
     {        
-
         OleDbConnection dbCon = new OleDbConnection("provider=Microsoft.Jet.OLEDB.4.0;Data Source='..\\..\\scoreBoard.xls';Extended Properties=Excel 8.0;");
         dbCon.Open();
         using (dbCon)
