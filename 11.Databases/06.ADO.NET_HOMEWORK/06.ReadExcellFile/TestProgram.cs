@@ -3,12 +3,8 @@
 //through the OLE DB data provider and displays the 
 //name and score row by row.
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Data;
-using System.Text;
-using System.Threading.Tasks;
 using System.Data.OleDb;
+using System.Linq;
 
 class TestProgram
 {
@@ -19,8 +15,8 @@ class TestProgram
         dbCon.Open();
         using (dbCon)
         {
-            OleDbCommand myCommand = new OleDbCommand("select * from [Sheet1$]", dbCon);            
-            OleDbDataReader reader = myCommand.ExecuteReader();
+            OleDbCommand xlCmd = new OleDbCommand("select * from [Sheet1$]", dbCon);            
+            OleDbDataReader reader = xlCmd.ExecuteReader();
             while (reader.Read())
             {
                 string name = (string)reader["Name"];
