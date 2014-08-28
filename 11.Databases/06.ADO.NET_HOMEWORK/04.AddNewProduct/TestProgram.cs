@@ -1,4 +1,7 @@
-﻿using System;
+﻿//Write a method that adds a new product in the 
+//products table in the Northwind database. Use a 
+//parameterized SQL command.
+using System;
 using System.Data.SqlClient;
 using System.Linq;
 
@@ -7,8 +10,7 @@ class TestProgram
     static void Main()
     {
         string northwindConnectionString = "Server=.\\SQLEXPRESS; " +
-                                  "Database=Northwind; Integrated Security=true";
-        
+                                  "Database=Northwind; Integrated Security=true";        
         AddNewProduct(northwindConnectionString, "Beer Astika");
         AddNewProduct(northwindConnectionString, "Beer Ledenika");
         AddNewProduct(northwindConnectionString, "Beer Ariana");
