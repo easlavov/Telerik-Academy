@@ -20,12 +20,12 @@ class TestProgram
         dbCon.Open();
         using (dbCon)
         {
-            var countRowsCmd = new SqlCommand(
+            var catRetrieveCmd = new SqlCommand(
                 "SELECT c.CategoryID, c.CategoryName, p.ProductName " + 
                 "FROM Categories c JOIN Products p ON c.CategoryID = p.CategoryID "
                 + "ORDER BY c.CategoryID",
                 dbCon);
-            var reader = countRowsCmd.ExecuteReader();
+            var reader = catRetrieveCmd.ExecuteReader();
             using (reader)
             {
                 while (reader.Read())

@@ -23,9 +23,9 @@ class TestProgram
         dbCon.Open();
         using (dbCon)
         {
-            var countRowsCmd = new SqlCommand(
+            var nameDescRetrieveCmd = new SqlCommand(
                 "SELECT CategoryName, Description FROM " + table, dbCon);
-            var reader = countRowsCmd.ExecuteReader();
+            var reader = nameDescRetrieveCmd.ExecuteReader();
             using (reader)
             {
                 while (reader.Read())
