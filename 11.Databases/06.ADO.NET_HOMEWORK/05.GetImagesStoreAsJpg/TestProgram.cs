@@ -39,9 +39,8 @@ class TestProgram
             {
                 while (reader.Read())
                 {
-                    //var imageArray = (byte[])reader["Picture"];
+                    // The original data is broken and needs to be corrected
                     var rawData = (byte [])reader["Picture"];
-                    //string fileName = reader["CategoryName"].ToString().Replace('/', '_') + ".jpg";
                     int len = rawData.Length;
                     int header = 78;
                     byte[] imgData = new byte[len - header];
