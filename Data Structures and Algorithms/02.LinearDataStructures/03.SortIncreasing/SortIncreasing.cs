@@ -14,6 +14,7 @@ class SortIncreasing
         {
             Console.Write(num + ", ");
         }
+
         Console.WriteLine();
     }
 
@@ -42,6 +43,7 @@ class SortIncreasing
 
             input = Console.ReadLine();
         }
+
         Console.WriteLine("The numbers you entered are: " + string.Join(", ", sequence));
         return sequence;
     }

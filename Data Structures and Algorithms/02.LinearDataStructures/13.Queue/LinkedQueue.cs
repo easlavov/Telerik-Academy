@@ -6,12 +6,13 @@ public class LinkedQueue<T> : IEnumerable<T>
 {
     private ListItemCustom<T> firstElement;
     private ListItemCustom<T> lastElement;
-    public int Count { get; private set; }
 
     public LinkedQueue()
     {
         this.Count = 0;
     }
+
+    public int Count { get; private set; }
 
     public void Enqueue(T item)
     {
@@ -24,6 +25,7 @@ public class LinkedQueue<T> : IEnumerable<T>
         {
             this.lastElement.NextItem = newNode;            
         }
+
         this.lastElement = newNode;
         this.Count++;
     }
@@ -34,11 +36,13 @@ public class LinkedQueue<T> : IEnumerable<T>
         {
             throw new InvalidOperationException("The queue is empty.");
         }
+
         this.firstElement = this.firstElement.NextItem;
         if (this.Count == 1)
         {
             this.lastElement = null;
         }
+
         this.Count--;
         return this.firstElement.Value;
     }
@@ -49,6 +53,7 @@ public class LinkedQueue<T> : IEnumerable<T>
         {
             throw new InvalidOperationException("Queue is empty");
         }
+
         return this.firstElement.Value;
     }
 
@@ -61,6 +66,7 @@ public class LinkedQueue<T> : IEnumerable<T>
                 return true;
             }
         }
+
         return false;
     }
 

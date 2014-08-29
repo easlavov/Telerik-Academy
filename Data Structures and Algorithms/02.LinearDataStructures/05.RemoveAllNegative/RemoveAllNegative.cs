@@ -3,8 +3,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 class RemoveAllNegative
 {
@@ -25,6 +23,7 @@ class RemoveAllNegative
         {
             result.AddLast(number);
         }
+
         dynamic comparator = 0;
         var current = result.First;
         while (current != null)
@@ -36,8 +35,10 @@ class RemoveAllNegative
                 current = next;
                 continue;
             }
+
             current = current.Next;
         }        
+
         return result.ToArray<T>();
     }
 
@@ -52,6 +53,7 @@ class RemoveAllNegative
         {
             Console.Write(number + " ");
         }
+
         Console.WriteLine();
     }
 }

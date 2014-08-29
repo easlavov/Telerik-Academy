@@ -51,6 +51,7 @@ class FindLongestSubsequenceOfEqualNumbers
         {
             Console.Write(number + " ");
         }
+
         Console.WriteLine();
     }
 

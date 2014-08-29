@@ -3,8 +3,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 class RemoveOddOccuringNumbers
 {
@@ -33,6 +31,7 @@ class RemoveOddOccuringNumbers
                 counter.Add(num, 1);
             }
         }
+
         // Copying each number from the original array to a new list if it appears odd number of times (checking in the dict)
         List<int> newArr = new List<int>();
         foreach (var num in array)
@@ -53,6 +52,7 @@ class RemoveOddOccuringNumbers
         {
             Console.Write(num + " ");
         }
+
         Console.WriteLine();
     }
 }

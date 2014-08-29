@@ -18,6 +18,7 @@ class TestProgram
         {
             stack.Push(i);
         }
+
         Console.WriteLine("DONE!" + Environment.NewLine);
         Console.WriteLine("Using custom enumerator, print the content of the stack:");
         PrintStack(stack);
@@ -30,6 +31,7 @@ class TestProgram
         {
             stack.Pop();
         }
+
         Console.WriteLine("DONE!" + Environment.NewLine);
         Console.WriteLine("Print the count of elements: " + stack.Count);
         Console.WriteLine("Peek at top element: " + stack.Peek());
@@ -40,6 +42,7 @@ class TestProgram
         {
             stack.Push(i);
         }
+
         Console.WriteLine("Print the stack again:");
         PrintStack(stack);
         Console.WriteLine("DONE!" + Environment.NewLine);
@@ -66,6 +69,7 @@ class TestProgram
         {
             Console.Write(num + " ");
         }
+
         Console.WriteLine();
     }
 }

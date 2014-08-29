@@ -6,11 +6,7 @@ public class LinkedListCustom<T> : IEnumerable<T>
 {
     public ListItemCustom<T> FirstItem { get; set; }
     public ListItemCustom<T> LastItem { get; set; }
-    public int Count
-    {
-        get;
-        private set;
-    }
+    public int Count { get; private set; }
 
     public void AddFirst(ListItemCustom<T> item)
     {
@@ -24,6 +20,7 @@ public class LinkedListCustom<T> : IEnumerable<T>
             item.NextItem = this.FirstItem;
             this.FirstItem = item;
         }
+
         this.Count++;
     }
 
@@ -45,6 +42,7 @@ public class LinkedListCustom<T> : IEnumerable<T>
             this.LastItem.NextItem = item;
             this.LastItem = item;
         }
+
         this.Count++;
     }
 
@@ -54,17 +52,18 @@ public class LinkedListCustom<T> : IEnumerable<T>
         this.AddLast(newItem);
     }
 
-    public void AddBefore(ListItemCustom<T> node, ListItemCustom<T> newItem) 
+    public void AddBefore(ListItemCustom<T> node, ListItemCustom<T> newItem)
     {
         if (node == null || newItem == null)
         {
             throw new ArgumentNullException();
-        }   
+        }
         if (node == this.FirstItem)
         {
             this.AddFirst(newItem);
             return;
         }
+
         GetPrev(node).NextItem = newItem;
         newItem.NextItem = node;
         this.Count++;
@@ -85,8 +84,10 @@ public class LinkedListCustom<T> : IEnumerable<T>
             {
                 return currentNode;
             }
+
             currentNode = currentNode.NextItem;
         }
+
         throw new NullReferenceException();
     }
 
@@ -96,11 +97,13 @@ public class LinkedListCustom<T> : IEnumerable<T>
         {
             throw new ArgumentNullException();
         }
+
         if (node.NextItem == null)
         {
             this.AddLast(newItem);
             return;
-        }        
+        }
+
         newItem.NextItem = node.NextItem;
         node.NextItem = newItem;
         this.Count++;

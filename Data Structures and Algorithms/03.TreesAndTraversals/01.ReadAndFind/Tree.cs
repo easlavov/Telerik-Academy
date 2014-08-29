@@ -1,35 +1,34 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 public class Tree<T>
 {
-    public Node<T> Root { get; private set; }
-
     public Tree(Node<T> root)
     {
         this.Root = root;
     }
 
+    public Node<T> Root { get; private set; }
+
     public void PrintLeafs()
     {
         List<Node<T>> leafs = new List<Node<T>>();
-        DFSLeafs(this.Root, leafs);
+        DfsLeafs(this.Root, leafs);
         Console.WriteLine(string.Join(", ", leafs));
     }
 
-    private void DFSLeafs(Node<T> root, List<Node<T>> leafs)
+    private void DfsLeafs(Node<T> root, List<Node<T>> leafs)
     {
         if (root.Children == null)
         {
             leafs.Add(root);
             return;
         }
+
         foreach (var node in root.Children)
         {
-            this.DFSLeafs(node, leafs);
+            this.DfsLeafs(node, leafs);
         }
     }
 
@@ -46,6 +45,7 @@ public class Tree<T>
         {
             leafs.Add(root);
         }
+
         if (root.Children != null)
         {
             foreach (var node in root.Children)
@@ -69,6 +69,7 @@ public class Tree<T>
         {
             longest = new Stack<Node<T>>(current);
         }
+
         if (root.Children != null)
         {
             foreach (var node in root.Children)
@@ -76,34 +77,37 @@ public class Tree<T>
                 DFSLongest(ref longest, current, node);
             }
         }
+
         current.Pop();
     }
 
     public void PrintAllPathsWithSumS(int sum) // TODO: Dynamic programming?
     {
         List<Stack<Node<T>>> list = new List<Stack<Node<T>>>();
-        DFSSum(ref list, new Stack<Node<T>>(), this.Root, sum);
+        DfsSum(ref list, new Stack<Node<T>>(), this.Root, sum);
         foreach (var item in list)
         {
             Console.WriteLine(string.Join(", ", item));
         }
     }
 
-    private void DFSSum(ref List<Stack<Node<T>>> paths, Stack<Node<T>> current, Node<T> root, int sum) // TODO: Dynamic programming?
+    private void DfsSum(ref List<Stack<Node<T>>> paths, Stack<Node<T>> current, Node<T> root, int sum) // TODO: Dynamic programming?
     {
         current.Push(root);
         if (current.Sum(node => (dynamic)node.Value) == sum)
         {            
             paths.Add(new Stack<Node<T>>(current));
         }
+
         if (root.Children != null)
         {
             foreach (var node in root.Children)
             {
-                DFSSum(ref paths, current, node, sum);
-                DFSSum(ref paths, new Stack<Node<T>>(), node, sum);
+                DfsSum(ref paths, current, node, sum);
+                DfsSum(ref paths, new Stack<Node<T>>(), node, sum);
             }
         }
+
         current.Pop();
     }
 }

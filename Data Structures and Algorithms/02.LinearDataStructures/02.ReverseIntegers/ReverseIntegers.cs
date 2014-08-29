@@ -13,11 +13,13 @@ class ReverseIntegers
             Console.Write(String.Format("Number {0}: ", i+1));
             stack.Push(int.Parse(Console.ReadLine()));
         }
+
         Console.Write("The reversed numbers are: ");
         for (int i = 0; i < total; i++)
         {
             Console.Write(stack.Pop() + ", ");
         }
+
         Console.WriteLine();
     }
 }

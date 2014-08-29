@@ -4,12 +4,13 @@ public class Folder
 {
     private List<File> files = new List<File>();
     private List<Folder> folders = new List<Folder>();
-    public string Name { get; set; }    
 
     public Folder(string name)
     {
         this.Name = name;
-    }    
+    }
+
+    public string Name { get; set; }    
 
     public File[] Files
     {

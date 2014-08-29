@@ -1,16 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 public class Node<T>
 {
-    public T Value { get; set; }
     private List<Node<T>> children;
 
     public Node(T value)
-        : this(value, null) { }
+        : this(value, null)
+    {        
+    }
 
     public Node(T value, params Node<T>[] children)
     {
@@ -25,12 +24,15 @@ public class Node<T>
         }        
     }
 
+    public T Value { get; set; }
+
     public void AddNode(Node<T> node)
     {
         if (this.children == null)
         {
             this.children = new List<Node<T>>();
         }
+
         this.children.Add(node);
     }
 

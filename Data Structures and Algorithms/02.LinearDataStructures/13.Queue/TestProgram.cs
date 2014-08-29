@@ -4,7 +4,6 @@ class TestProgram
 {
     static void Main()
     {        
-        // TODO: Epxlain the tests
         Console.WriteLine("Testing custom queue class.");
         Console.WriteLine("Class features:");
         Console.WriteLine(" - linked list implementation");
@@ -18,6 +17,7 @@ class TestProgram
         {
             queue.Enqueue(i);
         }
+
         Console.WriteLine("DONE!" + Environment.NewLine);
         Console.WriteLine("Printing queue using custom enumerator:");
         Print(queue);        
@@ -28,6 +28,7 @@ class TestProgram
         {
             queue.Dequeue();
         }
+
         Console.Write("Press any key to continue testing.");
         Console.ReadKey();
         Console.WriteLine();
@@ -38,6 +39,7 @@ class TestProgram
         {
             queue.Enqueue(i);
         }
+
         Console.WriteLine("Peeking: " + queue.Peek());
         Console.WriteLine();
         Console.WriteLine("Printing queue:");
@@ -59,8 +61,7 @@ class TestProgram
         catch (Exception e)
         {
             Console.WriteLine(e.Message);
-        }
-        
+        }        
     }
 
     private static void Print(LinkedQueue<int> queue)
@@ -69,6 +70,7 @@ class TestProgram
         {
             Console.WriteLine(item + " ");
         }
+
         Console.WriteLine();
     }
 }

@@ -4,8 +4,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 class FindMajorant
 {
@@ -56,6 +54,7 @@ class FindMajorant
                 counter.Add(num, 1);
             }
         }
+
         majorant = 0;
         return false;
     }
@@ -66,6 +65,7 @@ class FindMajorant
         {
             Console.Write(num + " ");
         }
+
         Console.WriteLine();
     }
 }

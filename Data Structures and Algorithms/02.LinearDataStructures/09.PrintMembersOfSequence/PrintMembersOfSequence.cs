@@ -13,8 +13,6 @@ Example: N=2 -> 2, 3, 5, 4, 4, 7, 5, 6, 11, 7, 5, 9, 6, ...*/
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 class PrintMembersOfSequence
 {
@@ -47,6 +45,7 @@ class PrintMembersOfSequence
             result.Add(thirdMember);
             numbers.Enqueue(thirdMember);
         }
+
         result.RemoveRange(49, 2); // ensure there are 50 elements in total
 
         Console.Write("The first 50 elements in the sequence are: ");

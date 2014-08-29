@@ -1,6 +1,4 @@
 ﻿// Implement the ADT stack as auto-resizable array. Resize the capacity on demand (when no space is available to add / insert a new element).
-
-
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,12 +7,13 @@ public class StackCustom<T> : IEnumerable<T>
 {
     private const int DefaultStartingCapacity = 4;
     private T[] stack;
-    public int Count { get; private set; }
 
     public StackCustom()
         : this(DefaultStartingCapacity)
     {
     }
+
+    public int Count { get; private set; }
 
     public StackCustom(int capacity)
     {
@@ -32,6 +31,7 @@ public class StackCustom<T> : IEnumerable<T>
             Array.Copy(this.stack, temp, this.Count);
             this.stack = temp;
         }
+
         this.stack[this.Count] = item;
         this.Count++;
     }
@@ -42,6 +42,7 @@ public class StackCustom<T> : IEnumerable<T>
         {
             throw new InvalidOperationException("Stack is empty");
         }
+
         this.Count--;
         return this.stack[this.Count + 1];
     }
@@ -52,6 +53,7 @@ public class StackCustom<T> : IEnumerable<T>
         {
             throw new InvalidOperationException("Stack is empty");
         }
+
         return this.stack[this.Count - 1];
     }
 
@@ -64,6 +66,7 @@ public class StackCustom<T> : IEnumerable<T>
                 return true;
             }
         }
+
         return false;
     }
 

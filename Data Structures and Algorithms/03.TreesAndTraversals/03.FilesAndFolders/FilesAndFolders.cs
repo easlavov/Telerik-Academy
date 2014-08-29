@@ -30,6 +30,7 @@ class FilesAndFolders
         {
             totalSize += file.Size;
         }
+
         foreach (var dir in folder.ChildFolders)
         {
             CalcSize(dir, ref totalSize);
@@ -48,6 +49,7 @@ class FilesAndFolders
                 FileInfo fileInfo = new FileInfo(file);
                 folder.AddFile(new File(fileName, fileInfo.Length));
             }
+
             // Append dirs recursively
             var dirs = Directory.GetDirectories(path);
             foreach (var dir in dirs)

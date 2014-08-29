@@ -1,11 +1,7 @@
 ﻿/*Write a program that finds in given array of integers (all belonging to the range [0..1000]) how many times each of them occurs.
 Example: array = {3, 4, 4, 2, 3, 3, 4, 3, 2}*/
-
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 class CheckEachNumberOccurence
 {
@@ -24,6 +20,7 @@ class CheckEachNumberOccurence
         {
             countArray[num]++;
         }
+
         for (int i = 0; i < countArray.Length; i++)
         {
             if (countArray[i] > 0)
@@ -41,6 +38,7 @@ class CheckEachNumberOccurence
         {
             Console.Write(num + " ");
         }
+
         Console.WriteLine();
     }
 }

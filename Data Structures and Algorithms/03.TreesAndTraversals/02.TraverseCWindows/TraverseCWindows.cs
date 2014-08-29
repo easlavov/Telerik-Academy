@@ -21,6 +21,7 @@ class TraverseCWindows
                 string fileName = file.Substring(index, file.Length - index);
                 Console.WriteLine(fileName);
             }
+
             var dirs = Directory.GetDirectories(directory);
             foreach (var dir in dirs)
             {

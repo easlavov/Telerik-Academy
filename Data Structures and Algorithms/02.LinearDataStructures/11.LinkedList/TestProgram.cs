@@ -17,6 +17,7 @@ class TestProgram
         {
             list.AddLast(i);
         }
+
         Console.WriteLine("DONE. " + "The number of nodes in the list is " + list.Count + Environment.NewLine);
         Console.WriteLine("Printing node values using a custom enumerator.");
         PrintList(list);
@@ -45,6 +46,7 @@ class TestProgram
         {
             Console.Write(node + " ");
         }
+
         Console.WriteLine();
     }       
 }
