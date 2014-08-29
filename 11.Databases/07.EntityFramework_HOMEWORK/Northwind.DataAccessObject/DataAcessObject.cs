@@ -6,6 +6,10 @@ namespace Northwind.DataAccessObject
     using System;
     using System.Linq;
     using Northwind.Data;
+    using System.Text;
+    using System.Collections;
+    using System.Collections.Generic;
+    using System.Data.Entity.Core.Objects;
 
     public static class DataAcessObject
     {
@@ -54,6 +58,56 @@ namespace Northwind.DataAccessObject
             var customer = db.Customers.First(x => x.CustomerID == customerId);
             db.Customers.Remove(customer);
             db.SaveChanges();
+        }
+
+        // Task 3: Write a method that finds all customers who have 
+        // orders made in 1997 and shipped to Canada.
+        public static IEnumerable<Customer> FindCustomers()
+        {
+            var db = new NorthwindEntities();
+            var customers = db.Customers.Where(x => x.Orders.Any(o => o.ShipCountry == "Canada") &&
+                                                    x.Orders.Any(o => ((DateTime)o.OrderDate).Year == 1997))
+                                        .ToList();
+            return customers;
+        }
+
+        // Task 4:
+        public static IEnumerable FindCustomersNativeSql()
+        {
+            string query = "select distinct c.CompanyName from Customers c join" +
+                           " Orders o on c.CustomerID = o.CustomerID where o.ShipCountry" +
+                           " = {0} AND YEAR(o.OrderDate) = {1}";
+            var db = new NorthwindEntities();
+            object[] parameters = { "Canada", 1997 };
+            var customers = db.Database.SqlQuery<string>(query, parameters).ToList();
+            return customers;
+        }
+
+        // Task 5: Write a method that finds all the sales by specified 
+        // region and period (start / end dates).
+        public static IEnumerable<Order> FindSalesByRegionAndPeriod(string region, DateTime from, DateTime to)
+        {
+            var db = new NorthwindEntities();
+            var result = db.Orders
+                           .Where(x => x.ShipRegion == region)
+                           .Where(x => x.OrderDate >= from)
+                           .Where(x => x.OrderDate <= to)
+                           .ToList();
+            return result;
+        }
+
+        // Task 6:
+        public static void CreateNorthwindTwin()
+        {
+            var db = new NorthwindEntities();
+            var connection = db.Database.Connection;
+            var connstring = connection.ConnectionString;
+            connection.Open();
+            var schema = connection.GetSchema();
+            connection.Close();
+            ObjectContext context = new ObjectContext(connstring);
+            var str = context.CreateDatabaseScript();
+
         }
 
         private static bool ValidateCustomerIdLength(string customerId)

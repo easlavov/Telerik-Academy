@@ -105,6 +105,7 @@
     <Compile Include="Order.cs">
       <DependentUpon>NorthwindModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="OrderExtension.cs" />
     <Compile Include="Orders_Qry.cs">
       <DependentUpon>NorthwindModel.tt</DependentUpon>
     </Compile>

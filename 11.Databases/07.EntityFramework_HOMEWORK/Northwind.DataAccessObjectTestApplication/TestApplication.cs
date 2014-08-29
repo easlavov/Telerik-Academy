@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Northwind.DataAccessObject;
+using Northwind.Data;
 
 namespace Northwind.DataAccessObjectTestApplication
 {
@@ -17,9 +18,13 @@ namespace Northwind.DataAccessObjectTestApplication
             Console.WriteLine(welcomeMessage);
             Console.ReadKey();
 
-            AddTelerikAsCustomer();
-            ModifyTelerikName();
-            RemoveTelerikFromDatabase();
+            //AddTelerikAsCustomer();
+            //ModifyTelerikName();
+            //RemoveTelerikFromDatabase();
+            //FindCustomers();
+            //FindCustomersNativeSql();
+            //FindOrdersByRegionAndDates();
+            DataAcessObject.CreateNorthwindTwin();
 
             Console.WriteLine("Testing has finished.");
         }
@@ -54,6 +59,50 @@ namespace Northwind.DataAccessObjectTestApplication
             Console.ReadKey();
             string id = "TELER";
             DataAcessObject.DeleteCustomer(id);
+        }
+
+        private static void FindCustomers()
+        {
+            string findCustomerMessage = "Find all customers who have orders made in 1997 and" +
+                                           " shipped to Canada from" +
+                                           " the Northwind database. Press a key to continue.";
+            Console.WriteLine(findCustomerMessage);
+            Console.ReadKey();
+            var customersList = DataAcessObject.FindCustomers();
+            foreach (var customer in customersList)
+            {
+                Console.WriteLine(customer);
+            }
+        }
+
+        private static void FindCustomersNativeSql()
+        {
+            string findCustomerMessage = "Find all customers who have orders made in 1997 and" +
+                                           " shipped to Canada from" +
+                                           " the Northwind database. Using native SQL. Press a key to continue.";
+            Console.WriteLine(findCustomerMessage);
+            Console.ReadKey();
+            var customersList = DataAcessObject.FindCustomersNativeSql();
+            foreach (var customer in customersList)
+            {
+                Console.WriteLine(customer);
+            }
+        }
+
+        private static void FindOrdersByRegionAndDates()
+        {
+            string findOrdersMessage = "Finds all the sales from NM region and between 1997 and 2000" +
+                                           " from" +
+                                           " the Northwind database. Press a key to continue.";
+            Console.WriteLine(findOrdersMessage);
+            Console.ReadKey();
+            DateTime from = DateTime.Parse("1.1.1997");
+            DateTime to = DateTime.Parse("1.1.2000");
+            var orders = DataAcessObject.FindSalesByRegionAndPeriod("NM", from, to);
+            foreach (var order in orders)
+            {
+                Console.WriteLine(order);
+            }
         }
     }
 }

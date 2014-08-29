@@ -61,6 +61,10 @@
       <Project>{cb7213d3-bf51-44a2-a181-c94d99ba42c4}</Project>
       <Name>Northwind.DataAccessObject</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Northwind.Data\Northwind.Data.csproj">
+      <Project>{81b03ab1-b639-4be6-9012-564d3cae52b4}</Project>
+      <Name>Northwind.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
