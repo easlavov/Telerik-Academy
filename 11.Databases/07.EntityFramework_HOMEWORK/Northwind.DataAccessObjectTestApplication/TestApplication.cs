@@ -18,12 +18,12 @@ namespace Northwind.DataAccessObjectTestApplication
             Console.WriteLine(welcomeMessage);
             Console.ReadKey();
 
-            //AddTelerikAsCustomer();
-            //ModifyTelerikName();
-            //RemoveTelerikFromDatabase();
-            //FindCustomers();
-            //FindCustomersNativeSql();
-            //FindOrdersByRegionAndDates();
+            AddTelerikAsCustomer();
+            ModifyTelerikName();
+            RemoveTelerikFromDatabase();
+            FindCustomers();
+            FindCustomersNativeSql();
+            FindOrdersByRegionAndDates();
             DataAcessObject.CreateNorthwindTwin();
 
             Console.WriteLine("Testing has finished.");

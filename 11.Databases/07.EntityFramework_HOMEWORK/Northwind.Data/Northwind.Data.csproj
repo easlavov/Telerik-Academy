@@ -83,6 +83,7 @@
     <Compile Include="Employee.cs">
       <DependentUpon>NorthwindModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="EmployeeExtension.cs" />
     <Compile Include="Employee_Sales_by_Country_Result.cs">
       <DependentUpon>NorthwindModel.tt</DependentUpon>
     </Compile>
