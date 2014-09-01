@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 class TestProgram
 {
@@ -45,6 +41,7 @@ class TestProgram
         {
             Console.Write("{0}, ", element);
         }
+
         Console.WriteLine();
         Console.WriteLine();
     }

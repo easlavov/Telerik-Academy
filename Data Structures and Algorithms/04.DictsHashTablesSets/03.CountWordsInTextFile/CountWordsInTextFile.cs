@@ -70,6 +70,7 @@ class CountWordsInTextFile
         {
             Console.WriteLine(e.Message);
         }
+
         return text;
     }
   

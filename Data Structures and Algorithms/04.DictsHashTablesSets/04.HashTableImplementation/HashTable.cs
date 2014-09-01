@@ -10,9 +10,13 @@ public class HashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
     private LinkedList<KeyValuePair<K, T>>[] hashTable = new LinkedList<KeyValuePair<K, T>>[InitialHashTableCapacity];
 
     public double Count { get; private set; }
+
     public T this[K key]
     {
-        get { return this.Find(key); }
+        get
+        {
+            return this.Find(key);
+        }
     }
 
     public void Add(K key, T value)
@@ -21,7 +25,10 @@ public class HashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
         this.Count++;
 
         // CheckLoad
-        if (this.IsOverloaded()) { this.Expand(); }
+        if (this.IsOverloaded())
+        {            
+            this.Expand();
+        }
     }
 
     public void Remove(K key)
@@ -37,6 +44,7 @@ public class HashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
                 return;
             }
         }
+
         throw new KeyNotFoundException();
     }
 
@@ -47,6 +55,7 @@ public class HashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
         {
             keys.Add(pair.Key);
         }
+
         return keys.ToArray();
     }
 
@@ -60,6 +69,7 @@ public class HashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
                 return true;
             }
         }
+
         return false;
     }
 
@@ -81,6 +91,7 @@ public class HashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
         {
             array[index] = new LinkedList<KeyValuePair<K, T>>();
         }
+
         array[index].AddLast(newPair);
     }
 
@@ -104,6 +115,7 @@ public class HashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
         {
             return true;
         }
+
         return false;
     }    
 
@@ -118,6 +130,7 @@ public class HashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
                 return pair;
             }
         }
+
         throw new KeyNotFoundException();
     }    
 
@@ -128,6 +141,7 @@ public class HashTable<K, T> : IEnumerable<KeyValuePair<K, T>>
         {
             this.hashTable[index] = new LinkedList<KeyValuePair<K, T>>();
         }
+
         return this.hashTable[index];
     }
 
