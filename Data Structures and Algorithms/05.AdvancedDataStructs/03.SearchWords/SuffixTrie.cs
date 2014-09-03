@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-// This suffix tree is optimized for searching for whole words and their total occurences in a big text.
+﻿// This suffix tree is optimized for searching for whole words and their total occurences in a big text.
 // It is filled by adding strings and each of these strings' characters form branches of all occuring substrings(words).
 // Each node's Count attribute corresponds to the number of occurences of the word that starts from the root and ends at
 // the node.
@@ -28,6 +22,7 @@ public class SuffixTrie
         {
             return 0;
         }
+
         int count = 0;
         GetWordOccurence(word, 0, this.root, ref count);
         return count;
@@ -41,6 +36,7 @@ public class SuffixTrie
         {
             lastChar = true;
         }
+
         foreach (var node in currentNode.Children)
         {
             if (node.Letter == currentChar)
@@ -70,6 +66,7 @@ public class SuffixTrie
         {
             return;
         }
+
         char currentChar = word[index];
         bool lastChar = false;
         if (index == word.Length - 1)

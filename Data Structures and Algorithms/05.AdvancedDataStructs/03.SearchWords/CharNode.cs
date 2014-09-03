@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 public class CharNode
 {
     public HashSet<CharNode> Children { get; protected set; }
+
     public char Letter { get; private set; }
+
     public int Count { get; set; }
 
     public CharNode(char letter)

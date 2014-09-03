@@ -21,6 +21,7 @@ public class Product : IComparable
         {
             throw new ArgumentException();
         }
+
         return this.Price.CompareTo((obj as Product).Price);
     }
 
@@ -30,6 +31,7 @@ public class Product : IComparable
         {
             return string.Format("Unnamed; Cost:{0}", this.Price);
         }
+
         return string.Format("Name: {0}; Cost:{1}", this.Name, this.Price);
     }
 }

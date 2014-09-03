@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Collections;
-using System.Text;
+using System.Collections.Generic;
 
 public class PriorityQueue<T> : IEnumerable<T> where T: IComparable<T>
 {

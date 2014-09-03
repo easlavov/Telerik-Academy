@@ -15,7 +15,6 @@ public class BiDictionary<K1, K2, T>
     public void Add(K1 key1, K2 key2, T value)
     {
         AddKeyOne(key1, value);
-
         AddKeyTwo(key2, value);
     }  
   
@@ -25,6 +24,7 @@ public class BiDictionary<K1, K2, T>
         {
             this.dictKeyOne.Add(key1, new List<T>());
         }
+
         this.dictKeyOne[key1].Add(value);
     }
 
@@ -34,6 +34,7 @@ public class BiDictionary<K1, K2, T>
         {
             this.dictKeyTwo.Add(key2, new List<T>());
         }
+
         this.dictKeyTwo[key2].Add(value);
     }
 
@@ -43,6 +44,7 @@ public class BiDictionary<K1, K2, T>
         {
             return this.dictKeyOne[key];
         }
+
         return new List<T>();        
     }
 
@@ -52,6 +54,7 @@ public class BiDictionary<K1, K2, T>
         {            
             return this.dictKeyTwo[key];
         }
+
         return new List<T>();
     }
 

@@ -32,6 +32,7 @@ class TestProgram
             {
                 result.Add(course, new OrderedBag<Student>());
             }
+
             result[course].Add(newStudent);
         }
 
@@ -51,8 +52,7 @@ class TestProgram
                 string[] record = line.Split(separator, StringSplitOptions.RemoveEmptyEntries);
                 list.Add(record);
                 line = reader.ReadLine();
-            }
-            
+            }            
         }
         return list;
     }

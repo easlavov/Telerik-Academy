@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
 using Wintellect.PowerCollections;
 
 class TestProgram
@@ -14,6 +11,7 @@ class TestProgram
         {
             bag.Add(new Product(((i+5)*0.37m)));
         }
+
         Console.WriteLine("Bag of products created.");
         
         int searchesCount = 10000;
