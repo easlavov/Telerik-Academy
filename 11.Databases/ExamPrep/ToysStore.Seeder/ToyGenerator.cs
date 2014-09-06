@@ -32,7 +32,7 @@
             toy.Manufacturer = this.manufacturers.First(
                 man => man.ID == rand);
 
-            toy.Price = (decimal)this.generator.GetDouble(); // Possible exception
+            toy.Price = (decimal)this.generator.GetDouble() * 100; // Possible exception
             toy.Color = this.generator.GetString(MIN_STRING_LENGTH, MAX_STRING_LENGTH);
 
             rand = this.generator.GetInt(1, this.manufacturers.Count);
