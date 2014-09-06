@@ -1,5 +1,8 @@
 ﻿namespace ToysStore.ConsoleClient
 {
+    using System.Linq;
+    using System.Data.Entity;
+
     using ToysStore.Data;
     using ToysStore.Models;
     using ToysStore.Seeder;
@@ -9,7 +12,20 @@
         static void Main(string[] args)
         {
             var toyStoreModel = new ToyStoreModel();
-            SeedDatabase(toyStoreModel);
+            //SeedDatabase(toyStoreModel);
+
+            var count = toyStoreModel.Manufacturers.Select(man => new
+            {
+                Name = man.Name,
+                Count = toyStoreModel.Toys.Where(toy => toy.Manufacturer.Name == man.Name
+                                                 && toy.AgeRanx.Lower > 15
+                                                 && toy.AgeRanx.Upper < 60).Count()
+            });
+
+            foreach (var item in count)
+            {
+                System.Console.WriteLine("{0} - {1}", item.Name, item.Count);
+            }
         }
  
         private static void SeedDatabase(ToyStoreModel toyStoreModel)
