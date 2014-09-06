@@ -9,18 +9,22 @@ namespace ToysStore.Data
     public partial class ToyStoreModel : DbContext
     {
         public ToyStoreModel()
-            : base("name=ToyStoreModel")
+            : base("name=ToyStoreModel1")
         {
         }
 
         public virtual DbSet<AgeRange> AgeRanges { get; set; }
         public virtual DbSet<Category> Categories { get; set; }
         public virtual DbSet<Manufacturer> Manufacturers { get; set; }
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<Toy> Toys { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<AgeRange>()
+                .HasMany(e => e.Toys)
+                .WithOptional(e => e.AgeRanx)
+                .HasForeignKey(e => e.AgeRangeID);
+
             modelBuilder.Entity<Manufacturer>()
                 .HasMany(e => e.Toys)
                 .WithRequired(e => e.Manufacturer)
@@ -29,10 +33,6 @@ namespace ToysStore.Data
             modelBuilder.Entity<Toy>()
                 .Property(e => e.Price)
                 .HasPrecision(19, 4);
-
-            modelBuilder.Entity<Toy>()
-                .HasOptional(e => e.AgeRanx)
-                .WithRequired(e => e.Toy);
         }
     }
 }

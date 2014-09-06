@@ -24,16 +24,20 @@
             toy.Name = this.generator.GetString(MIN_STRING_LENGTH, MAX_STRING_LENGTH);
             toy.Type = this.generator.GetString(MIN_STRING_LENGTH, MAX_STRING_LENGTH);
 
+            int rand = this.generator.GetInt(1, this.categories.Count);
             toy.Category = this.categories.First(
-                cat => cat.ID == this.generator.GetInt(1, this.categories.Count));
+                cat => cat.ID == rand);
 
+            rand = this.generator.GetInt(1, this.manufacturers.Count);
             toy.Manufacturer = this.manufacturers.First(
-                cat => cat.ID == this.generator.GetInt(1, this.manufacturers.Count));
+                man => man.ID == rand);
 
             toy.Price = (decimal)this.generator.GetDouble(); // Possible exception
             toy.Color = this.generator.GetString(MIN_STRING_LENGTH, MAX_STRING_LENGTH);
+
+            rand = this.generator.GetInt(1, this.manufacturers.Count);
             toy.AgeRanx = this.ageRanges.First(
-                ar => ar.ID == this.generator.GetInt(1, this.ageRanges.Count));
+                ar => ar.ID == rand);
 
             return toy;
         }

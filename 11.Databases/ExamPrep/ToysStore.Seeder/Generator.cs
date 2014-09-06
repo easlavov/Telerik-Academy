@@ -13,7 +13,7 @@
             this.generator = new RandomDataGenerator();
         }
 
-        public IEnumerable<T> GetGeneratedItems(int count)
+        public ICollection<T> GetGeneratedItems(int count)
         {
             IList<T> items = new List<T>();
             for (int i = 0; i < count; i++)

@@ -7,6 +7,6 @@ namespace ToysStore.Seeder
 {
     public interface IGenerator<T>
     {
-        IEnumerable<T> GetGeneratedItems(int count);
+        ICollection<T> GetGeneratedItems(int count);
     }
 }

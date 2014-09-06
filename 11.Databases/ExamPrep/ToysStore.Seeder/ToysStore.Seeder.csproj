@@ -54,7 +54,7 @@
     <Compile Include="ManufacturerGenerator.cs" />
     <Compile Include="RandomDataGenerator.cs" />
     <Compile Include="ToyGenerator.cs" />
-    <Compile Include="ToysStoreSeeder.cs" />
+    <Compile Include="Seeder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
