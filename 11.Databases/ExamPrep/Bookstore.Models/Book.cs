@@ -19,7 +19,7 @@
         [Required]
         public string Title { get; set; }
 
-        public virtual ICollection<Author> Authors
+        public virtual ICollection<Author> Authors // should be required
         {
             get
             {

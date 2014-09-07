@@ -2,6 +2,7 @@
 {
     using Bookstore.Data;
     using Bookstore.Models;
+    using Bookstore.XML;
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -14,14 +15,9 @@
         {
             var bookstore = new BookstoreDbContext();
 
-            bookstore.Authors.Any();
-
-            bookstore.Authors.Add(new Author
-            {
-                Name = "Karavelov"
-            });
-
-            bookstore.SaveChanges();
+            string xmlPath = @"..\..\..\complex-books.xml";
+            var importer = new XmlImporter(xmlPath, bookstore);
+            importer.Import();
         }
     }
 }
