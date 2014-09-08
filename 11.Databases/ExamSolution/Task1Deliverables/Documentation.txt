@@ -1,0 +1,28 @@
+Points of note:
+
+Relationships for "Company" database
+-There is a self-relationship in the Employees table;
+-nvarchars columns are declared with the maximum allowed value. Input validation will be handled by the business logic;
+-many-to-many relationship between employees and projects is handled by dedicated table Employees_Projects. The dedicated table holds the info about the start and the end date;
+-Each employee has many reports;
+-Each department has many employees;
+
+Relationships for "Cars" database
+Dealers-Cars - one to many
+Manufacturers-Cars - one to many
+Cities-Dealers - many to many
+
+The connection string in both projects uses .   Please change your data source to .\SQLEXPRESS if you have it on your machine!
+
+COMPANY CONN STRING:
+
+<connectionStrings>
+    <add name="Company" connectionString="data source=.;initial catalog=Company;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" />
+  </connectionStrings>
+
+CARS CONN STRING:
+
+<connectionStrings>
+    <add name="Cars" connectionString="data source=.;initial catalog=Cars;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework" providerName="System.Data.SqlClient" />    
+  </connectionStrings>
+
