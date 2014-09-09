@@ -6,6 +6,7 @@ public class PathsFinder
     public class Cell
     {
         public int CellRow { get; private set; }
+
         public int CellCol { get; private set; }
 
         public Cell(int row, int col, char[,] matrix)
@@ -14,10 +15,12 @@ public class PathsFinder
             {
                 throw new ArgumentOutOfRangeException();
             }
+
             if (col < 0 || col >= matrix.GetLength(1))
             {
                 throw new ArgumentOutOfRangeException();
             }
+
             this.CellRow = row;
             this.CellCol = col;
         }
@@ -55,11 +58,13 @@ public class PathsFinder
             path.Pop(); 
             return;
         }
+
         if (matrix[current.CellRow, current.CellCol] == impassableCell)
         {
             path.Pop();
             return;
         }
+
         visited[current.CellRow, current.CellCol] = true;        
 
         // left

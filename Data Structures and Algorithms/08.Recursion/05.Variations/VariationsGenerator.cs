@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 public static class VariationsGenerator<T>
 {
@@ -26,6 +23,7 @@ public static class VariationsGenerator<T>
             AddVariation(k);
             return;
         }
+
         for (int i = 0; i < array.Length; i++)
         {
             variation[index] = array[i];

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 public static class CombinationsGenerator
 {
@@ -24,6 +21,7 @@ public static class CombinationsGenerator
             AddCombination(k);
             return;
         }
+
         for (int i = start; i < array.Length; i++)
         {
             combination[index] = array[i];
