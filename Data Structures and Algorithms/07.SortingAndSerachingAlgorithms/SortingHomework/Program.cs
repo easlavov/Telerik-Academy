@@ -1,10 +1,6 @@
 ﻿namespace SortingHomework
 {
     using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     internal class Program
     {
@@ -20,21 +16,21 @@
             collection.PrintAllItemsOnConsole();
             Console.WriteLine();
 
-            //collection = new SortableCollection<int>(new[] { 22, 11, 101, 33, 0, 101 });
-            //Console.WriteLine("Quicksorter result:");
-            //collection.Sort(new Quicksorter<int>());
-            //collection.PrintAllItemsOnConsole();
-            //Console.WriteLine();
+            collection = new SortableCollection<int>(new[] { 22, 11, 101, 33, 0, 101 });
+            Console.WriteLine("Quicksorter result:");
+            collection.Sort(new Quicksorter<int>());
+            collection.PrintAllItemsOnConsole();
+            Console.WriteLine();
 
-            //collection = new SortableCollection<int>(new[] { 22, 11, 101, 33, 0, 101 });
-            //Console.WriteLine("MergeSorter result:");
-            //collection.Sort(new MergeSorter<int>());
-            //collection.PrintAllItemsOnConsole();
-            //Console.WriteLine();
+            collection = new SortableCollection<int>(new[] { 22, 11, 101, 33, 0, 101 });
+            Console.WriteLine("MergeSorter result:");
+            collection.Sort(new MergeSorter<int>());
+            collection.PrintAllItemsOnConsole();
+            Console.WriteLine();
 
-            //Console.WriteLine("Linear search 101:");
-            //Console.WriteLine(collection.LinearSearch(101));
-            //Console.WriteLine();
+            Console.WriteLine("Linear search 101:");
+            Console.WriteLine(collection.LinearSearch(101));
+            Console.WriteLine();
 
             Console.WriteLine("Binary search 101:");
             Console.WriteLine(collection.BinarySearch(101));

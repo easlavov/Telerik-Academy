@@ -3,8 +3,6 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     public class Quicksorter<T> : ISorter<T> where T : IComparable<T>
     {
@@ -33,6 +31,7 @@
                     }
                 }                
             }
+
             Sort(smaller);
             Sort(bigger);
             List<T> newList = smaller.Concat(pivotArr).Concat(bigger).ToList();

@@ -3,18 +3,19 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
 
     public class MergeSorter<T> : ISorter<T> where T : IComparable<T>
     {
         public void Sort(IList<T> collection)
         {
-            throw new NotImplementedException();
+            var asArray = collection.ToArray();
+            Split(asArray, 0, collection.Count);
+            var result = asArray.ToList();
+            collection = result;
         }
 
         // TODO: Rework!
-        static int[] Split(int[] arr, int low, int high)
+        static T[] Split(T[] arr, int low, int high)
         {
             // Splitting part:
 
@@ -37,23 +38,24 @@
                 lengthLow = high / 2 + 1;
                 lengthHigh = high / 2;
             }
-            int[] lowArray = new int[lengthLow];
+            T[] lowArray = new T[lengthLow];
             for (int i = 0; i < lowArray.Length; i++)
             {
-                lowArray[i] = arr[i];
+                lowArray[i] = (dynamic)arr[i];
             }
-            int[] highArray = new int[lengthHigh];
+            T[] highArray = new T[lengthHigh];
             for (int i = 0; i < highArray.Length; i++)
             {
                 if (high % 2 == 0)
                 {
-                    highArray[i] = arr[mid + i];
+                    highArray[i] = (dynamic)arr[mid + i];
                 }
                 else
                 {
-                    highArray[i] = arr[mid + i + 1];
+                    highArray[i] = (dynamic)arr[mid + i + 1];
                 }
             }
+
             // Split the remaining arrays using recursion
             Split(lowArray, 0, lowArray.Length);
             Split(highArray, 0, highArray.Length);
@@ -67,14 +69,14 @@
             // Array elements from both arrays are compared and moved into the resulting array
             while (true)
             {
-                if (lowArray[pos1] <= highArray[pos2])
+                if (lowArray[pos1] <= (dynamic)highArray[pos2])
                 {
-                    arr[index] = lowArray[pos1];
+                    arr[index] = (dynamic)lowArray[pos1];
                     pos1++;
                     if (pos1 == lowArray.Length)
                     {
                         pos1--;
-                        lowArray[pos1] = int.MaxValue;
+                        lowArray[pos1] = (dynamic)int.MaxValue;
                     }
                 }
                 else
@@ -84,7 +86,7 @@
                     if (pos2 == highArray.Length)
                     {
                         pos2--;
-                        highArray[pos2] = int.MaxValue;
+                        highArray[pos2] = (dynamic)int.MaxValue;
                     }
                 }
                 index++;
@@ -94,6 +96,7 @@
                 }
 
             }
+
             // Resulting array is returned to be compared to another until we have only one array left - the sorted one
             return arr;
         }

@@ -23,12 +23,14 @@
                         smallestIndex = index;
                     }
                 }
+
                 if (smallestIndex != leftPivot) // swap
                 {
                     T temp = collection[leftPivot];
                     collection[leftPivot] = collection[smallestIndex];
                     collection[smallestIndex] = temp;
                 }
+
                 leftPivot++;
             }
         }

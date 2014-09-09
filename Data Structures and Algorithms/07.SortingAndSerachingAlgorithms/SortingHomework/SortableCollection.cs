@@ -39,6 +39,7 @@
                     return true;
                 }
             }
+
             return false;
         }
 
@@ -50,6 +51,7 @@
                 {
                     return true;
                 }
+
                 return false;
             }
 
@@ -72,6 +74,7 @@
                 }
                 pivotIndex = (rightIndex + leftIndex) / 2;
             }
+
             return false;
         }
 
