@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryPasswords", "BinaryPa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredRabits", "ColoredRabits\ColoredRabits.csproj", "{827F61F2-BA68-40DA-B283-47E3B0C106BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoin", "DogeCoin\DogeCoin.csproj", "{7B6AD3A4-8A61-4C14-8B30-B25299A4B0AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{827F61F2-BA68-40DA-B283-47E3B0C106BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{827F61F2-BA68-40DA-B283-47E3B0C106BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{827F61F2-BA68-40DA-B283-47E3B0C106BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B6AD3A4-8A61-4C14-8B30-B25299A4B0AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B6AD3A4-8A61-4C14-8B30-B25299A4B0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B6AD3A4-8A61-4C14-8B30-B25299A4B0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B6AD3A4-8A61-4C14-8B30-B25299A4B0AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
