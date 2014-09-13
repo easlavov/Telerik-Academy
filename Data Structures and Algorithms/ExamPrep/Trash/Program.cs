@@ -16,7 +16,7 @@ class Program
     {
         var sw = new Stopwatch();
         sw.Start();
-        for (int i = 0; i < BILLION; i++)
+        for (int i = 0; i < HUNDRED_MILLION; i++)
         {
             
         }
