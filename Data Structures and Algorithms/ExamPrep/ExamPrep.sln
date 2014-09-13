@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredRabits", "ColoredRab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeCoin", "DogeCoin\DogeCoin.csproj", "{7B6AD3A4-8A61-4C14-8B30-B25299A4B0AE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Combinatorics", "Combinatorics", "{F0971292-F953-42B8-A251-51F01315F861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trash", "Trash\Trash.csproj", "{3A2138E2-2AEB-479E-B177-6B86514C57AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,17 @@ Global
 		{7B6AD3A4-8A61-4C14-8B30-B25299A4B0AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B6AD3A4-8A61-4C14-8B30-B25299A4B0AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B6AD3A4-8A61-4C14-8B30-B25299A4B0AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A2138E2-2AEB-479E-B177-6B86514C57AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A2138E2-2AEB-479E-B177-6B86514C57AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A2138E2-2AEB-479E-B177-6B86514C57AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A2138E2-2AEB-479E-B177-6B86514C57AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CA11048-88F8-4B7C-B43D-9100DE0B1256} = {F0971292-F953-42B8-A251-51F01315F861}
+		{827F61F2-BA68-40DA-B283-47E3B0C106BF} = {F0971292-F953-42B8-A251-51F01315F861}
+		{7B6AD3A4-8A61-4C14-8B30-B25299A4B0AE} = {F0971292-F953-42B8-A251-51F01315F861}
 	EndGlobalSection
 EndGlobal
