@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 class Solution
 {
@@ -18,31 +15,94 @@ class Solution
             new Product { Name = "whiskey", Weight = 8, Cost = 13 },
         };
 
-        Array.Sort(products);
-        string format = "{0} W:{1}, C:{2}";
-        foreach (var item in products)
+        var knapsackContent = SolveKnapsackProblem(products, 10);
+        foreach (var product in knapsackContent)
         {
-            Console.WriteLine(string.Format(format, item.Name, item.Weight, item.Cost));
+            Console.WriteLine("{0}, Cost: {1}", product.Name, product.Cost);
+        }
+    }
+
+    public static List<Product> SolveKnapsackProblem(IList<Product> products, int capacity)
+    {
+        if (capacity == 0)
+            return new List<Product>();
+
+        if (products.Count == 0)
+            return new List<Product>();
+
+        int[,] valuesArray = new int[products.Count, capacity + 1];
+
+        int[,] keepArray = new int[products.Count, capacity + 1];
+
+        for (int x = 0; x <= products.Count - 1; x++)
+        {
+            valuesArray[x, 0] = 0;
+            keepArray[x, 0] = 0;
         }
 
-        // Input:
-        // Values (stored in array v)
-        // Weights (stored in array w)
-        // Number of distinct items (n)
-        // Knapsack capacity (W)
+        for (int y = 1; y <= capacity; y++)
+        {
+            if (products[0].Weight <= y)
+            {
+                valuesArray[0, y] = products[0].Cost;
+                keepArray[0, y] = 1;
+            }
+            else
+            {
+                valuesArray[0, y] = 0;
+                keepArray[0, y] = 0;
+            }
+        }
 
-        //for j from 0 to W do
-        //  m[0, j] := 0
-        //end for 
-        //for i from 1 to n do
-        //  for j from 0 to W do
-        //    if w[i] <= j then
-        //      m[i, j] := max(m[i-1, j], m[i-1, j-w[i]] + v[i])
-        //    else
-        //      m[i, j] := m[i-1, j]
-        //    end if
-        //  end for
-        //end for
+        for (int x = 0; x <= products.Count - 2; x++)
+        {
+            for (int y = 1; y <= capacity; y++)
+            {
+                var currentItem = products[x + 1];
+
+                if (currentItem.Weight > y)
+                {
+                    valuesArray[x + 1, y] = valuesArray[x, y];
+                    continue;
+                }
+
+                int valueWhenDropping = valuesArray[x, y];
+                int valueWhenTaking = valuesArray[x, y - currentItem.Weight] + currentItem.Cost;
+
+                if (valueWhenTaking > valueWhenDropping)
+                {
+                    valuesArray[x + 1, y] = valueWhenTaking;
+                    keepArray[x + 1, y] = 1;
+                }
+                else
+                {
+                    valuesArray[x + 1, y] = valueWhenDropping;
+                    keepArray[x + 1, y] = 0;
+                }
+            }
+        }
+
+        var knapsack = new List<Product>();
+        {
+            int remainingSpace = capacity;
+            int product = products.Count - 1;
+
+            while (product >= 0 && remainingSpace >= 0)
+            {
+                if (keepArray[product, remainingSpace] == 1)
+                {
+                    knapsack.Add(products[product]);
+                    remainingSpace -= products[product].Weight;
+                    product -= 1;
+                }
+                else
+                {
+                    product -= 1;
+                }
+            }
+        }
+
+        return knapsack;
     }
 }
 
