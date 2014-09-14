@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageInABottle", "Message
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCenter", "ShoppingCenter\ShoppingCenter.csproj", "{12543B4E-7DE2-4E6D-94E0-CD89FD3CE1B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Traversal", "Traversal", "{59E18E39-1D20-4E29-A018-06DB60DB157B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3dLabyrinth", "3dLabyrinth\3dLabyrinth.csproj", "{81D7ACF2-D5CB-4752-953E-AC265EAB5D01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,10 @@ Global
 		{12543B4E-7DE2-4E6D-94E0-CD89FD3CE1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12543B4E-7DE2-4E6D-94E0-CD89FD3CE1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12543B4E-7DE2-4E6D-94E0-CD89FD3CE1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D7ACF2-D5CB-4752-953E-AC265EAB5D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D7ACF2-D5CB-4752-953E-AC265EAB5D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D7ACF2-D5CB-4752-953E-AC265EAB5D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D7ACF2-D5CB-4752-953E-AC265EAB5D01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,5 +81,6 @@ Global
 		{C49FC95B-AE1D-4639-8E2C-2B5B1878726C} = {CE1A9A34-AEB4-40CF-AACE-EAC629297D80}
 		{CD199C1B-2F6B-4597-BAE1-D47910E43342} = {F0971292-F953-42B8-A251-51F01315F861}
 		{12543B4E-7DE2-4E6D-94E0-CD89FD3CE1B2} = {CE1A9A34-AEB4-40CF-AACE-EAC629297D80}
+		{81D7ACF2-D5CB-4752-953E-AC265EAB5D01} = {59E18E39-1D20-4E29-A018-06DB60DB157B}
 	EndGlobalSection
 EndGlobal
