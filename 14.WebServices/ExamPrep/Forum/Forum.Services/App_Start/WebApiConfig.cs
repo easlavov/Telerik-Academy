@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
 using Newtonsoft.Json.Serialization;
+using System.Web.Http.Cors;
 
 namespace Forum.Services
 {
@@ -21,10 +22,22 @@ namespace Forum.Services
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
+                name: "Users",
+                routeTemplate: "api/users/{action}",
+                defaults: new
+                {
+                    controller = "Account"
+                }
+            );
+
+            config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            var cors = new EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(cors);
         }
     }
 }

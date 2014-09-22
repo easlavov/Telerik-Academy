@@ -21,7 +21,7 @@ using Forum.Models;
 namespace Forum.Services.Controllers
 {
     [Authorize]
-    [RoutePrefix("api/Account")]
+    [RoutePrefix("api/users")]
     public class AccountController : ApiController
     {
         private const string LocalLoginProvider = "Local";
@@ -52,7 +52,7 @@ namespace Forum.Services.Controllers
 
         public ISecureDataFormat<AuthenticationTicket> AccessTokenFormat { get; private set; }
 
-        // GET api/Account/UserInfo
+        // GET api/users/UserInfo
         [HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
         [Route("UserInfo")]
         public UserInfoViewModel GetUserInfo()
@@ -67,7 +67,7 @@ namespace Forum.Services.Controllers
             };
         }
 
-        // POST api/Account/Logout
+        // POST api/users/Logout
         [Route("Logout")]
         public IHttpActionResult Logout()
         {
@@ -75,7 +75,7 @@ namespace Forum.Services.Controllers
             return Ok();
         }
 
-        // GET api/Account/ManageInfo?returnUrl=%2F&generateState=true
+        // GET api/users/ManageInfo?returnUrl=%2F&generateState=true
         [Route("ManageInfo")]
         public async Task<ManageInfoViewModel> GetManageInfo(string returnUrl, bool generateState = false)
         {
@@ -115,7 +115,7 @@ namespace Forum.Services.Controllers
             };
         }
 
-        // POST api/Account/ChangePassword
+        // POST api/users/ChangePassword
         [Route("ChangePassword")]
         public async Task<IHttpActionResult> ChangePassword(ChangePasswordBindingModel model)
         {
@@ -135,7 +135,7 @@ namespace Forum.Services.Controllers
             return Ok();
         }
 
-        // POST api/Account/SetPassword
+        // POST api/users/SetPassword
         [Route("SetPassword")]
         public async Task<IHttpActionResult> SetPassword(SetPasswordBindingModel model)
         {
@@ -154,7 +154,7 @@ namespace Forum.Services.Controllers
             return Ok();
         }
 
-        // POST api/Account/AddExternalLogin
+        // POST api/users/AddExternalLogin
         [Route("AddExternalLogin")]
         public async Task<IHttpActionResult> AddExternalLogin(AddExternalLoginBindingModel model)
         {
@@ -192,7 +192,7 @@ namespace Forum.Services.Controllers
             return Ok();
         }
 
-        // POST api/Account/RemoveLogin
+        // POST api/users/RemoveLogin
         [Route("RemoveLogin")]
         public async Task<IHttpActionResult> RemoveLogin(RemoveLoginBindingModel model)
         {
@@ -221,7 +221,7 @@ namespace Forum.Services.Controllers
             return Ok();
         }
 
-        // GET api/Account/ExternalLogin
+        // GET api/users/ExternalLogin
         [OverrideAuthentication]
         [HostAuthentication(DefaultAuthenticationTypes.ExternalCookie)]
         [AllowAnonymous]
@@ -278,7 +278,7 @@ namespace Forum.Services.Controllers
             return Ok();
         }
 
-        // GET api/Account/ExternalLogins?returnUrl=%2F&generateState=true
+        // GET api/users/ExternalLogins?returnUrl=%2F&generateState=true
         [AllowAnonymous]
         [Route("ExternalLogins")]
         public IEnumerable<ExternalLoginViewModel> GetExternalLogins(string returnUrl, bool generateState = false)
@@ -319,7 +319,7 @@ namespace Forum.Services.Controllers
             return logins;
         }
 
-        // POST api/Account/Register
+        // POST api/users/Register
         [AllowAnonymous]
         [Route("Register")]
         public async Task<IHttpActionResult> Register(RegisterBindingModel model)
@@ -341,7 +341,7 @@ namespace Forum.Services.Controllers
             return Ok();
         }
 
-        // POST api/Account/RegisterExternal
+        // POST api/users/RegisterExternal
         [OverrideAuthentication]
         [HostAuthentication(DefaultAuthenticationTypes.ExternalBearer)]
         [Route("RegisterExternal")]
