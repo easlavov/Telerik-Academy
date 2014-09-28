@@ -1,0 +1,4 @@
+public AccountController()
+        {
+            this.UserManager = new ApplicationUserManager(new UserStore<ApplicationUser>(new ApplicationDbContext()));
+        }

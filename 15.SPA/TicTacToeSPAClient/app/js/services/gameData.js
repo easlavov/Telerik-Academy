@@ -1,12 +1,12 @@
-app.factory('gamesData', ['$http', '$q', 'baseServiceUrl', 'authorization', function ($http, $q, baseServiceUrl, authorization) {
-    var gamesApi = baseServiceUrl + '/game/all';
+app.factory('gameData', ['$http', '$q', 'baseServiceUrl', 'authorization', function ($http, $q, baseServiceUrl, authorization) {
+    var gamesApi = baseServiceUrl + '/game/status';
 
     function getAllGames() {
         var deferred = $q.defer();
 
         $http.get(gamesApi, {
-                headers: authorization.getAuthorizationHeader()
-            })
+            headers: authorization.getAuthorizationHeader()
+        })
             .success(function (data) {
                 deferred.resolve(data);
             }, function (response) {

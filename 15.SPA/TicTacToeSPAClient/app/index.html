@@ -27,6 +27,9 @@
                 <li>
                     <a href="#/create">Create game</a>
                 </li>
+                <li>
+                    <a href="#/games/join/">Quick play</a>
+                </li>
             </ul>
             <div ng-include="'views/partials/login.html'"></div>
         </div>
@@ -58,12 +61,13 @@
 <script src="js/controllers/LoginCtrl.js"></script>
 <script src="js/controllers/GamesController.js"></script>
 <script src="js/controllers/CreateGameController.js"></script>
-<script src="js/controllers/PlayController.js"></script>
+<script src="js/controllers/JoinController.js"></script>
 
 <script src="js/services/account/auth.js"></script>
 <script src="js/services/account/identity.js"></script>
 <script src="js/services/account/authorization.js"></script>
 <script src="js/services/notifier.js"></script>
 <script src="js/services/gamesData.js"></script>
+<script src="js/services/joinGame.js"></script>
 </body>
 </html>

@@ -15,7 +15,10 @@ var app = angular.module('myApp', ['ngRoute', 'ngResource', 'ngCookies']).
                 templateUrl: 'views/partials/create.html',
                 controller: 'CreateGameController'
             })
-            .when('/games/join/:id', {
+            .when('/games/join/', {
+                controller: 'JoinController'
+            })
+            .when('/games/play/:id', {
                 templateUrl: 'views/partials/play.html',
                 controller: 'PlayController'
             })

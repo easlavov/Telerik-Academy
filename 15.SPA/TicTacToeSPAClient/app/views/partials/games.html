@@ -1,8 +1,8 @@
-<div class="container" ng-controller="GamesListController">
+<div class="container">
     <h3>Current games</h3>
     <ul>
         <li ng-repeat="game in games">
-            <a href="#/games/join/{{game.Id}}">{{ game.Id }}</a>
+            <a href="#/games/play/{{ game.Id }}">{{ game.Id }}</a>
             <br />
             State: <strong>{{ game.State }}</strong>
         </li>
