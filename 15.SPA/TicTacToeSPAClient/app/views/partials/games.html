@@ -1,0 +1,10 @@
+<div class="container" ng-controller="GamesListController">
+    <h3>Current games</h3>
+    <ul>
+        <li ng-repeat="game in games">
+            <a href="#/games/join/{{game.Id}}">{{ game.Id }}</a>
+            <br />
+            State: <strong>{{ game.State }}</strong>
+        </li>
+    </ul>
+</div>
