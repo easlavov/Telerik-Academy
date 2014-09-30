@@ -1,0 +1,30 @@
+<div class="container text-center">
+    <form name="signUpForm">
+        <div class="big-text form-group">
+            <label for="from-select">From</label>
+            <select id="from-select" required="required" ng-model="from" ng-options="destination for destination in destinationsFrom"></select>
+        </div>
+
+        <div class="big-text form-group">
+            <label for="to-select">To</label>
+            <select id="to-select" required="required" ng-model="to" ng-options="destination for destination in destinationsTo"></select>
+        </div>
+
+        <div class="big-text form-group">
+            <label for="seats">Available seats</label>
+            <input type="text" required="required" id="seats" ng-model="availableSeats" />
+        </div>
+
+        <div class="big-text form-group">
+            <label for="dept-time">Departure time</label>
+            <input type="datetime-local" required="required" id="dept-time" ng-model="departureTime" />
+        </div>
+
+        <div class="pull-right">
+            <button ng-click="createTrip()" ng-disabled="signUpForm.$invalid" class="btn btn-primary">
+                Create
+            </button>
+            <a href="#/" class="btn btn-primary">Cancel</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,37 @@
+<div class="container">
+    <div id="latest-drivers" class="jumbotron">
+        <div>
+            <h2 class="text-center" ng-hide="loggedIn">Last 10 drivers</h2>
+            <div id="navigation" ng-show="loggedIn">
+                <label for="filter-input">Filter</label>
+                <input id="filter-input" type="text" ng-model="usernameFilter"/>
+                <button id="filter-by-name" ng-mousedown="filterByName()">Filter</button>
+                <div id="nav-buttons" class="pull-right">
+                    <button id="previous-page-button" class="navbar-btn" ng-mousedown="prevPage()">Previous</button>
+                    <span>Page: {{currentPage}}</span>
+                    <button id="next-page-button" class="navbar-btn" ng-mousedown="nextPage()">Next</button>
+                </div>
+            </div>
+
+            <div class="jumbotron" ng-show="emptyPage">
+                <h1>No items match the criteria!</h1>
+            </div>
+
+            <table class="table">
+                <thead>
+                <th>Name</th>
+                <th>Upcoming trips</th>
+                <th>Total trips</th>
+                </thead>
+
+                <tbody>
+                <tr ng-repeat="driver in drivers" ng-class-odd="'oddRow'">
+                    <td><a href="#/drivers/{{driver.id}}">{{ driver.name }}</a></td>
+                    <td>{{ driver.numberOfUpcomingTrips }}</td>
+                    <td>{{ driver.numberOfTotalTrips }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

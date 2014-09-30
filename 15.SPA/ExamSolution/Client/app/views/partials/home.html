@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="jumbotron text-center">
+        <h1>Welcome to Trip Exchange!</h1>
+        <h3>Find your way home!</h3>
+    </div>
+
+    <div id="latest-trips" class="jumbotron">
+        <h2 class="text-center">Last 10 trips</h2>
+        <table class="table">
+            <thead>
+            <th>Driver</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Departure Time</th>
+            </thead>
+
+            <tbody>
+            <tr ng-repeat="trip in trips" ng-class-odd="'oddRow'">
+                <td><a href="#/trips/{{trip.id}}">{{ trip.driverName }}</a></td>
+                <td>{{ trip.from }}</td>
+                <td>{{trip.to}}</td>
+                <td>{{ trip.departureDate  | date:"MMMM/dd/yyyy @ h:mma"}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="latest-drivers" class="jumbotron ">
+        <h2 class="text-center">Last 10 drivers</h2>
+        <table class="table">
+            <thead>
+            <th>Name</th>
+            <th>Upcoming trips</th>
+            <th>Total trips</th>
+            </thead>
+
+            <tbody>
+            <tr ng-repeat="driver in drivers" ng-class-odd="'oddRow'">
+                <td><a href="#/drivers/{{driver.id}}">{{ driver.name }}</a></td>
+                <td>{{ driver.numberOfUpcomingTrips }}</td>
+                <td>{{ driver.numberOfTotalTrips }}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,32 @@
+<div class="container">
+    <h1>{{user.name}}</h1>
+    <span>Upcoming trips: <strong>{{user.numberOfUpcomingTrips}}</strong></span>
+    <span>Total trips: <strong>{{user.numberOfTotalTrips}}</strong></span>
+    <input type="checkbox" ng-model="onlyMine"/> Only mine trips
+    <input type="checkbox" ng-model="onlyDriver" /> Only driver trips
+    <div class="pull-right">
+        <label for="sort-options">Sort by</label>
+        <select id="sort-options" ng-model="sort">
+            <option value="from">From</option>
+            <option value="to">To</option>
+            <option value="departureDate">Departure time</option>
+        </select>
+    </div>
+    <table class="table">
+        <thead>
+        <th>Driver</th>
+        <th>From</th>
+        <th>To</th>
+        <th>Departure time</th>
+        </thead>
+
+        <tbody>
+        <tr ng-repeat="trip in user.trips | orderBy: sort" ng-class-odd="'oddRow'">
+            <td><a href="#/drivers/{{trip.driverId}}">{{ trip.driverName }}</a></td>
+            <td>{{ trip.from }}</td>
+            <td>{{ trip.to }}</td>
+            <td>{{ trip.departureDate | date:"MMMM/dd/yyyy @ h:mma"}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

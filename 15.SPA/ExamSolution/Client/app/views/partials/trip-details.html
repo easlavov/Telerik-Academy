@@ -1,0 +1,12 @@
+<div class="container">
+    <h1>{{trip.driverName}} - {{trip.departureDate | date:"MMMM/dd/yyyy @ h:mma"}}</h1>
+    <button class="btn-primary pull-right" ng-show="canJoin" ng-mousedown="joinTrip()">Join Trip</button>
+    <div class="container">
+        <span class="col-md-4">From: <strong>{{trip.from}}</strong></span>
+        <span class="col-md-4">To: <strong>{{trip.to}}</strong></span>
+        <span class="col-md-3">Number of free seats: <strong>{{trip.numberOfFreeSeats}}</strong></span>
+    </div>
+    <p class="text-center">
+        Passangers: <span ng-repeat="passanger in trip.passengers">{{passanger}},</span>
+    </p>
+</div>

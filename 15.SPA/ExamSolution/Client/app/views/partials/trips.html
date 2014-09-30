@@ -1,0 +1,79 @@
+<div class="container">
+    <div id="latest-drivers" class="jumbotron">
+        <div>
+            <h2 class="text-center" ng-hide="loggedIn">Last 10 trips</h2>
+            <div id="navigation" ng-show="loggedIn">
+
+                <div class="pull-left">
+                    <label for="sort-select">Sort</label>
+                    <select id="sort-select" ng-model="orderBy">
+                        <option value="driver" selected="selected">Driver</option>
+                        <option value="date">Date</option>
+                        <option value="seats">Seats</option>
+                        <option value="from">From</option>
+                        <option value="to">To</option>
+                    </select>
+                </div>
+
+                <div class="pull-left">
+                    <label for="order-select">Order</label>
+                    <select id="order-select" ng-model="orderType">
+                        <option value="asc" selected="selected">Ascending</option>
+                        <option value="desc">Descending</option>
+                    </select>
+                </div>
+
+                <div class="pull-left">
+                    <label for="from-select">From</label>
+                    <select id="from-select" ng-model="from" ng-options="destination for destination in destinationsFrom"></select>
+                </div>
+
+                <div class="pull-left">
+                    <label for="to-select">To</label>
+                    <select id="to-select" ng-model="to" ng-options="destination for destination in destinationsTo"></select>
+                </div>
+
+                <div class="pull-left">
+                    <label for="include-finished">Include Finished</label>
+                    <input id="include-finished" type="checkbox" ng-model="finished" />
+                </div>
+
+                <div class="pull-left">
+                    <label for="mine">Only mine</label>
+                    <input id="mine" type="checkbox" ng-model="onlyMine" />
+                </div>
+
+                <button id="filter-by-name" ng-mousedown="filter()">Filter</button>
+                <div id="nav-buttons" class="pull-right">
+                    <button id="previous-page-button" class="navbar-btn" ng-mousedown="prevPage()">Previous</button>
+                    <span>Page: {{currentPage}}</span>
+                    <button id="next-page-button" class="navbar-btn" ng-mousedown="nextPage()">Next</button>
+                </div>
+            </div>
+
+            <div class="jumbotron" ng-show="emptyPage">
+                <h1>No items match the criteria!</h1>
+            </div>
+
+            <table class="table">
+                <thead>
+                    <th>Driver</th>
+                    <th>From</th>
+                    <th>To</th>
+                    <th>Departure Time</th>
+                    <th ng-show="loggedIn">Is mine</th>
+                </thead>
+
+                <tbody>
+                    <tr ng-repeat="trip in trips" ng-class-odd="'oddRow'">
+                        <td><a href="#/trips/{{trip.id}}">{{ trip.driverName }}</a></td>
+                        <td>{{ trip.from }}</td>
+                        <td>{{trip.to}}</td>
+                        <td>{{ trip.departureDate | date:"MMMM/dd/yyyy @ h:mma"}}</td>
+                        <td ng-show="loggedIn">{{ trip.isMine }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
