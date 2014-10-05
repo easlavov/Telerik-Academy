@@ -1,19 +1,24 @@
-var guid = require('guid');
 var badRequestHandler = require('../services/badRequestHandler');
+var fs = require('fs');
+var url = require('url');
 
-function downloadFile(params, response) {
-    var id = params[1];
-    if (!guid.isGuid(id)) {
-        var message = 'The ID of the file must be a GUID';
-        badRequestHandler.returnBadRequest(response, message);
-        return;
+function downloadFile(request, response) {
+    var query = url.parse(request.url, true);
+    if (query.query.file) {
+        var stream = fs.createReadStream('./downloads/' + query.query.file);
+        stream.on('error', function (error) {
+            badRequestHandler.returnBadRequest(error, 'Error parsing!');
+        });
+
+        response.writeHead(200);
+        stream.pipe(response);
+        stream.on('end', function(){
+            response.end();
+        });
     }
-
-    // TODO: check if file with such GUID exists
-
-    // TODO: dispatch file
-
-    response.end(id);
+    else {
+        badRequestHandler.returnBadRequest(response, 'Not a file!');
+    }
 }
 
 module.exports = {

@@ -11,7 +11,7 @@ function handleRequest(request, response) {
             uploadController.uploadFile(request, response);
             break;
         case 'download':
-            downloadController.downloadFile(params, response);
+            downloadController.downloadFile(request, response);
             break;
         default :
             var message = 'The requested resource could not be found!';
