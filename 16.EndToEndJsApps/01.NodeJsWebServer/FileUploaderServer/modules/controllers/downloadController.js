@@ -1,4 +1,3 @@
-var filesData = require('../services/filesData');
 var guid = require('guid');
 var badRequestHandler = require('../services/badRequestHandler');
 

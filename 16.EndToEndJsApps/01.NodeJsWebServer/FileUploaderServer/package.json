@@ -15,6 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "guid": "0.0.12",
-    "mongodb": "^1.4.18"
+    "mongodb": "^1.4.18",
+    "mongoose": "^3.8.17"
   }
 }

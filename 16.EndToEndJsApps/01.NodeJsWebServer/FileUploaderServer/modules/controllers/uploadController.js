@@ -1,5 +1,3 @@
-var filesData = require('../services/filesData');
-
 function uploadFile(request, response) {
     response.end(request.url);
 }
