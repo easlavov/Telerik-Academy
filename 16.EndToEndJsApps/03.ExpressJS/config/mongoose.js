@@ -1,4 +1,6 @@
-var mongoose = require('mongoose');
+var mongoose = require('mongoose'),
+    // Loading all schemas and models
+    user = require('../models/user');
 
 module.exports = function (config) {
     mongoose.connect(config.db);

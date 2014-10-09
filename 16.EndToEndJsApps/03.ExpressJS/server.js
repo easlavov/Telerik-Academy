@@ -7,4 +7,6 @@ var config = require('./config/config')[env];
 
 
 require('./config/mongoose')(config);
+require('./config/passport')();
 require('./config/express')(app, config);
+//require('./config/routes')
