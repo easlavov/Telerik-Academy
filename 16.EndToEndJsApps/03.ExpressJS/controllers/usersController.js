@@ -4,6 +4,7 @@ var User = require('mongoose').model('User'),
 module.exports = {
     createUser: function (req, res) {
         var userData = req.body;
+        console.log(req.logIn.toString());
         userData.salt = encryption.generateSalt();
         userData.hashPass = encryption.generateHashedPassword(userData.salt, userData.password);
         User.create(userData, function (err, user) {
@@ -35,7 +36,7 @@ module.exports = {
             });
         }
     },
-    getAllUsers: function () {
+    getAllUsers: function (req, res) {
         User.find({}).exec(function (err, users) {
             if (err) {
                 console.log('Loading users failed: ' + err);
