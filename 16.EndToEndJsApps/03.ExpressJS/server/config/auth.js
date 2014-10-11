@@ -16,7 +16,7 @@ module.exports = {
                     return next(err);
                 }
 
-                res.send({success: true, user: user})
+                next();
             })
         });
 
@@ -24,7 +24,7 @@ module.exports = {
     },
     logout: function (req, res, next) {
         req.logout();
-        res.end();
+        res.redirect('/');
     },
     isAuthenticated: function (req, res, next) {
         if (!req.isAuthenticated()) {

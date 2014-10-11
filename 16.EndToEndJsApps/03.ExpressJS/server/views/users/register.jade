@@ -1,0 +1,18 @@
+extends ../shared/layout
+
+block main-content
+    br
+    form(method="post" class="form-group")
+        .input-group
+            label(for="username" class="input-group-addon") Username
+            input(id="username" class="form-control" type="text" name="username" placeholder="Username")
+        br
+        .input-group
+            label(for="password" class="input-group-addon") Password
+            input(id="password" class="form-control" type="password" name="password" placeholder="Password")
+        br
+        .input-group
+            label(for="confirm-password" class="input-group-addon") Confirm password
+            input(id="confirm-password" class="form-control" type="password" name="confirmPassword" placeholder="Confirm password")
+        br
+        input(type="submit" class="button btn-primary center-block" value="Submit")

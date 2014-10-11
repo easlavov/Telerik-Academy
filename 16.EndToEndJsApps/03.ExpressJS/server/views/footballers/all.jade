@@ -1,0 +1,15 @@
+extends ../shared/layout
+block main-content
+    br
+    .container
+        if allFootballers
+            ul
+                each val in allFootballers
+                    li
+                        strong= val.name
+                        p= 'Age' + val.age
+                        p= 'Position' + val.position
+                        p= 'Club: ' + val.club
+
+        else
+            h1 No footballers in the database!

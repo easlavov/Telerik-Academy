@@ -1,6 +1,8 @@
 var mongoose = require('mongoose'),
     // Loading all schemas and models
-    user = require('../models/user');
+    user = require('../models/User'),
+    footballer = require('../models/Footballer'),
+    club = require('../models/Club');
 
 module.exports = function (config) {
     mongoose.connect(config.db);

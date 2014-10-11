@@ -1,0 +1,21 @@
+extends ../shared/layout
+block main-content
+    br
+    form(method="post" class="form-group")
+        .input-group
+            label(for="name" class="input-group-addon") Name
+            input(id="name" class="form-control" type="text" name="name" placeholder="Name")
+        br
+        .input-group
+            label(for="age" class="input-group-addon") Age
+            input(id="age" class="form-control" type="text" name="age" placeholder="Age")
+        br
+        .input-group
+            label(for="position" class="input-group-addon") Position
+            input(id="position" class="form-control" type="text" name="position" placeholder="Position")
+        br
+        .input-group
+            label(for="club" class="input-group-addon") Club
+            input(id="club" class="form-control" type="text" name="club" placeholder="Club")
+        br
+        input(type="submit" class="button btn-primary center-block" value="Submit")
