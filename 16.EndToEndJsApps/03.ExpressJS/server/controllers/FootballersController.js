@@ -9,16 +9,21 @@ module.exports = {
         });
     },
     getAddFootballerForm: function (req, res, next) {
+        if (!req.user) {
+            req.session.error = 'You must be logged in to access this feature!';
+            res.redirect('/');
+        }
         res.render(CONTROLLER_NAME + '/add');
     },
     add: function (req, res, next) {
         var data = req.body;
         Footballer.create(data, function (err, footballer) {
             if (err) {
-                console.log('Error registering user: ' + err);
-                res.redirect('/footballers')
+                req.session.error = 'Error registering user: ' + err;
+                res.redirect('/footballers');
             } else {
-                console.log('Player ' + footballer.name + ' added successfully!');
+                // CAN BREAK?
+                req.session.success = 'Player ' + footballer.name + ' added successfully!';
                 res.redirect('/footballers');
             }
         });

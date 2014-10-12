@@ -19,25 +19,30 @@ module.exports = {
     },
     createUser: function (req, res, next) {
         var userData = req.body;
-        console.log(userData);
-        userData.salt = encryption.generateSalt();
-        userData.hashPass = encryption.generateHashedPassword(userData.salt, userData.password);
-        User.create(userData, function (err, user) {
-            if (err) {
-                console.log('Error registering user: ' + err);
-                return;
-            }
-
-            console.log('User ' + userData.username + ' registered successfully!');
-            req.logIn(user, function (err) {
+        if (userData.password !== userData.confirmPassword) {
+            req.session.error = "Passwords don't match!";
+            res.redirect('/register');
+        } else {
+            userData.salt = encryption.generateSalt();
+            userData.hashPass = encryption.generateHashedPassword(userData.salt, userData.password);
+            User.create(userData, function (err, user) {
                 if (err) {
-                    res.status(400);
-                    return res.send({reason: err.toString()});
+                    req.session.error = err;
+                    res.redirect('/register');
                 }
 
-                res.redirect('/');
+                console.log('User ' + userData.username + ' registered successfully!');
+                req.logIn(user, function (err) {
+                    if (err) {
+                        res.status(400);
+                        return res.send({reason: err.toString()});
+                    }
+
+                    req.session.success = 'User ' + user.username + ' registered successfully';
+                    res.redirect('/');
+                });
             });
-        });
+        }
     },
     updateUser: function (req, res, next) {
         if (req.user._id === req.body._id || req.user.roles.indexOf('admin') > -1) {

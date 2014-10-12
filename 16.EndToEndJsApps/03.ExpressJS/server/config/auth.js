@@ -4,18 +4,22 @@ module.exports = {
     login: function (req, res, next) {
         var auth = passport.authenticate('local', function (err, user) {
             if (err) {
+                console.log('First error');
                 return next(err);
             }
 
             if (!user) {
-                res.send({success: false});
+                req.session.error = 'No user found with these credentials!';
+                res.redirect('/login');
             }
 
             req.logIn(user, function (err) {
                 if (err) {
-                    return next(err);
+                    req.session.error = err;
+                    res.redirect('/login');
                 }
 
+                req.session.success = 'You have been logged in successfully!';
                 next();
             })
         });
@@ -24,6 +28,7 @@ module.exports = {
     },
     logout: function (req, res, next) {
         req.logout();
+        req.session.success = 'You have been logged out successfully!';
         res.redirect('/');
     },
     isAuthenticated: function (req, res, next) {
