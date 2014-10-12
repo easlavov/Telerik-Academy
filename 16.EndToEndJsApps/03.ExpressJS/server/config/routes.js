@@ -3,7 +3,7 @@ var auth = require('./auth'),
 
 module.exports = function (app) {
     app.get('/', function (req, res) {
-        res.render('index', {currentUser: req.user});
+        res.render('index');
     });
 
     app.get('/register', controllers.users.getRegistrationForm);
@@ -22,6 +22,6 @@ module.exports = function (app) {
 //    app.get('/api/users', UsersController.getAllUsers);
 
     app.get('*', function (req, res) {
-        res.render('index', {currentUser: req.user});
+        res.render('index');
     });
 };
