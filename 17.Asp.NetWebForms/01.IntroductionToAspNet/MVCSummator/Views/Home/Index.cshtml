@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="container text-center">
+    <h2>You can add two numbers by setting their value in the controlls and clicking submit</h2>
+
+    <div class="well">
+        <form class="form-horizontal" action="/Home/Sum" method="post">
+            <fieldset class="text-center">
+                <div class="form-group">
+                    <label for="augend" class="control-label col-md-2">Augend: </label>
+                    <div class="col-md-10">
+                        <input id="augend" class="form-control" type="number" name="augend" value="0" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="addend" class="control-label col-md-2">Addend: </label>
+                    <div class="col-md-10">
+                        <input id="addend" class="form-control" type="number" name="addend" value="0"/>
+                    </div>
+                </div>
+            </fieldset>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <div class="container">
+            <label>Sum: </label>
+            <span class="text-info">@ViewBag.Sum</span>
+        </div>
+    </div>    
+</div>
