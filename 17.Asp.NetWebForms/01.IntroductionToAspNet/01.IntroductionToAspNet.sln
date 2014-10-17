@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.WebFormsSummator", "01.WebFormsSummator\01.WebFormsSummator.csproj", "{4A541A1C-ECC8-4004-A018-2BD8810D49FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSummator", "MVCSummator\MVCSummator.csproj", "{37FC6E00-042F-4008-88FB-7E88BE11C51E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MVCSummator", "02.MVCSummator\02.MVCSummator.csproj", "{37FC6E00-042F-4008-88FB-7E88BE11C51E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
