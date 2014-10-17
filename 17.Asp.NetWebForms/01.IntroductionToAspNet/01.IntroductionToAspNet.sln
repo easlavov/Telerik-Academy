@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.WebFormsSummator", "01.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MVCSummator", "02.MVCSummator\02.MVCSummator.csproj", "{37FC6E00-042F-4008-88FB-7E88BE11C51E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CustomHandler", "03.CustomHandler\03.CustomHandler.csproj", "{DBC539B0-E66E-4F00-8D7D-60D3CB6E69FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{37FC6E00-042F-4008-88FB-7E88BE11C51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37FC6E00-042F-4008-88FB-7E88BE11C51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37FC6E00-042F-4008-88FB-7E88BE11C51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC539B0-E66E-4F00-8D7D-60D3CB6E69FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC539B0-E66E-4F00-8D7D-60D3CB6E69FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC539B0-E66E-4F00-8D7D-60D3CB6E69FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC539B0-E66E-4F00-8D7D-60D3CB6E69FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
