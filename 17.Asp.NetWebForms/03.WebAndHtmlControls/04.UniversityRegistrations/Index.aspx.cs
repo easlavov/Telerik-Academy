@@ -1,9 +1,7 @@
 ﻿namespace _04.UniversityRegistrations
 {
     using System;
-    using System.Collections.Generic;
     using System.Linq;
-    using System.Web;
     using System.Web.UI;
     using System.Web.UI.WebControls;
 
@@ -35,13 +33,7 @@
         {
             if (!this.IsPostBack)
             {
-                this.DropDownListUniversity.DataSource = universities;
-                this.DropDownListSpecialty.DataSource = specialties;
-                this.ListBoxCourses.DataSource = courses;
-
-                this.DropDownListUniversity.DataBind();
-                this.DropDownListSpecialty.DataBind();
-                this.ListBoxCourses.DataBind();
+                BindData();                
             }
         }
 
@@ -51,6 +43,16 @@
             AddNumber();
             AddSpecialtyAndUniversity();
             AddCourses();
+        }
+        private void BindData()
+        {
+            this.DropDownListUniversity.DataSource = universities;
+            this.DropDownListSpecialty.DataSource = specialties;
+            this.ListBoxCourses.DataSource = courses;
+
+            this.DropDownListUniversity.DataBind();
+            this.DropDownListSpecialty.DataBind();
+            this.ListBoxCourses.DataBind();
         }
 
         private void AddNames()
