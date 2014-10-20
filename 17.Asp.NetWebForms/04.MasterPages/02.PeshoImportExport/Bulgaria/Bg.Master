@@ -1,0 +1,32 @@
+﻿<%@ Master
+    MasterPageFile="~/Site.Master"
+    Language="C#"
+    AutoEventWireup="true"
+    CodeBehind="Bg.Master.cs"
+    Inherits="_02.PeshoImportExport.International.Int" %>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceholderHead" ID="head" runat="server">
+    <title>Пешо Внос/Износ</title>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceHolderAside" ID="aside" runat="server">
+    <nav>
+        <ul>
+            <li>
+                <a href="Home.aspx">Заглавна</a>
+            </li>
+            <li>
+                <a href="Products.aspx">Продукти</a>
+            </li>
+            <li>
+                <a href="Contacts.aspx">Контакти</a>
+            </li>
+        </ul>
+    </nav>
+</asp:Content>
+
+<asp:Content ContentPlaceHolderID="ContentPlaceholderMain" ID="main" runat="server">
+    <h1>"Пешо Внос/Износ"</h1>
+    <asp:ContentPlaceHolder ID="ContentPlaceholderBulgarian" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>

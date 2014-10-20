@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_01.UserProfile.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Profile pages</title>
+    <style>
+        aside {
+            float: left;
+            margin-right: 40px;
+            background-color: azure;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <aside>
+            <nav>
+                <header>Menu</header>
+                <ul>
+                    <li>
+                        <a href="PersonalInfo.aspx">Personal Info</a>
+                    </li>
+                    <li>
+                        <a href="Friends.aspx">Friends</a>
+                    </li>
+                    <li>
+                        <a href="AdditionalInfo.aspx">Additional Info</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </section>
+    </form>
+</body>
+</html>

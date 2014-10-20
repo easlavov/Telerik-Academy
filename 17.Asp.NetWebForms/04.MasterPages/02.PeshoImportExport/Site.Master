@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="_02.PeshoImportExport.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <asp:ContentPlaceHolder ID="ContentPlaceholderHead" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        aside {
+            float: left;
+            margin-right: 40px;
+            background-color: azure;
+            height:500px;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <aside>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolderAside" runat="server">
+            </asp:ContentPlaceHolder>
+        </aside>
+
+        <div>
+            <header>
+                <nav>
+                    <ul>
+                        <li>
+                            <asp:HyperLink NavigateUrl="~/Bulgaria/Home.aspx" Text="Bulgarian" runat="server" />
+                        </li>
+                        <li>
+                            <asp:HyperLink NavigateUrl="~/International/Home.aspx" Text="English" runat="server" />
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section>
+                <asp:ContentPlaceHolder ID="ContentPlaceholderMain" runat="server">
+                </asp:ContentPlaceHolder>
+            </section>
+        </div>
+
+    </form>
+</body>
+</html>
