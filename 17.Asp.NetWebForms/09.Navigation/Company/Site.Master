@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Company.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Site.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    SiteMap and Navigation - Demo
+                </h1>
+            </div>
+            <div class="loginDisplay">
+            </div>
+            <div class="clear hideSkiplink">
+             <asp:menu id="navigationmenu" runat="server" cssclass="menu" skiplinktext=""
+                    enableviewstate="false" includestyleblock="false" orientation="horizontal" 
+                    datasourceid="SiteMapDataSource" staticdisplaylevels="2">
+                </asp:menu>
+               <asp:sitemappath id="sitemappathbreadcrump" runat="server" />
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        <div class="clear" />
+        <div class="footer">(c) Telerik Academy, 2011</div>
+    </div>
+    </form>
+     <asp:SiteMapDataSource runat="server" ID="SiteMapDataSource"/>
+</body>
+</html>
