@@ -1,0 +1,49 @@
+doctype
+html
+    head
+        title Application
+        link(rel="stylesheet" href="/lib/bootstrap-3.2.0/css/bootstrap.min.css")
+        link(rel="stylesheet" href="/css/site.css")
+
+    body
+        header.nav
+            .container
+                .navbar-header
+                    a.navbar-brand(href="/") Application
+                .navbar-collapse.collapse
+                    ul.nav.navbar-nav
+                        li
+                            a(href="/") Home
+
+                        if !currentUser
+                            li
+                                a(href="/register") Register
+                            li
+                                a(href="/login") Login
+                        else
+                            li
+                                a(href="/events") Active Events
+                            li
+                                a(href="/events/passed") Passed Events
+                            li
+                                a(href="/events/create") New Event
+                            li
+                                a(href="/profile") My Profile
+                            li
+                                a(href="/logout") Logout
+
+
+        .container
+
+            if errorMessage
+                .alert.alert-warning #{errorMessage}
+            if successMessage
+                .alert.alert-success #{successMessage}
+
+            block main-content
+
+        footer
+            p.text-center
+                | &copy; Anonymous Student 2014
+
+        include scripts

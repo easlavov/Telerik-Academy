@@ -1,0 +1,42 @@
+extends ../shared/layout
+block main-content
+    h1 Active events
+
+    .container
+        table(class="table")
+            thead
+                th Title
+                th Description
+                th Location
+                th Date
+                th Category
+                th Type
+                th Phone
+                th Creator
+                th Comments
+                th Participants
+                th Publicity
+            tbody
+                each ev in events
+                    tr(class="small")
+                        td
+                            a(href="/events/#{ev._id}") #{ev.title}
+                        td #{ev.description}
+                        td #{ev.location}
+                        td #{ev.date}
+                        td #{ev.category}
+                        td
+                            ul
+                                li #{ev.type.initiative}
+                                li #{ev.type.season}
+                        td #{ev.phone}
+                        td #{ev.creator}
+                        td
+                            ul
+                                each com in ev.comments
+                                    li #{com}
+                        td
+                            ul
+                                each us in ev.users
+                                    li #{us}
+                        td #{ev.publicity}

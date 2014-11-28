@@ -1,0 +1,63 @@
+extends ../shared/layout
+block main-content
+    h1 Event details
+
+    .container
+        table(class="table")
+            thead
+                th Title
+                th Description
+                th Location
+                th Date
+                th Category
+                th Type
+                th Phone
+                th Creator
+                th Comments
+                th Participants
+                th Publicity
+            tbody
+                tr(class="small")
+                    td
+                        a(href="/events/#{event._id}") #{event.title}
+                    td #{event.description}
+                    td #{event.location}
+                    td #{event.date}
+                    td #{event.category}
+                    td
+                        ul
+                            li #{event.type.initiative}
+                            li #{event.type.season}
+                    td #{event.phone}
+                    td #{event.creator}
+                    td
+                        ul
+                            each com in event.comments
+                                li #{com}
+                    td
+                        ul
+                            each us in event.users
+                                li #{us}
+                    td #{event.publicity}
+
+    form(method="post" class="form-group")
+        .input-group
+            label(for="comment" class="input-group-addon") Comment:
+            input(id="comment" class="form-control" type="text" name="comment" placeholder="Your comment")
+            input(type="text" class="hidden" name="id" value="#{event._id}")
+        input(type="submit" class="button btn-primary center-block" value="Submit")
+
+    if !passed
+        form(method="put" class="form-group")
+        .input-group
+            a(href="/events/join/#{event._id}") JOIN EVENT!
+    else
+
+        form(method="post" class="form-group")
+            .input-group
+                label(for="organization-points" class="input-group-addon") Organization rating:
+                input(id="organization-points" class="form-control" type="range" min="0" max="5" name="organizationPoints" placeholder="Your rating")
+            .input-group
+                label(for="venue-points" class="input-group-addon") Venue rating:
+                input(id="venue-points" class="form-control" type="range" min="0" max="5" name="venuePoints" placeholder="Your rating")
+            input(type="submit" class="button btn-primary center-block" value="Submit")

@@ -1,0 +1,55 @@
+extends ../shared/layout
+
+block main-content
+    br
+    form(method="post" class="form-group")
+        .input-group
+            label(for="username" class="input-group-addon") Username
+            input(id="username" class="form-control" type="text" name="username" placeholder="Username" required="required")
+        br
+        .input-group
+            label(for="password" class="input-group-addon") Password
+            input(id="password" class="form-control" required="required" type="password" name="password" placeholder="Password")
+        br
+        .input-group
+            label(for="confirm-password" class="input-group-addon") Confirm password
+            input(id="confirm-password" class="form-control" required="required" type="password" name="confirmPassword" placeholder="Confirm password")
+        br
+        .input-group
+            label(for="firstName" class="input-group-addon") First Name
+            input(id="firstName" class="form-control" type="text" name="firstName" placeholder="First Name" required="required")
+        br
+        .input-group
+            label(for="lastName" class="input-group-addon") Last Name
+            input(id="lastName" class="form-control" type="text" name="lastName" placeholder="Last Name" required="required")
+        br
+        .input-group
+            label(for="phone" class="input-group-addon") Phone
+            input(id="phone" class="form-control" type="text" name="phone" placeholder="Phone")
+        br
+        .input-group
+            label(for="email" class="input-group-addon") Email
+            input(id="email" class="form-control" type="text" name="email" placeholder="Email" required="required")
+        br
+        .input-group
+            p(for="phone" class="input-group-addon") Initiatives
+            each init in initiatives
+                .input-group-addon
+                    label(for="#{init}") #{init}
+                    input(id="#{init}" type="checkbox" name="#{init}")
+                    br
+        br
+        .input-group
+            p(class="input-group-addon") Seasons
+            each season in seasons
+                .input-group-addon
+                    label(for="#{season}") #{season}
+                    input(id="#{season}" type="checkbox" name="#{season}")
+                    br
+
+        br
+        .input-group
+            label(for="other-profiles") Other Profiles. Add links separated by semicolon ';'
+            input(id="other-profiles" class="form-control" type="text" name="otherProfiles")
+        br
+        input(type="submit" class="button btn-primary center-block" value="Register")
